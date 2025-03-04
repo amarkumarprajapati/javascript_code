@@ -1,0 +1,39 @@
+1. Basic Arithmetic Operations
+   Addition (+)
+   Subtraction (-)
+   Multiplication (*)
+   Division (/)
+   Modulo (%) (Remainder after division)
+   Exponentiation (^ or pow(a, b))
+2. Bitwise Operations (Used in bit manipulation)
+AND (&)
+OR (|)
+XOR (^)
+NOT (~)
+Left Shift (<<)
+Right Shift (>>)
+3. Logarithmic Operations
+Logarithm (log(n)) (Base 2, 10, or natural log)
+Exponential Growth (e^x)
+4. Modular Arithmetic (Used in cryptography, combinatorics)
+Modular Addition: (a + b) % mod
+Modular Multiplication: (a * b) % mod
+Modular Inverse: a^(-1) % mod using Fermat’s theorem
+5. Combinatorial Operations
+Factorial (n!)
+Permutations (P(n, r) = n! / (n-r)!)
+Combinations (C(n, r) = n! / (r! * (n-r)!))
+Binomial Coefficients (C(n, k) mod p)
+6. Number Theory Operations
+Greatest Common Divisor (GCD) (gcd(a, b))
+Least Common Multiple (LCM) (lcm(a, b))
+Prime Factorization
+Sieve of Eratosthenes (finding prime numbers efficiently)
+7. Graph Theory Math
+Graph adjacency matrix operations
+Matrix exponentiation (for shortest paths, Fibonacci, etc.)
+Dijkstra’s algorithm (min-heap operations)
+8. Probability and Statistics Operations
+Expected Value (E(X))
+Variance and Standard Deviation
+Probability Calculations (Bayes’ theorem, Markov chains, etc.)
