@@ -1,17 +1,17 @@
-let data = [
-  135, 151516, 46, 8, 41534, 6854, 6484, 531231, 31, 35, 484, 684, 435, 5,
-];
-
+let data = [135, 151516, 46, 8, 41534, 6854, 6484, 31, 35, 484, 684, 435, 5];
 
 function primenumber(data) {
   let primenumbr = [];
+  let nonprime = []
 
   for (let a = 0; a < data.length; a++) {
     if (isprimenumber(data[a])) {
-        primenumbr.push(data[a]);
+      primenumbr.push(data[a]);
+    }else{
+      nonprime.push(data[a])
     }
   }
-  return primenumbr;
+  return {primenumbr,nonprime}
 }
 
 function isprimenumber(numberdata) {
@@ -22,6 +22,12 @@ function isprimenumber(numberdata) {
   return true;
 }
 
-let res = primenumber(data);
+let {primenumbr,nonprime} = primenumber(data);
 
-console.log(res);
+console.log(primenumbr);
+console.log(nonprime)
+
+
+
+
+
