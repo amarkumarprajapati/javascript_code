@@ -1,5 +1,4 @@
 let data = [13, 135, 11, 123, 551, 31, 5, 351, 54, 84635, 18, 46, 584];
-
 let k = 7;
 
 function getkele(data, k) {
