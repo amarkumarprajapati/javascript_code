@@ -1,5 +1,5 @@
-let data = [1, 21, 321315, 21321, 5, 54686845, 34684];
-let k = 2;
+let data = [1, 21, 155, 21, 554, 56, 35, 3, 61, 5, 1, 5, 4, 12, 1, 4, 8];
+let k = 7;
 
 function kterm(data, k) {
   let newkterm = [];
