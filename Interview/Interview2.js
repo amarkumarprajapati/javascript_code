@@ -23,7 +23,6 @@ let data = ["vfdsvv efe asdc dv sdv svsd vsdv sdv eaf ef cvadsv sdv sef efcsev s
 let res = data[0]
    .split(' ')
    .map(word => word.charAt(0).toLocaleUpperCase() + word.slice(1))
-   
    .join(' ')
    
    console.log(res);
