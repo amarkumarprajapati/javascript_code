@@ -1,0 +1,32 @@
+The event loop in JavaScript is the mechanism that handles asynchronous operations and 
+ensures non-blocking behavior in single-threaded environments like the browser or Node.js. Here's a concise 
+breakdown tailored for your backend/frontend mindset:
+
+🧠 Core Concept
+JavaScript runs in a single thread, but it can handle multiple tasks asynchronously thanks to the event loop. It coordinates between:
+- Call Stack → Executes synchronous code
+- Web APIs / Node APIs → Handles async tasks (e.g., setTimeout, fetch, DB calls)
+- Callback Queue → Stores callbacks from completed async tasks
+- Event Loop → Moves callbacks from the queue to the stack when it's empty
+
+
+1. Execute synchronous code (call stack)
+2. Offload async tasks to Web APIs (e.g., timers, fetch)
+3. When async task completes, push its callback to the queue
+4. Event loop checks if call stack is empty
+5. If empty, it pushes queued callback to the stack
+6. Repeat
+
+
+
+console.log('Start');
+
+setTimeout(() => {
+  console.log('Timeout');
+}, 0);
+
+Promise.resolve().then(() => {
+  console.log('Promise');
+});
+
+console.log('End');

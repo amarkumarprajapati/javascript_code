@@ -1,0 +1,46 @@
+[
+  {
+    "_id": "6765700f592344c0d7d0e921",
+    "userId": "6762aa0960600c298051e059",
+    "adminId": "66fa554894703b89238563f3",
+    "assetIds": [
+      "676029fe946b5fb50e8e58f9"
+    ],
+    "chatAccess": false,
+    "assetPermissions": [],
+    "__v": 0
+  },
+  {
+    "_id": "66fc0acec0166353e239989e",
+    "userId": "66fc0acec0166353e239989b",
+    "adminId": "66fa554894703b89238563f3",
+    "assetIds": [
+      "666bec1d75fd2798ccd48917"
+    ],
+    "chatAccess": false,
+    "assetPermissions": [],
+    "__v": 0
+  },
+  {
+    "_id": "66fd9cc765b6419f541a47bb",
+    "userId": "66fd9cc665b6419f541a47b8",
+    "adminId": "66fa554894703b89238563f3",
+    "assetIds": [
+      "666bec1d75fd2798ccd48917"
+    ],
+    "chatAccess": false,
+    "assetPermissions": [],
+    "__v": 0
+  },
+  {
+    "_id": "67b9622a25807a5a24344a3b",
+    "userId": "67b84aa708dc6c09fda87431",
+    "adminId": "67602836946b5fb50e8e58f4",
+    "assetIds": [
+      "67602a1a946b5fb50e8e58fd"
+    ],
+    "chatAccess": false,
+    "assetPermissions": [],
+    "__v": 0
+  }
+]

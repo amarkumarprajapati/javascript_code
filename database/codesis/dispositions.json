@@ -1,0 +1,34 @@
+[
+  {
+    "_id": "677d681633d58f7f2e65dc2b",
+    "assetId": "666bec1d75fd2798ccd48996",
+    "off_Market": false,
+    "createdAt": "2025-01-07T17:44:54.882Z",
+    "updatedAt": "2025-01-07T17:44:54.882Z",
+    "__v": 0
+  },
+  {
+    "_id": "677d687a33d58f7f2e65dd04",
+    "assetId": "666bec1d75fd2798ccd48912",
+    "off_Market": false,
+    "createdAt": "2025-01-07T17:46:34.421Z",
+    "updatedAt": "2025-01-07T17:46:34.421Z",
+    "__v": 0
+  },
+  {
+    "_id": "677d680d33d58f7f2e65dbf7",
+    "assetId": "666bec1d75fd2798ccd4891f",
+    "off_Market": false,
+    "createdAt": "2025-01-07T17:44:45.970Z",
+    "updatedAt": "2025-01-07T17:44:45.970Z",
+    "__v": 0
+  },
+  {
+    "_id": "677e30a052e202fbe207d619",
+    "assetId": "666bec1d75fd2798ccd48963",
+    "off_Market": false,
+    "createdAt": "2025-01-08T08:00:32.075Z",
+    "updatedAt": "2025-01-08T08:00:32.075Z",
+    "__v": 0
+  }
+]

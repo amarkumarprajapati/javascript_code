@@ -1,0 +1,4588 @@
+[
+  {
+    "_id": "67602a1a946b5fb50e8e58fd",
+    "assetName": "Sunny Ridge Apartments",
+    "assetsAddress": "123 Sunny Ridge Lane, Bethesda, MD 20814, United States",
+    "assetType": "Residential",
+    "addedByEmail": "CodesisAI@Codesis.com",
+    "status": "Available",
+    "IRR": 260,
+    "equityMultiple": 230,
+    "cashYieldAvg": 502,
+    "level": "Multi-Story",
+    "property_type": "Residential",
+    "sponsored": false,
+    "assetValue": 550000,
+    "Property_Code": "sunnyridge",
+    "assetDescription": "Sunny Ridge Apartments features modern living spaces with breathtaking views and easy access to local amenities, parks, and public transportation.",
+    "assetTags": [
+      "apartment",
+      "for rent",
+      "Bethesda"
+    ],
+    "date": "2024-09-30T00:00:00.000Z",
+    "pricePerUnit": 2500,
+    "assetSquareFeet": 1200,
+    "unitDuplex": 0,
+    "views": 150,
+    "sold": false,
+    "debt": 120000,
+    "addedBy": "john.smith",
+    "lat_and_long": [
+      [
+        38.9807,
+        -77.0971
+      ]
+    ],
+    "contact": [
+      {
+        "name": "Emily Carter",
+        "phone": "555-1234",
+        "email": "emily.carter@example.com"
+      }
+    ],
+    "contactEmail": "info@sunnyridgeapts.com",
+    "contactWebsite": "http://sunnyridgeapts.com",
+    "contactBrochure": "http://sunnyridgeapts.com/brochure.pdf",
+    "assetsImages": [
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891a/443bcc9e-3410-46e2-90a2-da929725c615-modern-orange-apartment-building-with-balconies-sunny-day1.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891a/7c156b7c-9b03-4843-a644-b988c6231102-Kitchen-Lighting-Web.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891a/0222e414-3336-467b-9c2f-f7f3e489ff2f-NewCastle-11-scaled.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891a/2ac64389-8de9-4509-92cc-9534cd557209-CatMax-Photography-JLS-Designs-2021-2069-1.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891a/e69357a7-972a-4bda-9f56-2353cfbf2526-180618_Davitt_Ocean%20Rd-1040__9631__MED.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891a/869dc8b8-a5ab-475b-8a04-9ed301dec6da-65291a2d51b24004f7cba5c9_Maule-15-1024x683.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891a/3ff4158b-26a0-4128-9e7b-edc45ac098c0-9SHORE2Bshorelands2Bkitchen.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891a/e9ab2697-b97b-4837-885b-353097f31362-public.jpeg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891a/3c302139-0d93-41f8-a2e5-a29460255951-Untitled_HDR-7.jpg"
+    ],
+    "__v": 1,
+    "advanceAssets": {
+      "asset_info": {
+        "preview_media": {
+          "videos": [
+            "https://example.com/video_sunny.mp4"
+          ]
+        },
+        "property_details": {
+          "desc": "Luxury apartments with contemporary designs and high-end finishes.",
+          "features": {
+            "asset_type": "Residential",
+            "year_built": 2022,
+            "building_area": "1200 sqft",
+            "total_units": 30,
+            "zoning": "Residential",
+            "metro": "Bethesda Metro",
+            "market": "Urban",
+            "sub_market": "Bethesda",
+            "parking": "Garage Parking Available",
+            "price_sqft": 458.33
+          },
+          "floor_plan": [
+            "https://example.com/floorplan_sunny.png"
+          ],
+          "docs": {
+            "land_docs": [
+              "https://example.com/doc7.pdf",
+              "https://example.com/doc8.pdf"
+            ],
+            "advanced_techniques": [],
+            "financing_schemes": []
+          }
+        },
+        "utils_and_amenities": {
+          "utils_arrangement": {
+            "utils_table": [
+              {
+                "utility": "Electricity",
+                "cost": "$180"
+              },
+              {
+                "utility": "Water",
+                "cost": "$50"
+              },
+              {
+                "utility": "Gas",
+                "cost": "$70"
+              }
+            ],
+            "utils_cost_history_chart": {
+              "filter_duration": "Last Year",
+              "timelime": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug",
+                "Sep"
+              ],
+              "electricity": [
+                160,
+                165,
+                170,
+                175,
+                180,
+                185,
+                190,
+                195,
+                200
+              ],
+              "gas": [
+                60,
+                62,
+                65,
+                68,
+                70,
+                73,
+                75,
+                78,
+                80
+              ],
+              "water": [
+                45,
+                46,
+                48,
+                50,
+                52,
+                54,
+                55,
+                58,
+                60
+              ]
+            }
+          },
+          "amenities": {
+            "types_of_locations": [
+              "City Center",
+              "Parks",
+              "Restaurants"
+            ],
+            "other": [
+              "Fitness Center",
+              "Rooftop Deck",
+              "Business Lounge"
+            ]
+          },
+          "jurisdiction": {
+            "state": "Maryland",
+            "tax_rate": 0.013,
+            "assessment": 500000,
+            "parcel_no": "789-012-345"
+          },
+          "valuation_and_taxes": {
+            "assessed_year": 2024,
+            "assessed_amount": 500000,
+            "tax_year": 2025,
+            "tax_amount": 6500
+          }
+        },
+        "property_history": {
+          "sales_history": [
+            {
+              "date": "2023-05-01",
+              "event": "NA",
+              "price": 420000
+            },
+            {
+              "date": "2023-10-03",
+              "event": "NA",
+              "price": 261445
+            },
+            {
+              "date": "2023-06-01",
+              "event": "NA",
+              "price": 135484
+            },
+            {
+              "date": "2023-12-01",
+              "event": "NA",
+              "price": 421351
+            }
+          ],
+          "price_history": {
+            "filter_duration": null,
+            "asset_price": null,
+            "asset_deviation": null,
+            "market_price": null,
+            "market_deviation": null,
+            "price_history_chart": {
+              "date": [
+                "2024-01",
+                "2024-02",
+                "2024-03"
+              ],
+              "data": [
+                2400,
+                2450,
+                2500
+              ]
+            }
+          }
+        },
+        "property_comparison": {
+          "features": {
+            "year_built": 2022,
+            "avg_year_built": 2020,
+            "building_area": "1200 sqft",
+            "avg_building_area": "1150 sqft",
+            "total_units": 30,
+            "avg_total_units": 25,
+            "zoning": {
+              "type": "Residential",
+              "comment": "Urban family-oriented community"
+            },
+            "metro": "Bethesda Metro",
+            "market": "Urban",
+            "sub_market": "Bethesda",
+            "parking": "Garage Parking Available",
+            "price_sqft": 458.33
+          }
+        }
+      }
+    },
+    "Country": "us",
+    "Ext_Ref_Property_Id": "REF789",
+    "Ref_Owner_Id": "OWNER789",
+    "Owner": "john.smith",
+    "Addr1": "Sunny Ridge Apartments",
+    "Addr2": "123 Sunny Ridge Lane",
+    "Addr3": null,
+    "Addr4": null,
+    "City": "Bethesda",
+    "State": "MD",
+    "ZipCode": 20814,
+    "Notes": "Modern apartments in a vibrant community.",
+    "Vat_Recovery_Type": "Standard",
+    "Vat_Opted": 0,
+    "International": 0,
+    "Contract_Reserve": 0,
+    "Commission_Percent": 6,
+    "Commission_Min": 2500,
+    "Contract_Exp_Date": 45051.00011574074,
+    "Affordable": 0,
+    "Student": 0,
+    "Association": 1,
+    "CanadianSocialHousing": 0,
+    "Commercial": 0,
+    "Military": 0,
+    "PublicHousing": 0,
+    "Senior": 0,
+    "Residential": 1,
+    "Is_Estate": 0,
+    "Tax_Status_Changed": null,
+    "Status": "Active",
+    "Tax_Recovery_Percentage": null,
+    "NCREIF_Manager_ID": null,
+    "Purchase_Price": 0,
+    "True_Acquisition_Asset_Date": null,
+    "Net_Sales_Price": 0,
+    "Asset_Date_Not_NCREIF": null,
+    "Project_Type": "Residential Complex",
+    "Ideal_Lease": 12,
+    "Months_To_Lease": 3,
+    "Acquisition_Date": null,
+    "Disposition_Asset_Date": null,
+    "MLA": null,
+    "VAT_Tran_Type": null,
+    "Pur_Tran_Type": null,
+    "Effective_Date": null,
+    "utilities": [
+      "Electricity",
+      "Water",
+      "Gas"
+    ],
+    "propertyDetails": {
+      "lotArea": "",
+      "zoning": "",
+      "totalUnits": "",
+      "buildingArea": "",
+      "yearBuilt": ""
+    },
+    "Location": "usa",
+    "contactPhone": 1234567890
+  },
+  {
+    "_id": "67602a3f946b5fb50e8e5901",
+    "assetName": "Lakeview Residences",
+    "assetsAddress": "456 Lakeview Drive, Annapolis, MD 21401, United States",
+    "assetType": "Residential",
+    "addedByEmail": "CodesisAI@Codesis.com",
+    "status": "Available",
+    "level": "Mid-Rise",
+    "IRR": 260,
+    "equityMultiple": 230,
+    "cashYieldAvg": 502,
+    "property_type": "Residential",
+    "sponsored": false,
+    "assetValue": 1800000,
+    "Property_Code": "lakeview",
+    "assetDescription": "Lakeview Residences features modern design, spacious layouts, and scenic views of the lake, just minutes from downtown Annapolis.",
+    "assetTags": [
+      "lakefront",
+      "modern",
+      "family-friendly"
+    ],
+    "date": "2024-08-01T00:00:00.000Z",
+    "pricePerUnit": 2500,
+    "assetSquareFeet": 1800,
+    "unitDuplex": 0,
+    "views": 150,
+    "sold": false,
+    "debt": 600000,
+    "addedBy": "john.doe",
+    "lat_and_long": [
+      [
+        38.9784,
+        -76.4922
+      ]
+    ],
+    "contact": [
+      {
+        "name": "Emily Carter",
+        "phone": "555-1234",
+        "email": "emily.carter@example.com"
+      }
+    ],
+    "contactEmail": "info@lakeviewresidences.com",
+    "contactWebsite": "http://lakeviewresidences.com",
+    "contactBrochure": "http://lakeviewresidences.com/brochure.pdf",
+    "assetsImages": [
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/66fa7a3294703b8923856408/98b9d22a-5e3b-49f9-8522-6c5bbe9b0945-classic-brick-apartment-building-standing-corner-lot1.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/66fa7a3294703b8923856408/6bc60e0e-48a2-4d50-af84-86594df00ba3-kelly-hoppen.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/66fa7a3294703b8923856408/797b35c0-e842-43db-89e1-e17983a86217-Joyelle_200206_006.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/66fa7a3294703b8923856408/39afe37e-cbef-4cf4-a542-582b38f0a1d6-images.jpeg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/66fa7a3294703b8923856408/8a0526d3-ccac-4216-92bd-ae76fdec43ab-do-interior-designers-buy-furniture-1024x682.jpeg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/66fa7a3294703b8923856408/4518995a-a051-4604-b594-ce402a73ef7d-deerpark-thumb.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/66fa7a3294703b8923856408/b332db03-c5ba-4521-b45e-88be85bef231-300s.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/66fa7a3294703b8923856408/190a0902-271d-41e3-9d82-80324e5db655-GNI-Blog-Article3.jpg"
+    ],
+    "__v": 2,
+    "advanceAssets": {
+      "asset_info": {
+        "preview_media": {
+          "videos": [
+            "https://example.com/video_lakeview.mp4"
+          ]
+        },
+        "property_details": {
+          "desc": "Charming residences with ample amenities, close to nature and urban conveniences.",
+          "features": {
+            "asset_type": "Residential",
+            "year_built": 2022,
+            "building_area": "1800 sqft",
+            "total_units": 40,
+            "zoning": "Residential",
+            "metro": "Annapolis Metro",
+            "market": "Suburban",
+            "sub_market": "Annapolis",
+            "parking": "Surface Parking",
+            "price_sqft": 1000
+          },
+          "floor_plan": [
+            "https://example.com/floorplan_lakeview.png"
+          ],
+          "docs": {
+            "land_docs": [
+              "https://example.com/doc5.pdf",
+              "https://example.com/doc6.pdf"
+            ],
+            "advanced_techniques": [],
+            "financing_schemes": []
+          }
+        },
+        "utils_and_amenities": {
+          "utils_arrangement": {
+            "utils_table": [
+              {
+                "utility": "Electricity",
+                "cost": "$250"
+              },
+              {
+                "utility": "Water",
+                "cost": "$70"
+              },
+              {
+                "utility": "Gas",
+                "cost": "$90"
+              }
+            ],
+            "utils_cost_history_chart": {
+              "filter_duration": "Last Year",
+              "timelime": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug"
+              ],
+              "electricity": [
+                240,
+                245,
+                250,
+                255,
+                260,
+                265,
+                270,
+                275
+              ],
+              "gas": [
+                85,
+                87,
+                90,
+                92,
+                95,
+                98,
+                100,
+                102
+              ],
+              "water": [
+                65,
+                68,
+                70,
+                72,
+                75,
+                78,
+                80,
+                82
+              ]
+            }
+          },
+          "amenities": {
+            "types_of_locations": [
+              "Suburban",
+              "Waterfront",
+              "Parks"
+            ],
+            "other": [
+              "Community Garden",
+              "Playground",
+              "Gym"
+            ]
+          },
+          "jurisdiction": {
+            "state": "Maryland",
+            "tax_rate": 0.012,
+            "assessment": 1800000,
+            "parcel_no": "789-456-123"
+          },
+          "valuation_and_taxes": {
+            "assessed_year": 2024,
+            "assessed_amount": 1800000,
+            "tax_year": 2025,
+            "tax_amount": 21600
+          }
+        },
+        "property_history": {
+          "sales_history": [
+            {
+              "date": "2023-05-01",
+              "event": "NA",
+              "price": 420000
+            },
+            {
+              "date": "2023-10-03",
+              "event": "NA",
+              "price": 261445
+            },
+            {
+              "date": "2023-06-01",
+              "event": "NA",
+              "price": 135484
+            },
+            {
+              "date": "2023-12-01",
+              "event": "NA",
+              "price": 421351
+            }
+          ],
+          "price_history": {
+            "filter_duration": null,
+            "asset_price": null,
+            "asset_deviation": null,
+            "market_price": null,
+            "market_deviation": null,
+            "price_history_chart": {
+              "date": [
+                "2024-01",
+                "2024-02",
+                "2024-03"
+              ],
+              "data": [
+                2400,
+                2450,
+                2500
+              ]
+            }
+          }
+        },
+        "property_comparison": {
+          "features": {
+            "year_built": 2022,
+            "avg_year_built": 2020,
+            "building_area": "1800 sqft",
+            "avg_building_area": "1600 sqft",
+            "total_units": 40,
+            "avg_total_units": 35,
+            "zoning": {
+              "type": "Residential",
+              "comment": "Suburban area with family homes."
+            },
+            "metro": "Annapolis Metro",
+            "market": "Suburban",
+            "sub_market": "Annapolis",
+            "parking": "Surface Parking",
+            "price_sqft": 1000
+          }
+        }
+      }
+    },
+    "Country": "us",
+    "Ext_Ref_Property_Id": "REF789",
+    "Ref_Owner_Id": "OWNER789",
+    "Owner": "john.doe",
+    "Addr1": "Lakeview Residences",
+    "Addr2": "456 Lakeview Drive",
+    "Addr3": null,
+    "Addr4": null,
+    "City": "Annapolis",
+    "State": "MD",
+    "ZipCode": 21401,
+    "Notes": "Family-friendly residences with lake access.",
+    "Vat_Recovery_Type": "Standard",
+    "Vat_Opted": 0,
+    "International": 0,
+    "Contract_Reserve": 0,
+    "Commission_Percent": 4,
+    "Commission_Min": 2500,
+    "Contract_Exp_Date": 45056.00011574074,
+    "Affordable": 0,
+    "Student": 0,
+    "Association": 1,
+    "CanadianSocialHousing": 0,
+    "Commercial": 0,
+    "Military": 0,
+    "PublicHousing": 0,
+    "Senior": 0,
+    "Residential": 1,
+    "Is_Estate": 0,
+    "Tax_Status_Changed": null,
+    "Status": "Active",
+    "Tax_Recovery_Percentage": null,
+    "NCREIF_Manager_ID": null,
+    "Purchase_Price": 0,
+    "True_Acquisition_Asset_Date": null,
+    "Net_Sales_Price": 0,
+    "Asset_Date_Not_NCREIF": null,
+    "Project_Type": "Family Residences",
+    "Ideal_Lease": 12,
+    "Months_To_Lease": 3,
+    "Acquisition_Date": null,
+    "Disposition_Asset_Date": null,
+    "MLA": null,
+    "VAT_Tran_Type": null,
+    "Pur_Tran_Type": null,
+    "Effective_Date": null,
+    "utilities": [
+      "Electricity",
+      "Water",
+      "Gas"
+    ],
+    "propertyDetails": {
+      "lotArea": "12000 sqft",
+      "zoning": "Residential",
+      "totalUnits": "40",
+      "buildingArea": "1800 sqft",
+      "yearBuilt": "2022"
+    },
+    "Location": "usa"
+  },
+  {
+    "_id": "666bec1d75fd2798ccd48956",
+    "assetName": "The Luxe Loft",
+    "assetsAddress": "789 Lakeside Drive, Gaithersburg, MD 20878, United States",
+    "assetType": "Residential",
+    "addedByEmail": "CodesisAI@Codesis.com",
+    "status": "For Rent",
+    "level": "Single-Story",
+    "property_type": "Residential",
+    "sponsored": true,
+    "IRR": 260,
+    "equityMultiple": 230,
+    "cashYieldAvg": 502,
+    "assetValue": 450000,
+    "Property_Code": "lakesidevillas",
+    "assetDescription": "Lakeside Villas offers a serene environment with stunning lake views. Each unit features modern amenities, spacious living areas, and easy access to outdoor activities.",
+    "assetTags": [
+      "villa",
+      "for rent",
+      "Gaithersburg"
+    ],
+    "date": "2024-09-30T00:00:00.000Z",
+    "pricePerUnit": 2200,
+    "assetSquareFeet": 1500,
+    "unitDuplex": 0,
+    "views": 202,
+    "sold": false,
+    "debt": 80000,
+    "addedBy": "sara.miller",
+    "lat_and_long": [
+      [
+        39.141,
+        -77.215
+      ]
+    ],
+    "contact": [
+      {
+        "name": "Michael Brown",
+        "phone": "555-0202",
+        "email": "michael.brown@example.com"
+      }
+    ],
+    "contactEmail": "info@lakesidevillas.com",
+    "contactWebsite": "http://lakesidevillas.com",
+    "contactBrochure": "http://lakesidevillas.com/brochure.pdf",
+    "assetsImages": [
+      "https://lilypadstechdemo.s3.us-east-2.amazonaws.com/Assets-images/666bec1d75fd2798ccd48956/47d78459-52ea-4b88-a636-4197ced5ba4b-pexels-mikebirdy-144632.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4892d/abcb2ce2-1e9f-46d0-a1c1-54d88ba1bc81-images.jpeg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4892d/5b39ed6e-e8c9-4f61-a3ab-a947f404c52c-Rachel-Reider.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4892d/5baa5071-7ae3-437a-8c6a-b3df1fe70e1f-campbell%2Bfirst%2Bfloor%2B%281.6%29-1.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4892d/1dda096c-f6c8-4a7e-898a-89b93713c865-northern-chicago-suburb-home-interior-design-richar-interiors-img~45d1cc86095675a1_4-6250-1-3538ea9.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4892d/358ec491-c985-4157-a0c6-6b66b9e58224-Philadelphia-Features-some-of-the-Best-Interior-Designers-PS.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4892d/75c80f9b-6ef6-4074-bf32-e7f33ae7eff7-Living-room-by-one-of-the-best-NYC-interior-designers-and-decorators-Bradley-Stephens%20%281%29.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4892d/7fbeacad-4a60-4d47-9fb2-360cb9eceffe-new-york-apartment-interior-brad-ford-upper-west-sidetop-nyc-interior-designers-antonio-pio-saracino-penthouse-esperiri-milano.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4892d/0095ed7d-770e-4d53-899d-209c38e6e0ec-The-Best-of-USA_-Top-20-NYC-Interior-Designers-1.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4892d/56466a73-7b48-4b9b-88ee-c2e6dd43d8e9-Living-room-by-one-of-the-best-NYC-interior-designers-and-decorators-Bradley-Stephens.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4892d/a57dc198-b663-4d9d-816e-1338294b9e5e-20-4-1024x569.png",
+      "https://lilypadstechdemo.s3.us-east-2.amazonaws.com/Assets-images/666bec1d75fd2798ccd48956/47d78459-52ea-4b88-a636-4197ced5ba4b-pexels-mikebirdy-144632.jpg"
+    ],
+    "__v": 3,
+    "advanceAssets": {
+      "asset_info": {
+        "preview_media": {
+          "videos": [
+            "https://example.com/video_villa.mp4"
+          ]
+        },
+        "property_details": {
+          "desc": "Charming villas with breathtaking lake views and luxurious finishes.",
+          "features": {
+            "asset_type": "Residential",
+            "year_built": 2023,
+            "building_area": "1500 sqft",
+            "total_units": 25,
+            "zoning": "Residential",
+            "metro": "Gaithersburg Metro",
+            "market": "Suburban",
+            "sub_market": "Gaithersburg",
+            "parking": "Assigned Parking",
+            "price_sqft": 300
+          },
+          "floor_plan": [
+            "https://example.com/floorplan_villa.png"
+          ],
+          "docs": {
+            "land_docs": [
+              "https://example.com/doc5.pdf",
+              "https://example.com/doc6.pdf"
+            ],
+            "advanced_techniques": [],
+            "financing_schemes": []
+          }
+        },
+        "utils_and_amenities": {
+          "utils_arrangement": {
+            "utils_table": [
+              {
+                "utility": "Electricity",
+                "cost": "$150"
+              },
+              {
+                "utility": "Water",
+                "cost": "$60"
+              }
+            ],
+            "utils_cost_history_chart": {
+              "filter_duration": "Last Year",
+              "timelime": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug",
+                "Sep"
+              ],
+              "electricity": [
+                140,
+                145,
+                150,
+                155,
+                160,
+                158,
+                165,
+                170,
+                175
+              ],
+              "gas": [
+                70,
+                72,
+                75,
+                78,
+                80,
+                82,
+                85,
+                88,
+                90
+              ],
+              "water": [
+                55,
+                57,
+                60,
+                62,
+                65,
+                64,
+                68,
+                70,
+                75
+              ]
+            }
+          },
+          "amenities": {
+            "types_of_locations": [
+              "Lake",
+              "Parks"
+            ],
+            "other": [
+              "Swimming Pool",
+              "Community Center",
+              "Walking Trails"
+            ]
+          },
+          "jurisdiction": {
+            "state": "Maryland",
+            "tax_rate": 0.012,
+            "assessment": 400000,
+            "parcel_no": "123-456-789"
+          },
+          "valuation_and_taxes": {
+            "assessed_year": 2024,
+            "assessed_amount": 400000,
+            "tax_year": 2025,
+            "tax_amount": 4800
+          }
+        },
+        "property_history": {
+          "sales_history": [
+            {
+              "date": "2023-05-01",
+              "event": "NA",
+              "price": 420000
+            },
+            {
+              "date": "2023-10-03",
+              "event": "NA",
+              "price": 261445
+            },
+            {
+              "date": "2023-06-01",
+              "event": "NA",
+              "price": 135484
+            },
+            {
+              "date": "2023-12-01",
+              "event": "NA",
+              "price": 421351
+            }
+          ],
+          "price_history": {
+            "filter_duration": null,
+            "asset_price": null,
+            "asset_deviation": null,
+            "market_price": null,
+            "market_deviation": null,
+            "price_history_chart": {
+              "date": [
+                "2024-01",
+                "2024-02",
+                "2024-03"
+              ],
+              "data": [
+                2150,
+                2200,
+                2250
+              ]
+            }
+          }
+        },
+        "property_comparison": {
+          "features": {
+            "year_built": 2023,
+            "avg_year_built": 2021,
+            "building_area": "1500 sqft",
+            "avg_building_area": "1400 sqft",
+            "total_units": 25,
+            "avg_total_units": 20,
+            "zoning": {
+              "type": "Residential",
+              "comment": "Family-friendly community"
+            },
+            "metro": "Gaithersburg Metro",
+            "market": "Suburban",
+            "sub_market": "Gaithersburg",
+            "parking": "Assigned Parking",
+            "price_sqft": 300
+          }
+        }
+      }
+    },
+    "Country": "us",
+    "Ext_Ref_Property_Id": "REF456",
+    "Ref_Owner_Id": "OWNER456",
+    "Owner": "sara.miller",
+    "Addr1": "Lakeside Villas",
+    "Addr2": "789 Lakeside Drive",
+    "Addr3": null,
+    "Addr4": null,
+    "City": "Gaithersburg",
+    "State": "MD",
+    "ZipCode": 20878,
+    "Notes": "Beautiful lakeside properties with modern amenities.",
+    "Vat_Recovery_Type": "Standard",
+    "Vat_Opted": 0,
+    "International": 0,
+    "Contract_Reserve": 0,
+    "Commission_Percent": 5,
+    "Commission_Min": 2000,
+    "Contract_Exp_Date": 45050.00011574074,
+    "Affordable": 1,
+    "Student": 0,
+    "Association": 1,
+    "CanadianSocialHousing": 0,
+    "Commercial": 0,
+    "Military": 0,
+    "PublicHousing": 0,
+    "Senior": 0,
+    "Residential": 1,
+    "Is_Estate": 0,
+    "Tax_Status_Changed": null,
+    "Status": "Active",
+    "Tax_Recovery_Percentage": null,
+    "NCREIF_Manager_ID": null,
+    "Purchase_Price": 0,
+    "True_Acquisition_Asset_Date": null,
+    "Net_Sales_Price": 0,
+    "Asset_Date_Not_NCREIF": null,
+    "Project_Type": "Residential Development",
+    "Ideal_Lease": 12,
+    "Months_To_Lease": 2,
+    "Acquisition_Date": null,
+    "Disposition_Asset_Date": null,
+    "MLA": null,
+    "VAT_Tran_Type": null,
+    "Pur_Tran_Type": null,
+    "Effective_Date": null,
+    "utilities": [
+      "Electricity",
+      "Water",
+      "Gas"
+    ],
+    "propertyDetails": {
+      "lotArea": "8000 sqft",
+      "zoning": "Residential",
+      "totalUnits": "25",
+      "buildingArea": "1500 sqft",
+      "yearBuilt": "2023"
+    },
+    "Location": "usa",
+    "Checklists": [],
+    "utilities_units": []
+  },
+  {
+    "_id": "67602a23946b5fb50e8e58fe",
+    "assetName": "Lakeside Villas",
+    "assetsAddress": "456 Lakeside Drive, Annapolis, MD 21401, United States",
+    "assetType": "Residential",
+    "addedByEmail": "CodesisAI@Codesis.com",
+    "status": "Pending",
+    "IRR": 260,
+    "equityMultiple": 230,
+    "cashYieldAvg": 502,
+    "level": "Single-Story",
+    "property_type": "Residential",
+    "sponsored": true,
+    "assetValue": 800000,
+    "Property_Code": "lakesidevillas1",
+    "assetDescription": "Lakeside Villas offers serene living with stunning lake views and access to recreational activities. Each villa is designed with luxury finishes and spacious layouts.",
+    "assetTags": [
+      "villa",
+      "luxury",
+      "waterfront"
+    ],
+    "date": "2024-09-15T00:00:00.000Z",
+    "pricePerUnit": 3000,
+    "assetSquareFeet": 1500,
+    "unitDuplex": 0,
+    "views": 200,
+    "sold": false,
+    "debt": 300000,
+    "addedBy": "sara.jones",
+    "lat_and_long": [
+      [
+        38.9784,
+        -76.4919
+      ]
+    ],
+    "contact": [
+      {
+        "name": "Michael Thompson",
+        "phone": "555-5678",
+        "email": "michael.thompson@example.com"
+      }
+    ],
+    "contactEmail": "info@lakesidevillas.com",
+    "contactWebsite": "http://lakesidevillas.com",
+    "contactBrochure": "http://lakesidevillas.com/brochure.pdf",
+    "assetsImages": [
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891b/3882eeb1-007c-49a5-b123-56a6f705fd09-building-with-balcony-that-says-name-apartment1.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891b/d6f6fb37-aaf3-48c7-9fb6-ab795b563ed7-Cape-Code-Style-Interior-Design-57-1500x1001.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891b/70437a91-5392-4e9c-8eb1-9c3a263227e4-full-house-interior-design-of-american-style-oppein-group-img~d1b1fa72083e3101_4-2465-1-bbb9c71.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891b/09b09dc4-cf7a-47c3-a9e9-7d4a69af2fcb-American-style-house-interior-design-in-Dammam-2.1522524114.1883.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891b/292867b6-c027-4769-83c2-4522bfb8a59a-flat-interior-design-2.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891b/bf8d74cd-06cc-4e72-886c-ceffe9a21945-images.jpeg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891b/f1d080b1-9bea-4760-8fdf-364a212f3f06-living-room-resuts-using-interior-design-help-and-decorating-help.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891b/02392af8-00e0-40d4-ac9b-726ff7185176-Five-Important-Considerations-for-Interior-Design-2.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891b/f39ad4ee-cec1-4276-bc5b-bc060e287480-pexels-fotoaibe-1571460.jpg"
+    ],
+    "__v": 1,
+    "advanceAssets": {
+      "asset_info": {
+        "preview_media": {
+          "videos": [
+            "https://example.com/video_lakeside.mp4"
+          ]
+        },
+        "property_details": {
+          "desc": "Elegant villas with breathtaking waterfront views and premium amenities.",
+          "features": {
+            "asset_type": "Residential",
+            "year_built": 2023,
+            "building_area": "1500 sqft",
+            "total_units": 25,
+            "zoning": "Residential",
+            "metro": "Annapolis Metro",
+            "market": "Suburban",
+            "sub_market": "Annapolis",
+            "parking": "Dedicated Parking",
+            "price_sqft": 533.33
+          },
+          "floor_plan": [
+            "https://example.com/floorplan_lakeside.png"
+          ],
+          "docs": {
+            "land_docs": [
+              "https://example.com/doc1.pdf",
+              "https://example.com/doc2.pdf"
+            ],
+            "advanced_techniques": [],
+            "financing_schemes": []
+          }
+        },
+        "utils_and_amenities": {
+          "utils_arrangement": {
+            "utils_table": [
+              {
+                "utility": "Electricity",
+                "cost": "$200"
+              },
+              {
+                "utility": "Water",
+                "cost": "$60"
+              },
+              {
+                "utility": "Gas",
+                "cost": "$80"
+              }
+            ],
+            "utils_cost_history_chart": {
+              "filter_duration": "Last Year",
+              "timelime": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug",
+                "Sep"
+              ],
+              "electricity": [
+                180,
+                185,
+                190,
+                200,
+                210,
+                220,
+                225,
+                230,
+                235
+              ],
+              "gas": [
+                70,
+                72,
+                75,
+                78,
+                80,
+                82,
+                85,
+                88,
+                90
+              ],
+              "water": [
+                50,
+                52,
+                55,
+                58,
+                60,
+                62,
+                65,
+                68,
+                70
+              ]
+            }
+          },
+          "amenities": {
+            "types_of_locations": [
+              "Waterfront",
+              "Parks",
+              "Shopping"
+            ],
+            "other": [
+              "Swimming Pool",
+              "Fitness Center",
+              "BBQ Area"
+            ]
+          },
+          "jurisdiction": {
+            "state": "Maryland",
+            "tax_rate": 0.015,
+            "assessment": 750000,
+            "parcel_no": "123-456-789"
+          },
+          "valuation_and_taxes": {
+            "assessed_year": 2024,
+            "assessed_amount": 750000,
+            "tax_year": 2025,
+            "tax_amount": 11250
+          }
+        },
+        "property_history": {
+          "sales_history": [
+            {
+              "date": "2023-05-01",
+              "event": "NA",
+              "price": 420000
+            },
+            {
+              "date": "2023-10-03",
+              "event": "NA",
+              "price": 261445
+            },
+            {
+              "date": "2023-06-01",
+              "event": "NA",
+              "price": 135484
+            },
+            {
+              "date": "2023-12-01",
+              "event": "NA",
+              "price": 421351
+            }
+          ],
+          "price_history": {
+            "filter_duration": null,
+            "asset_price": null,
+            "asset_deviation": null,
+            "market_price": null,
+            "market_deviation": null,
+            "price_history_chart": {
+              "date": [
+                "2024-01",
+                "2024-02",
+                "2024-03"
+              ],
+              "data": [
+                2900,
+                2950,
+                3000
+              ]
+            }
+          }
+        },
+        "property_comparison": {
+          "features": {
+            "year_built": 2023,
+            "avg_year_built": 2021,
+            "building_area": "1500 sqft",
+            "avg_building_area": "1400 sqft",
+            "total_units": 25,
+            "avg_total_units": 20,
+            "zoning": {
+              "type": "Residential",
+              "comment": "Lakeside community with family-friendly environment."
+            },
+            "metro": "Annapolis Metro",
+            "market": "Suburban",
+            "sub_market": "Annapolis",
+            "parking": "Dedicated Parking",
+            "price_sqft": 533.33
+          }
+        }
+      }
+    },
+    "Country": "us",
+    "Ext_Ref_Property_Id": "REF456",
+    "Ref_Owner_Id": "OWNER456",
+    "Owner": "sara.jones",
+    "Addr1": "Lakeside Villas",
+    "Addr2": "456 Lakeside Drive",
+    "Addr3": null,
+    "Addr4": null,
+    "City": "Annapolis",
+    "State": "MD",
+    "ZipCode": 21401,
+    "Notes": "Beautiful villas with exceptional amenities and lake access.",
+    "Vat_Recovery_Type": "Standard",
+    "Vat_Opted": 0,
+    "International": 0,
+    "Contract_Reserve": 0,
+    "Commission_Percent": 5,
+    "Commission_Min": 3000,
+    "Contract_Exp_Date": 45050.00011574074,
+    "Affordable": 0,
+    "Student": 0,
+    "Association": 1,
+    "CanadianSocialHousing": 0,
+    "Commercial": 0,
+    "Military": 0,
+    "PublicHousing": 0,
+    "Senior": 0,
+    "Residential": 1,
+    "Is_Estate": 0,
+    "Tax_Status_Changed": null,
+    "Status": "Active",
+    "Tax_Recovery_Percentage": null,
+    "NCREIF_Manager_ID": null,
+    "Purchase_Price": 0,
+    "True_Acquisition_Asset_Date": null,
+    "Net_Sales_Price": 0,
+    "Asset_Date_Not_NCREIF": null,
+    "Project_Type": "Luxury Villas",
+    "Ideal_Lease": 12,
+    "Months_To_Lease": 2,
+    "Acquisition_Date": null,
+    "Disposition_Asset_Date": null,
+    "MLA": null,
+    "VAT_Tran_Type": null,
+    "Pur_Tran_Type": null,
+    "Effective_Date": null,
+    "utilities": [
+      "Electricity",
+      "Water",
+      "Gas"
+    ],
+    "propertyDetails": {
+      "lotArea": "8000 sqft",
+      "zoning": "Residential",
+      "totalUnits": "25",
+      "buildingArea": "1500 sqft",
+      "yearBuilt": "2023"
+    },
+    "Location": "usa"
+  },
+  {
+    "_id": "67602a51946b5fb50e8e5903",
+    "assetName": "Sunnyvale Apartments",
+    "assetsAddress": "123 Sunnyvale Street, Silver Spring, MD 20901, United States",
+    "assetType": "Residential",
+    "addedByEmail": "CodesisAI@Codesis.com",
+    "status": "Available",
+    "IRR": 260,
+    "equityMultiple": 230,
+    "cashYieldAvg": 502,
+    "level": "High-Rise",
+    "property_type": "Residential",
+    "sponsored": true,
+    "assetValue": 2200000,
+    "Property_Code": "sunnyvale",
+    "assetDescription": "Sunnyvale Apartments offer luxury living with modern amenities, conveniently located near shopping centers and parks.",
+    "assetTags": [
+      "luxury",
+      "downtown",
+      "family-friendly"
+    ],
+    "date": "2024-08-15T00:00:00.000Z",
+    "pricePerUnit": 2800,
+    "assetSquareFeet": 2100,
+    "unitDuplex": 0,
+    "views": 200,
+    "sold": false,
+    "debt": 800000,
+    "addedBy": "jane.smith",
+    "lat_and_long": [
+      [
+        38.9974,
+        -77.0421
+      ]
+    ],
+    "contact": [
+      {
+        "name": "Michael Johnson",
+        "phone": "555-5678",
+        "email": "michael.johnson@example.com"
+      }
+    ],
+    "contactEmail": "info@sunnyvaleapartments.com",
+    "contactWebsite": "http://sunnyvaleapartments.com",
+    "contactBrochure": "http://sunnyvaleapartments.com/brochure.pdf",
+    "assetsImages": [
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/66fa7a6894703b892385640a/9162a1d3-aeec-4091-aaca-335858e4adad-busy-rental-complex-with-potential-tenants-visiting-leasing-office-inquiries1.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/66fa7a6894703b892385640a/10d809c3-fee9-483f-a0bf-737a5da4bf6a-zV8ttsjgfPka2BhzuM2rkB-415-80.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/66fa7a6894703b892385640a/9622af2e-a574-4abb-89c5-9a73c40baa34-6699c5b08e71d824813999cf_e354b_2.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/66fa7a6894703b892385640a/216218da-4a3c-416e-ac5b-8521f9c4773b-Home_interior.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/66fa7a6894703b892385640a/babf6074-0589-4ef4-a6fa-1e39cabff369-residential-home-interior-design-service.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/66fa7a6894703b892385640a/7dffbf08-1d4c-45b1-bda7-cfcf49d387d5-Interior_design_trends_living_room.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/66fa7a6894703b892385640a/c9d1e9dd-5009-45d9-8a4f-3fe4043f53ef-Rumor-910-Yampa-03-21-19-Living-to-Kitchen-Web.jpg"
+    ],
+    "__v": 3,
+    "advanceAssets": {
+      "asset_info": {
+        "preview_media": {
+          "videos": [
+            "https://example.com/video_sunnyvale.mp4"
+          ]
+        },
+        "property_details": {
+          "desc": "A perfect blend of comfort and convenience, featuring amenities for modern living.",
+          "features": {
+            "asset_type": "Residential",
+            "year_built": 2023,
+            "building_area": "2100 sqft",
+            "total_units": 50,
+            "zoning": "Residential",
+            "metro": "Silver Spring Metro",
+            "market": "Urban",
+            "sub_market": "Silver Spring",
+            "parking": "Garage Parking",
+            "price_sqft": 1048
+          },
+          "floor_plan": [
+            "https://example.com/floorplan_sunnyvale.png"
+          ],
+          "docs": {
+            "land_docs": [
+              "https://example.com/doc7.pdf",
+              "https://example.com/doc8.pdf"
+            ],
+            "advanced_techniques": [],
+            "financing_schemes": []
+          }
+        },
+        "utils_and_amenities": {
+          "utils_arrangement": {
+            "utils_table": [
+              {
+                "utility": "Electricity",
+                "cost": "$300"
+              },
+              {
+                "utility": "Water",
+                "cost": "$80"
+              },
+              {
+                "utility": "Gas",
+                "cost": "$100"
+              }
+            ],
+            "utils_cost_history_chart": {
+              "filter_duration": "Last Year",
+              "timelime": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug"
+              ],
+              "electricity": [
+                290,
+                295,
+                300,
+                305,
+                310,
+                315,
+                320,
+                325
+              ],
+              "gas": [
+                95,
+                97,
+                100,
+                102,
+                105,
+                107,
+                110,
+                112
+              ],
+              "water": [
+                75,
+                77,
+                80,
+                82,
+                85,
+                87,
+                90,
+                92
+              ]
+            }
+          },
+          "amenities": {
+            "types_of_locations": [
+              "Urban",
+              "Near Transit",
+              "Shopping"
+            ],
+            "other": [
+              "Fitness Center",
+              "Rooftop Lounge",
+              "Swimming Pool"
+            ]
+          },
+          "jurisdiction": {
+            "state": "Maryland",
+            "tax_rate": 0.013,
+            "assessment": 2200000,
+            "parcel_no": "456-789-123"
+          },
+          "valuation_and_taxes": {
+            "assessed_year": 2024,
+            "assessed_amount": 2200000,
+            "tax_year": 2025,
+            "tax_amount": 28600
+          }
+        },
+        "property_history": {
+          "sales_history": [
+            {
+              "date": "2023-05-01",
+              "event": "NA",
+              "price": 420000
+            },
+            {
+              "date": "2023-10-03",
+              "event": "NA",
+              "price": 261445
+            },
+            {
+              "date": "2023-06-01",
+              "event": "NA",
+              "price": 135484
+            },
+            {
+              "date": "2023-12-01",
+              "event": "NA",
+              "price": 421351
+            }
+          ],
+          "price_history": {
+            "filter_duration": null,
+            "asset_price": null,
+            "asset_deviation": null,
+            "market_price": null,
+            "market_deviation": null,
+            "price_history_chart": {
+              "date": [
+                "2024-01",
+                "2024-02",
+                "2024-03"
+              ],
+              "data": [
+                2700,
+                2750,
+                2800
+              ]
+            }
+          }
+        },
+        "property_comparison": {
+          "features": {
+            "year_built": 2023,
+            "avg_year_built": 2021,
+            "building_area": "2100 sqft",
+            "avg_building_area": "1900 sqft",
+            "total_units": 50,
+            "avg_total_units": 45,
+            "zoning": {
+              "type": "Residential",
+              "comment": "Urban setting with easy access to amenities."
+            },
+            "metro": "Silver Spring Metro",
+            "market": "Urban",
+            "sub_market": "Silver Spring",
+            "parking": "Garage Parking",
+            "price_sqft": 1048
+          }
+        }
+      }
+    },
+    "Country": "us",
+    "Ext_Ref_Property_Id": "REF456",
+    "Ref_Owner_Id": "OWNER456",
+    "Owner": "jane.smith",
+    "Addr1": "Sunnyvale Apartments",
+    "Addr2": "123 Sunnyvale Street",
+    "Addr3": null,
+    "Addr4": null,
+    "City": "Silver Spring",
+    "State": "MD",
+    "ZipCode": 20901,
+    "Notes": "Luxury apartments in a prime urban location.",
+    "Vat_Recovery_Type": "Standard",
+    "Vat_Opted": 0,
+    "International": 0,
+    "Contract_Reserve": 0,
+    "Commission_Percent": 5,
+    "Commission_Min": 3000,
+    "Contract_Exp_Date": 45068.00011574074,
+    "Affordable": 0,
+    "Student": 0,
+    "Association": 1,
+    "CanadianSocialHousing": 0,
+    "Commercial": 0,
+    "Military": 0,
+    "PublicHousing": 0,
+    "Senior": 0,
+    "Residential": 1,
+    "Is_Estate": 0,
+    "Tax_Status_Changed": null,
+    "Status": "Active",
+    "Tax_Recovery_Percentage": null,
+    "NCREIF_Manager_ID": null,
+    "Purchase_Price": 0,
+    "True_Acquisition_Asset_Date": null,
+    "Net_Sales_Price": 0,
+    "Asset_Date_Not_NCREIF": null,
+    "Project_Type": "Luxury Apartments",
+    "Ideal_Lease": 12,
+    "Months_To_Lease": 2,
+    "Acquisition_Date": null,
+    "Disposition_Asset_Date": null,
+    "MLA": null,
+    "VAT_Tran_Type": null,
+    "Pur_Tran_Type": null,
+    "Effective_Date": null,
+    "utilities": [
+      "Electricity",
+      "Water",
+      "Gas"
+    ],
+    "propertyDetails": {
+      "lotArea": "15000 sqft",
+      "zoning": "Residential",
+      "totalUnits": "50",
+      "buildingArea": "2100 sqft",
+      "yearBuilt": "2023"
+    },
+    "Location": "usa"
+  },
+  {
+    "_id": "676029fe946b5fb50e8e58f9",
+    "assetName": "River View Apartments",
+    "assetsAddress": "123 Riverside Drive, Silver Spring, MD 20910, United States",
+    "assetType": "Residential",
+    "addedByEmail": "CodesisAI@Codesis.com",
+    "status": "For Rent",
+    "IRR": 260,
+    "equityMultiple": 230,
+    "cashYieldAvg": 502,
+    "level": "3rd Floor",
+    "property_type": "Residential",
+    "sponsored": true,
+    "assetValue": 25000,
+    "Property_Code": "riverview",
+    "assetDescription": "River View Apartments offer stunning views of the river and easy access to local parks and recreational areas. Enjoy a vibrant community with top-notch amenities and close proximity to public transport.",
+    "assetTags": [
+      "apartment",
+      "for rent",
+      "Silver Spring"
+    ],
+    "date": "2024-09-01T00:00:00.000Z",
+    "pricePerUnit": 1200,
+    "assetSquareFeet": 950,
+    "unitDuplex": 0,
+    "views": 208,
+    "sold": false,
+    "debt": 8000,
+    "addedBy": "admin",
+    "lat_and_long": [
+      [
+        39.004,
+        -77.034
+      ]
+    ],
+    "contact": [
+      {
+        "name": "Jane Smith",
+        "phone": "555-0199",
+        "email": "jane.smith@example.com"
+      }
+    ],
+    "contactEmail": "info@riverviewapartments.com",
+    "contactWebsite": "http://riverviewapartments.com",
+    "contactBrochure": "http://riverviewapartments.com/brochure.pdf",
+    "assetsImages": [
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48917/5b919f82-7e07-4489-9c6e-5d00d2f67650-modern-apartment-building-with-balconies-greenery2.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48917/5122f8d5-f32f-4107-9455-d2a164be09eb-1218A1-21.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48917/513fe7cc-3e4e-4733-a09d-65e0f1492b51-images%20%284%29.jpeg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48917/c167f317-231e-4ece-9eb2-4c9a872dd970-Discover-the-Best-Interior-Designers-from-Jeddah-Saudi-Arabia-8.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48917/3ac7c1f8-ce09-471f-a1a0-6891bc38f94f-images%20%283%29.jpeg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48917/3084fc8e-05e6-4272-ac09-dfd11971b6a4-living-room.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48917/968b7f88-b321-4734-9919-bd64de76a55e-images%20%282%29.jpeg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48917/acea1167-8b35-41e4-9d8f-c36b49b8a0c4-Admire-The-Best-Of-Minneapolis-Interior-Design-2-750x410.jpeg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48917/6fbd6bef-8626-416e-a5f1-5801704f73e2-images.jpeg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48917/2572080b-54f9-4507-94ed-ce80236f008b-1-BS1.test-compressed.jpeg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48917/ae833573-bcdc-4547-8682-bab3d26839d1-images%20%281%29.jpeg"
+    ],
+    "__v": 5,
+    "advanceAssets": {
+      "asset_info": {
+        "preview_media": {
+          "videos": [
+            "https://example.com/video1.mp4"
+          ]
+        },
+        "property_details": {
+          "desc": "Modern apartments with excellent amenities and scenic views.",
+          "features": {
+            "asset_type": "Residential",
+            "year_built": 2023,
+            "building_area": "1100 sqft",
+            "total_units": 60,
+            "zoning": "Residential",
+            "metro": "Silver Spring Metro",
+            "market": "Urban",
+            "sub_market": "Downtown",
+            "parking": "Garage Available",
+            "price_sqft": 15
+          },
+          "floor_plan": [
+            "https://example.com/floorplan1.png"
+          ],
+          "docs": {
+            "land_docs": [
+              "https://example.com/doc1.pdf",
+              "https://example.com/doc2.pdf"
+            ],
+            "advanced_techniques": [],
+            "financing_schemes": []
+          }
+        },
+        "utils_and_amenities": {
+          "utils_arrangement": {
+            "utils_table": [
+              {
+                "utility": "Electricity",
+                "cost": "$150"
+              },
+              {
+                "utility": "Water",
+                "cost": "$60"
+              }
+            ],
+            "utils_cost_history_chart": {
+              "filter_duration": "Last Year",
+              "timelime": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug",
+                "Sep"
+              ],
+              "electricity": [
+                140,
+                145,
+                150,
+                155,
+                160,
+                155,
+                170,
+                175,
+                180
+              ],
+              "gas": [
+                50,
+                55,
+                52,
+                53,
+                54,
+                56,
+                58,
+                60,
+                62
+              ],
+              "water": [
+                45,
+                50,
+                55,
+                60,
+                58,
+                57,
+                62,
+                65,
+                67
+              ]
+            }
+          },
+          "amenities": {
+            "types_of_locations": [
+              "Park",
+              "Shopping Mall"
+            ],
+            "other": [
+              "Gym",
+              "BBQ Area",
+              "Laundry Facilities"
+            ]
+          },
+          "jurisdiction": {
+            "state": "Maryland",
+            "tax_rate": 0.015,
+            "assessment": 20000,
+            "parcel_no": "987-654-321"
+          },
+          "valuation_and_taxes": {
+            "assessed_year": 2023,
+            "assessed_amount": 20000,
+            "tax_year": 2024,
+            "tax_amount": 300
+          }
+        },
+        "property_history": {
+          "sales_history": [
+            {
+              "date": "2023-05-01",
+              "event": "NA",
+              "price": 420000
+            },
+            {
+              "date": "2023-10-03",
+              "event": "NA",
+              "price": 261445
+            },
+            {
+              "date": "2023-06-01",
+              "event": "NA",
+              "price": 135484
+            },
+            {
+              "date": "2023-12-01",
+              "event": "NA",
+              "price": 421351
+            }
+          ],
+          "price_history": {
+            "filter_duration": null,
+            "asset_price": null,
+            "asset_deviation": null,
+            "market_price": null,
+            "market_deviation": null,
+            "price_history_chart": {
+              "date": [
+                "2024-01",
+                "2024-02",
+                "2024-03"
+              ],
+              "data": [
+                1150,
+                1180,
+                1200
+              ]
+            }
+          }
+        },
+        "property_comparison": {
+          "features": {
+            "year_built": 2023,
+            "avg_year_built": 2021,
+            "building_area": "1100 sqft",
+            "avg_building_area": "1000 sqft",
+            "total_units": 60,
+            "avg_total_units": 55,
+            "zoning": {
+              "type": "Residential",
+              "comment": "Family-friendly area"
+            },
+            "metro": "Silver Spring Metro",
+            "market": "Urban",
+            "sub_market": "Downtown",
+            "parking": "Garage Available",
+            "price_sqft": 15
+          }
+        }
+      }
+    },
+    "Country": "us",
+    "Ext_Ref_Property_Id": "REF456",
+    "Ref_Owner_Id": "OWNER456",
+    "Owner": "admin",
+    "Addr1": "River View Apartments",
+    "Addr2": "123 Riverside Drive",
+    "Addr3": null,
+    "Addr4": null,
+    "City": "Silver Spring",
+    "State": "MD",
+    "ZipCode": 20910,
+    "Notes": "Spacious units with modern interiors.",
+    "Vat_Recovery_Type": "Standard",
+    "Vat_Opted": 0,
+    "International": 0,
+    "Contract_Reserve": 0,
+    "Commission_Percent": 6,
+    "Commission_Min": 600,
+    "Contract_Exp_Date": 45048.00011574074,
+    "Affordable": 1,
+    "Student": 0,
+    "Association": 1,
+    "CanadianSocialHousing": 0,
+    "Commercial": 0,
+    "Military": 0,
+    "PublicHousing": 0,
+    "Senior": 0,
+    "Residential": 1,
+    "Is_Estate": 0,
+    "Tax_Status_Changed": null,
+    "Status": "Active",
+    "Tax_Recovery_Percentage": null,
+    "NCREIF_Manager_ID": null,
+    "Purchase_Price": 0,
+    "True_Acquisition_Asset_Date": null,
+    "Net_Sales_Price": 0,
+    "Asset_Date_Not_NCREIF": null,
+    "Project_Type": "Residential Development",
+    "Ideal_Lease": 12,
+    "Months_To_Lease": 2,
+    "Acquisition_Date": null,
+    "Disposition_Asset_Date": null,
+    "MLA": null,
+    "VAT_Tran_Type": null,
+    "Pur_Tran_Type": null,
+    "Effective_Date": null,
+    "utilities": [
+      "Electricity",
+      "Water",
+      "Gas",
+      {
+        "utility": "120",
+        "servicer": "any",
+        "paidBy": "any",
+        "meterType": "60",
+        "_id": "676902711f484a191c086667"
+      },
+      {
+        "utility": "120",
+        "servicer": "any",
+        "paidBy": "any",
+        "meterType": "60",
+        "_id": "6769033d1f484a191c086674"
+      },
+      {
+        "utility": "120",
+        "servicer": "any",
+        "paidBy": "any",
+        "meterType": "60",
+        "_id": "676908b51f484a191c086683"
+      }
+    ],
+    "propertyDetails": {
+      "lotArea": "6000 sqft",
+      "zoning": "Residential",
+      "totalUnits": "60",
+      "buildingArea": "1100 sqft",
+      "yearBuilt": "2023"
+    },
+    "Checklists": [],
+    "Location": "usa",
+    "utilities_units": []
+  },
+  {
+    "_id": "67602a0a946b5fb50e8e58fb",
+    "assetName": "Sunny Meadows Townhomes",
+    "assetsAddress": "456 Meadow Lane, Bethesda, MD 20814, United States",
+    "assetType": "Residential",
+    "addedByEmail": "CodesisAI@Codesis.com",
+    "status": "For Sale",
+    "IRR": 260,
+    "equityMultiple": 230,
+    "cashYieldAvg": 502,
+    "level": "2-Story",
+    "property_type": "Residential",
+    "sponsored": false,
+    "assetValue": 320000,
+    "Property_Code": "sunnymeadows",
+    "assetDescription": "Sunny Meadows Townhomes provide a perfect blend of modern living and tranquility. Nestled in a family-friendly neighborhood, these homes offer spacious layouts and beautiful landscaping, close to parks and shopping.",
+    "assetTags": [
+      "townhome",
+      "for sale",
+      "Bethesda"
+    ],
+    "date": "2024-09-15T00:00:00.000Z",
+    "pricePerUnit": 3200,
+    "assetSquareFeet": 1800,
+    "unitDuplex": 0,
+    "views": 150,
+    "sold": false,
+    "debt": 50000,
+    "addedBy": "john.doe",
+    "lat_and_long": [
+      [
+        38.981,
+        -77.094
+      ]
+    ],
+    "contact": [
+      {
+        "name": "Emily Johnson",
+        "phone": "555-0101",
+        "email": "emily.johnson@example.com"
+      }
+    ],
+    "contactEmail": "info@sunnymeadowtownhomes.com",
+    "contactWebsite": "http://sunnymeadowtownhomes.com",
+    "contactBrochure": "http://sunnymeadowtownhomes.com/brochure.pdf",
+    "assetsImages": [
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48918/9ba69784-1894-4428-83c8-374034905b36-modern-crescent-apartment-building-affluent-neighborhood1.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48918/df4632ba-479b-4ba2-8a13-6cf3f8410bcb-images%20%283%29.jpeg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48918/7f805c36-c5a3-4ca8-8980-97f38f278d6e-50-Best-Interior-Designers-In-Florida37.jpeg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48918/7b27ded0-8a5d-4512-a0e3-21a91ff57dd9-images%20%282%29.jpeg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48918/821859af-19ab-4ebe-a7c6-b8188dcb2552-images%20%281%29.jpeg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48918/aa96408b-1458-431c-87a8-4f468fe560c0-211006-CKID_InletTerr_010.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48918/4909420b-cc1c-47dc-a438-de34c6039fe2-tsg-interiordesigners-northeast-mainline-glennastone.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48918/c9b42884-0705-4e15-bd07-241096c6864c-images.jpeg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48918/8ed3163b-f12e-4113-be9f-fd650e9c9e7d-interior-designers-brisbane.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48918/97685340-27ec-4d76-aa15-3e26a197c379-LauraHodgesStudio_BSOShowHouseFamilyRoom2.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48918/b23890e9-cdc7-4ab3-be05-fc64548d2bfd-LauraHodgesStudio_BSOShowHouseFamilyRoom.jpg"
+    ],
+    "__v": 1,
+    "advanceAssets": {
+      "asset_info": {
+        "preview_media": {
+          "videos": [
+            "https://example.com/video_townhome.mp4"
+          ]
+        },
+        "property_details": {
+          "desc": "Luxurious townhomes with modern amenities and spacious interiors.",
+          "features": {
+            "asset_type": "Residential",
+            "year_built": 2024,
+            "building_area": "1800 sqft",
+            "total_units": 40,
+            "zoning": "Residential",
+            "metro": "Bethesda Metro",
+            "market": "Suburban",
+            "sub_market": "Bethesda",
+            "parking": "Garage and Street Parking",
+            "price_sqft": 177.78
+          },
+          "floor_plan": [
+            "https://example.com/floorplan_townhome.png"
+          ],
+          "docs": {
+            "land_docs": [
+              "https://example.com/doc3.pdf",
+              "https://example.com/doc4.pdf"
+            ],
+            "advanced_techniques": [],
+            "financing_schemes": []
+          }
+        },
+        "utils_and_amenities": {
+          "utils_arrangement": {
+            "utils_table": [
+              {
+                "utility": "Electricity",
+                "cost": "$200"
+              },
+              {
+                "utility": "Water",
+                "cost": "$70"
+              }
+            ],
+            "utils_cost_history_chart": {
+              "filter_duration": "Last Year",
+              "timelime": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug",
+                "Sep"
+              ],
+              "electricity": [
+                190,
+                195,
+                200,
+                210,
+                220,
+                215,
+                230,
+                240,
+                245
+              ],
+              "gas": [
+                60,
+                62,
+                65,
+                67,
+                68,
+                70,
+                72,
+                74,
+                76
+              ],
+              "water": [
+                50,
+                55,
+                58,
+                60,
+                65,
+                62,
+                67,
+                70,
+                75
+              ]
+            }
+          },
+          "amenities": {
+            "types_of_locations": [
+              "Park",
+              "Shopping Center"
+            ],
+            "other": [
+              "Community Pool",
+              "Fitness Center",
+              "Playground"
+            ]
+          },
+          "jurisdiction": {
+            "state": "Maryland",
+            "tax_rate": 0.013,
+            "assessment": 300000,
+            "parcel_no": "321-654-987"
+          },
+          "valuation_and_taxes": {
+            "assessed_year": 2024,
+            "assessed_amount": 300000,
+            "tax_year": 2025,
+            "tax_amount": 3900
+          }
+        },
+        "property_history": {
+          "sales_history": [
+            {
+              "date": "2023-05-01",
+              "event": "NA",
+              "price": 420000
+            },
+            {
+              "date": "2023-10-03",
+              "event": "NA",
+              "price": 261445
+            },
+            {
+              "date": "2023-06-01",
+              "event": "NA",
+              "price": 135484
+            },
+            {
+              "date": "2023-12-01",
+              "event": "NA",
+              "price": 421351
+            }
+          ],
+          "price_history": {
+            "filter_duration": null,
+            "asset_price": null,
+            "asset_deviation": null,
+            "market_price": null,
+            "market_deviation": null,
+            "price_history_chart": {
+              "date": [
+                "2024-01",
+                "2024-02",
+                "2024-03"
+              ],
+              "data": [
+                3100,
+                3150,
+                3200
+              ]
+            }
+          }
+        },
+        "property_comparison": {
+          "features": {
+            "year_built": 2024,
+            "avg_year_built": 2021,
+            "building_area": "1800 sqft",
+            "avg_building_area": "1600 sqft",
+            "total_units": 40,
+            "avg_total_units": 35,
+            "zoning": {
+              "type": "Residential",
+              "comment": "Ideal for families"
+            },
+            "metro": "Bethesda Metro",
+            "market": "Suburban",
+            "sub_market": "Bethesda",
+            "parking": "Garage and Street Parking",
+            "price_sqft": 177.78
+          }
+        }
+      }
+    },
+    "Country": "us",
+    "Ext_Ref_Property_Id": "REF789",
+    "Ref_Owner_Id": "OWNER789",
+    "Owner": "john.doe",
+    "Addr1": "Sunny Meadows Townhomes",
+    "Addr2": "456 Meadow Lane",
+    "Addr3": null,
+    "Addr4": null,
+    "City": "Bethesda",
+    "State": "MD",
+    "ZipCode": 20814,
+    "Notes": "Family-friendly community with ample green space.",
+    "Vat_Recovery_Type": "Standard",
+    "Vat_Opted": 0,
+    "International": 0,
+    "Contract_Reserve": 0,
+    "Commission_Percent": 5,
+    "Commission_Min": 1600,
+    "Contract_Exp_Date": 45049.00011574074,
+    "Affordable": 1,
+    "Student": 0,
+    "Association": 1,
+    "CanadianSocialHousing": 0,
+    "Commercial": 0,
+    "Military": 0,
+    "PublicHousing": 0,
+    "Senior": 0,
+    "Residential": 1,
+    "Is_Estate": 0,
+    "Tax_Status_Changed": null,
+    "Status": "Active",
+    "Tax_Recovery_Percentage": null,
+    "NCREIF_Manager_ID": null,
+    "Purchase_Price": 0,
+    "True_Acquisition_Asset_Date": null,
+    "Net_Sales_Price": 0,
+    "Asset_Date_Not_NCREIF": null,
+    "Project_Type": "Residential Development",
+    "Ideal_Lease": 12,
+    "Months_To_Lease": 3,
+    "Acquisition_Date": null,
+    "Disposition_Asset_Date": null,
+    "MLA": null,
+    "VAT_Tran_Type": null,
+    "Pur_Tran_Type": null,
+    "Effective_Date": null,
+    "utilities": [
+      "Electricity",
+      "Water",
+      "Gas"
+    ],
+    "propertyDetails": {
+      "lotArea": "7000 sqft",
+      "zoning": "Residential",
+      "totalUnits": "40",
+      "buildingArea": "1800 sqft",
+      "yearBuilt": "2024"
+    },
+    "Location": "usa"
+  },
+  {
+    "_id": "67602a36946b5fb50e8e5900",
+    "assetName": "Greenwood Towers",
+    "assetsAddress": "1234 Greenwood Avenue, Bethesda, MD 20814, United States",
+    "assetType": "Residential",
+    "addedByEmail": "CodesisAI@Codesis.com",
+    "status": "Pending",
+    "level": "High-Rise",
+    "IRR": 260,
+    "equityMultiple": 230,
+    "cashYieldAvg": 502,
+    "property_type": "Residential",
+    "sponsored": true,
+    "assetValue": 2500000,
+    "Property_Code": "greenwood",
+    "assetDescription": "Greenwood Towers offers luxury living with panoramic views, state-of-the-art amenities, and convenient access to downtown Bethesda’s vibrant lifestyle.",
+    "assetTags": [
+      "luxury",
+      "high-rise",
+      "panoramic views"
+    ],
+    "date": "2024-09-15T00:00:00.000Z",
+    "pricePerUnit": 3000,
+    "assetSquareFeet": 2200,
+    "unitDuplex": 0,
+    "views": 200,
+    "sold": false,
+    "debt": 800000,
+    "addedBy": "sara.jones",
+    "lat_and_long": [
+      [
+        38.9812,
+        -77.1007
+      ]
+    ],
+    "contact": [
+      {
+        "name": "Michael Brown",
+        "phone": "555-9876",
+        "email": "michael.brown@example.com"
+      }
+    ],
+    "contactEmail": "info@greenwoodtowers.com",
+    "contactWebsite": "http://greenwoodtowers.com",
+    "contactBrochure": "http://greenwoodtowers.com/brochure.pdf",
+    "assetsImages": [
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891d/75b44bd7-4e39-44e7-bca0-49f110706b75-3d-rendering-beautiful-comtemporary-luxury-bedroom-suite-hotel-with-tv_1_optimized_150.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891d/2a5d8f56-9294-46fe-9935-e22ff7c6f6f0-3d-rendering-beautiful-luxury-bedroom-suite-hotel-with-tv-chandelier_optimized_150.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891d/494967ca-89a9-4c43-8419-88264451abec-3d-rendering-loft-luxury-living-room-with-bookshelf_optimized_150.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891d/e6c48f7a-ddf8-4975-88c9-d057751af1f8-3d-rendering-loft-luxury-living-room-with-bookshelf-with-pouf_optimized_150.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891d/4824917b-c2db-43dd-8cef-10daf2cf6688-3d-rendering-loft-scandinavian-living-room-with-working-table-bookshelf_1_optimized_150.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891d/3d3080af-6fe3-40b7-969d-6c2ba3ae8d5b-3d-rendering-loft-scandinavian-living-room-with-working-table-bookshelf_optimized_150.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891d/ab03b70c-0c38-432c-a0fe-ad8355b6e04c-3d-rendering-modern-dining-room-living-room-with-luxury-decor_1_optimized_150.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891d/7e5208d5-bfa6-486a-879f-116ec77b1fd6-jpeg-optimizer_modern-living-room-with-large-tv-sectional-sofa-wooden-floor.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891d/df821138-cc1d-4ce4-8e99-86c3f15feb86-jpeg-optimizer_spacious-room-with-big-window.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891d/724e26d4-102f-402c-a1c1-7420455f8273-jpeg-optimizer_spacious-room-with-wooden-table.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891d/51143912-4a59-449f-af3a-69eea3b6c947-jpeg-optimizer_stylish-loft-interior-background.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891d/01eb8022-c64e-421b-9283-0ec7f49f254e-living-room-with-tv-tv-wall_optimized_150.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891d/3d36aeb3-378c-428b-848f-51f852c99153-modern-apartment-building-city-san-diego-california-usa1.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891d/d5b557b4-82e8-4659-b4f5-9c4ea6cf1952-modern-bedroom-with-large-bed-wooden-wall-natural-light_optimized_150.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891d/7cce4c79-caa9-41c4-8cf6-3284d4f6fdb1-modern-living-room-with-large-tv-sectional-sofa-wooden-floor_optimized_150.jpg"
+    ],
+    "__v": 1,
+    "advanceAssets": {
+      "asset_info": {
+        "preview_media": {
+          "videos": [
+            "https://example.com/video_greenwood.mp4"
+          ]
+        },
+        "property_details": {
+          "desc": "High-end apartments with exclusive amenities and exceptional views.",
+          "features": {
+            "asset_type": "Residential",
+            "year_built": 2025,
+            "building_area": "2200 sqft",
+            "total_units": 50,
+            "zoning": "Residential",
+            "metro": "Bethesda Metro",
+            "market": "Urban",
+            "sub_market": "Downtown Bethesda",
+            "parking": "Valet Parking",
+            "price_sqft": 1136.36
+          },
+          "floor_plan": [
+            "https://example.com/floorplan_greenwood.png"
+          ],
+          "docs": {
+            "land_docs": [
+              "https://example.com/doc3.pdf",
+              "https://example.com/doc4.pdf"
+            ],
+            "advanced_techniques": [],
+            "financing_schemes": []
+          }
+        },
+        "utils_and_amenities": {
+          "utils_arrangement": {
+            "utils_table": [
+              {
+                "utility": "Electricity",
+                "cost": "$300"
+              },
+              {
+                "utility": "Water",
+                "cost": "$80"
+              },
+              {
+                "utility": "Gas",
+                "cost": "$100"
+              }
+            ],
+            "utils_cost_history_chart": {
+              "filter_duration": "Last Year",
+              "timelime": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug",
+                "Sep"
+              ],
+              "electricity": [
+                290,
+                295,
+                300,
+                310,
+                320,
+                325,
+                330,
+                335,
+                340
+              ],
+              "gas": [
+                95,
+                98,
+                100,
+                102,
+                105,
+                108,
+                110,
+                112,
+                115
+              ],
+              "water": [
+                75,
+                78,
+                80,
+                82,
+                85,
+                88,
+                90,
+                92,
+                95
+              ]
+            }
+          },
+          "amenities": {
+            "types_of_locations": [
+              "Urban",
+              "Parks",
+              "Shopping"
+            ],
+            "other": [
+              "Swimming Pool",
+              "Gym",
+              "Business Center"
+            ]
+          },
+          "jurisdiction": {
+            "state": "Maryland",
+            "tax_rate": 0.015,
+            "assessment": 2450000,
+            "parcel_no": "654-321-987"
+          },
+          "valuation_and_taxes": {
+            "assessed_year": 2025,
+            "assessed_amount": 2450000,
+            "tax_year": 2026,
+            "tax_amount": 36750
+          }
+        },
+        "property_history": {
+          "sales_history": [
+            {
+              "date": "2023-05-01",
+              "event": "NA",
+              "price": 420000
+            },
+            {
+              "date": "2023-10-03",
+              "event": "NA",
+              "price": 261445
+            },
+            {
+              "date": "2023-06-01",
+              "event": "NA",
+              "price": 135484
+            },
+            {
+              "date": "2023-12-01",
+              "event": "NA",
+              "price": 421351
+            }
+          ],
+          "price_history": {
+            "filter_duration": null,
+            "asset_price": null,
+            "asset_deviation": null,
+            "market_price": null,
+            "market_deviation": null,
+            "price_history_chart": {
+              "date": [
+                "2024-01",
+                "2024-02",
+                "2024-03"
+              ],
+              "data": [
+                2900,
+                2950,
+                3000
+              ]
+            }
+          }
+        },
+        "property_comparison": {
+          "features": {
+            "year_built": 2025,
+            "avg_year_built": 2023,
+            "building_area": "2200 sqft",
+            "avg_building_area": "2000 sqft",
+            "total_units": 50,
+            "avg_total_units": 45,
+            "zoning": {
+              "type": "Residential",
+              "comment": "High-density urban area."
+            },
+            "metro": "Bethesda Metro",
+            "market": "Urban",
+            "sub_market": "Downtown Bethesda",
+            "parking": "Valet Parking",
+            "price_sqft": 1136.36
+          }
+        }
+      }
+    },
+    "Country": "us",
+    "Ext_Ref_Property_Id": "REF456",
+    "Ref_Owner_Id": "OWNER456",
+    "Owner": "sara.jones",
+    "Addr1": "Greenwood Towers",
+    "Addr2": "1234 Greenwood Avenue",
+    "Addr3": null,
+    "Addr4": null,
+    "City": "Bethesda",
+    "State": "MD",
+    "ZipCode": 20814,
+    "Notes": "Luxury high-rise apartments with premium features.",
+    "Vat_Recovery_Type": "Standard",
+    "Vat_Opted": 0,
+    "International": 0,
+    "Contract_Reserve": 0,
+    "Commission_Percent": 5,
+    "Commission_Min": 3000,
+    "Contract_Exp_Date": 45053.00011574074,
+    "Affordable": 0,
+    "Student": 0,
+    "Association": 1,
+    "CanadianSocialHousing": 0,
+    "Commercial": 0,
+    "Military": 0,
+    "PublicHousing": 0,
+    "Senior": 0,
+    "Residential": 1,
+    "Is_Estate": 0,
+    "Tax_Status_Changed": null,
+    "Status": "Active",
+    "Tax_Recovery_Percentage": null,
+    "NCREIF_Manager_ID": null,
+    "Purchase_Price": 0,
+    "True_Acquisition_Asset_Date": null,
+    "Net_Sales_Price": 0,
+    "Asset_Date_Not_NCREIF": null,
+    "Project_Type": "Luxury High-Rise",
+    "Ideal_Lease": 24,
+    "Months_To_Lease": 2,
+    "Acquisition_Date": null,
+    "Disposition_Asset_Date": null,
+    "MLA": null,
+    "VAT_Tran_Type": null,
+    "Pur_Tran_Type": null,
+    "Effective_Date": null,
+    "utilities": [
+      "Electricity",
+      "Water",
+      "Gas"
+    ],
+    "propertyDetails": {
+      "lotArea": "15000 sqft",
+      "zoning": "Residential",
+      "totalUnits": "50",
+      "buildingArea": "2200 sqft",
+      "yearBuilt": "2025"
+    },
+    "Location": "usa"
+  },
+  {
+    "_id": "666bec1d75fd2798ccd48963",
+    "assetName": "River View Apartments",
+    "assetsAddress": "123 Riverside Drive, Silver Spring, MD 20910, United States",
+    "assetType": "Residential",
+    "addedByEmail": "CodesisAI@Codesis.com",
+    "status": "For Rent",
+    "level": "3rd Floor",
+    "property_type": "Residential",
+    "sponsored": true,
+    "assetValue": 25000,
+    "Property_Code": "riverview",
+    "assetDescription": "River View Apartments offer stunning views of the river and easy access to local parks and recreational areas. Enjoy a vibrant community with top-notch amenities and close proximity to public transport. test ",
+    "assetTags": [
+      "apartment",
+      "for rent",
+      "Silver Spring"
+    ],
+    "date": "2024-09-01T00:00:00.000Z",
+    "pricePerUnit": 1200,
+    "assetSquareFeet": 950,
+    "unitDuplex": 0,
+    "views": 204,
+    "sold": false,
+    "debt": 8000,
+    "addedBy": "admin",
+    "lat_and_long": [
+      [
+        39.004,
+        -77.034
+      ]
+    ],
+    "contact": [
+      {
+        "name": "Jane Smith",
+        "phone": "555-0199",
+        "email": "jane.smith@example.com"
+      }
+    ],
+    "contactEmail": "info@riverviewapartments.com",
+    "contactWebsite": "http://riverviewapartments.com",
+    "contactBrochure": "http://riverviewapartments.com/brochure.pdf",
+    "assetsImages": [
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48917/5b919f82-7e07-4489-9c6e-5d00d2f67650-modern-apartment-building-with-balconies-greenery2.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48917/5122f8d5-f32f-4107-9455-d2a164be09eb-1218A1-21.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48917/513fe7cc-3e4e-4733-a09d-65e0f1492b51-images%20%284%29.jpeg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48917/c167f317-231e-4ece-9eb2-4c9a872dd970-Discover-the-Best-Interior-Designers-from-Jeddah-Saudi-Arabia-8.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48917/3ac7c1f8-ce09-471f-a1a0-6891bc38f94f-images%20%283%29.jpeg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48917/3084fc8e-05e6-4272-ac09-dfd11971b6a4-living-room.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48917/968b7f88-b321-4734-9919-bd64de76a55e-images%20%282%29.jpeg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48917/acea1167-8b35-41e4-9d8f-c36b49b8a0c4-Admire-The-Best-Of-Minneapolis-Interior-Design-2-750x410.jpeg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48917/6fbd6bef-8626-416e-a5f1-5801704f73e2-images.jpeg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48917/2572080b-54f9-4507-94ed-ce80236f008b-1-BS1.test-compressed.jpeg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48917/ae833573-bcdc-4547-8682-bab3d26839d1-images%20%281%29.jpeg"
+    ],
+    "__v": 4,
+    "advanceAssets": {
+      "asset_info": {
+        "preview_media": {
+          "videos": [
+            "https://example.com/video1.mp4"
+          ]
+        },
+        "property_details": {
+          "desc": "Modern apartments with excellent amenities and scenic views.",
+          "features": {
+            "asset_type": "Residential",
+            "year_built": 2023,
+            "building_area": "1100 sqft",
+            "total_units": 60,
+            "zoning": "Residential",
+            "metro": "Silver Spring Metro",
+            "market": "Urban",
+            "sub_market": "Downtown",
+            "parking": "Garage Available",
+            "price_sqft": 15
+          },
+          "floor_plan": [
+            "https://example.com/floorplan1.png"
+          ],
+          "docs": {
+            "land_docs": [
+              "https://example.com/doc1.pdf",
+              "https://example.com/doc2.pdf"
+            ],
+            "advanced_techniques": [],
+            "financing_schemes": []
+          }
+        },
+        "utils_and_amenities": {
+          "utils_arrangement": {
+            "utils_table": [
+              {
+                "utility": "Electricity",
+                "cost": "$150"
+              },
+              {
+                "utility": "Water",
+                "cost": "$60"
+              }
+            ],
+            "utils_cost_history_chart": {
+              "filter_duration": "Last Year",
+              "timelime": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug",
+                "Sep"
+              ],
+              "electricity": [
+                140,
+                145,
+                150,
+                155,
+                160,
+                155,
+                170,
+                175,
+                180
+              ],
+              "gas": [
+                50,
+                55,
+                52,
+                53,
+                54,
+                56,
+                58,
+                60,
+                62
+              ],
+              "water": [
+                45,
+                50,
+                55,
+                60,
+                58,
+                57,
+                62,
+                65,
+                67
+              ]
+            }
+          },
+          "amenities": {
+            "types_of_locations": [
+              "Park",
+              "Shopping Mall"
+            ],
+            "other": [
+              "Gym",
+              "BBQ Area",
+              "Laundry Facilities"
+            ]
+          },
+          "jurisdiction": {
+            "state": "Maryland",
+            "tax_rate": 0.015,
+            "assessment": 20000,
+            "parcel_no": "987-654-321"
+          },
+          "valuation_and_taxes": {
+            "assessed_year": 2023,
+            "assessed_amount": 20000,
+            "tax_year": 2024,
+            "tax_amount": 300
+          }
+        },
+        "property_history": {
+          "sales_history": [
+            {
+              "date": "2023-05-01",
+              "event": "NA",
+              "price": 420000
+            },
+            {
+              "date": "2023-10-03",
+              "event": "NA",
+              "price": 261445
+            },
+            {
+              "date": "2023-06-01",
+              "event": "NA",
+              "price": 135484
+            },
+            {
+              "date": "2023-12-01",
+              "event": "NA",
+              "price": 421351
+            }
+          ],
+          "price_history": {
+            "filter_duration": null,
+            "asset_price": null,
+            "asset_deviation": null,
+            "market_price": null,
+            "market_deviation": null,
+            "price_history_chart": {
+              "date": [
+                "2024-01",
+                "2024-02",
+                "2024-03"
+              ],
+              "data": [
+                1150,
+                1180,
+                1200
+              ]
+            }
+          }
+        },
+        "property_comparison": {
+          "features": {
+            "year_built": 2023,
+            "avg_year_built": 2021,
+            "building_area": "1100 sqft",
+            "avg_building_area": "1000 sqft",
+            "total_units": 60,
+            "avg_total_units": 55,
+            "zoning": {
+              "type": "Residential",
+              "comment": "Family-friendly area"
+            },
+            "metro": "Silver Spring Metro",
+            "market": "Urban",
+            "sub_market": "Downtown",
+            "parking": "Garage Available",
+            "price_sqft": 15
+          }
+        }
+      }
+    },
+    "Country": "us",
+    "Ext_Ref_Property_Id": "REF456",
+    "Ref_Owner_Id": "OWNER456",
+    "Owner": "admin",
+    "Addr1": "River View Apartments",
+    "Addr2": "123 Riverside Drive",
+    "Addr3": null,
+    "Addr4": null,
+    "City": "Silver Spring",
+    "State": "MD",
+    "ZipCode": 20910,
+    "Notes": "Spacious units with modern interiors.",
+    "Vat_Recovery_Type": "Standard",
+    "Vat_Opted": 0,
+    "International": 0,
+    "Contract_Reserve": 0,
+    "Commission_Percent": 6,
+    "Commission_Min": 600,
+    "Contract_Exp_Date": 45048.00011574074,
+    "Affordable": 1,
+    "Student": 0,
+    "Association": 1,
+    "CanadianSocialHousing": 0,
+    "Commercial": 0,
+    "Military": 0,
+    "PublicHousing": 0,
+    "Senior": 0,
+    "Residential": 1,
+    "Is_Estate": 0,
+    "Tax_Status_Changed": null,
+    "Status": "Active",
+    "Tax_Recovery_Percentage": null,
+    "NCREIF_Manager_ID": null,
+    "Purchase_Price": 0,
+    "True_Acquisition_Asset_Date": null,
+    "Net_Sales_Price": 0,
+    "Asset_Date_Not_NCREIF": null,
+    "Project_Type": "Residential Development",
+    "Ideal_Lease": 12,
+    "Months_To_Lease": 2,
+    "Acquisition_Date": null,
+    "Disposition_Asset_Date": null,
+    "MLA": null,
+    "VAT_Tran_Type": null,
+    "Pur_Tran_Type": null,
+    "Effective_Date": null,
+    "utilities": [
+      "Electricity",
+      "Water",
+      "Gas",
+      {
+        "utility": "120",
+        "servicer": "any",
+        "paidBy": "any",
+        "meterType": "60",
+        "_id": "67690be81f484a191c0866b0"
+      },
+      {
+        "utility": "5525",
+        "servicer": "any",
+        "paidBy": "any",
+        "meterType": "120",
+        "_id": "676915f63940342d37b901a5"
+      }
+    ],
+    "propertyDetails": {
+      "lotArea": "",
+      "zoning": "",
+      "totalUnits": "",
+      "buildingArea": "",
+      "yearBuilt": ""
+    },
+    "Checklists": [],
+    "utilities_units": [],
+    "contactPhone": 12345678900,
+    "Location": "usa",
+    "IRR": 260,
+    "equityMultiple": 230,
+    "cashYieldAvg": 502
+  },
+  {
+    "_id": "666bec1d75fd2798ccd4891f",
+    "assetName": "Elevated Abode",
+    "assetsAddress": "456 Lakeside Drive, Annapolis, MD 21401, United States",
+    "assetType": "Residential",
+    "addedByEmail": "CodesisAI@Codesis.com",
+    "status": "Pending",
+    "level": "Single-Story",
+    "IRR": 260,
+    "equityMultiple": 230,
+    "cashYieldAvg": 502,
+    "property_type": "Residential",
+    "sponsored": true,
+    "assetValue": 800000,
+    "Property_Code": "lakesidevillas1",
+    "assetDescription": "Elevated Abode offers serene living with stunning lake views and access to recreational activities. Each villa is designed with luxury finishes and spacious layouts.",
+    "assetTags": [
+      "villa",
+      "luxury",
+      "waterfront"
+    ],
+    "date": "2024-09-15T00:00:00.000Z",
+    "pricePerUnit": 3000,
+    "assetSquareFeet": 1500,
+    "unitDuplex": 0,
+    "views": 206,
+    "sold": false,
+    "debt": 300000,
+    "addedBy": "sara.jones",
+    "lat_and_long": [
+      [
+        38.9784,
+        -76.4919
+      ]
+    ],
+    "contact": [
+      {
+        "name": "Michael Thompson",
+        "phone": "555-5678",
+        "email": "michael.thompson@example.com"
+      }
+    ],
+    "contactEmail": "info@lakesidevillas.com",
+    "contactWebsite": "http://lakesidevillas.com",
+    "contactBrochure": "http://lakesidevillas.com/brochure.pdf",
+    "assetsImages": [
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891b/3882eeb1-007c-49a5-b123-56a6f705fd09-building-with-balcony-that-says-name-apartment1.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891b/d6f6fb37-aaf3-48c7-9fb6-ab795b563ed7-Cape-Code-Style-Interior-Design-57-1500x1001.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891b/70437a91-5392-4e9c-8eb1-9c3a263227e4-full-house-interior-design-of-american-style-oppein-group-img~d1b1fa72083e3101_4-2465-1-bbb9c71.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891b/09b09dc4-cf7a-47c3-a9e9-7d4a69af2fcb-American-style-house-interior-design-in-Dammam-2.1522524114.1883.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891b/292867b6-c027-4769-83c2-4522bfb8a59a-flat-interior-design-2.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891b/bf8d74cd-06cc-4e72-886c-ceffe9a21945-images.jpeg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891b/f1d080b1-9bea-4760-8fdf-364a212f3f06-living-room-resuts-using-interior-design-help-and-decorating-help.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891b/02392af8-00e0-40d4-ac9b-726ff7185176-Five-Important-Considerations-for-Interior-Design-2.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891b/f39ad4ee-cec1-4276-bc5b-bc060e287480-pexels-fotoaibe-1571460.jpg"
+    ],
+    "__v": 4,
+    "advanceAssets": {
+      "asset_info": {
+        "preview_media": {
+          "videos": [
+            "https://example.com/video_lakeside.mp4"
+          ]
+        },
+        "property_details": {
+          "desc": "Elegant villas with breathtaking waterfront views and premium amenities.",
+          "features": {
+            "asset_type": "Residential",
+            "year_built": 2023,
+            "building_area": "1500 sqft",
+            "total_units": 25,
+            "zoning": "Residential",
+            "metro": "Annapolis Metro",
+            "market": "Suburban",
+            "sub_market": "Annapolis",
+            "parking": "Dedicated Parking",
+            "price_sqft": 533.33
+          },
+          "floor_plan": [
+            "https://example.com/floorplan_lakeside.png"
+          ],
+          "docs": {
+            "land_docs": [
+              "https://example.com/doc1.pdf",
+              "https://example.com/doc2.pdf"
+            ],
+            "advanced_techniques": [],
+            "financing_schemes": []
+          }
+        },
+        "utils_and_amenities": {
+          "utils_arrangement": {
+            "utils_table": [
+              {
+                "utility": "Electricity",
+                "cost": "$200"
+              },
+              {
+                "utility": "Water",
+                "cost": "$60"
+              },
+              {
+                "utility": "Gas",
+                "cost": "$80"
+              }
+            ],
+            "utils_cost_history_chart": {
+              "filter_duration": "Last Year",
+              "timelime": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug",
+                "Sep"
+              ],
+              "electricity": [
+                180,
+                185,
+                190,
+                200,
+                210,
+                220,
+                225,
+                230,
+                235
+              ],
+              "gas": [
+                70,
+                72,
+                75,
+                78,
+                80,
+                82,
+                85,
+                88,
+                90
+              ],
+              "water": [
+                50,
+                52,
+                55,
+                58,
+                60,
+                62,
+                65,
+                68,
+                70
+              ]
+            }
+          },
+          "amenities": {
+            "types_of_locations": [
+              "Waterfront",
+              "Parks",
+              "Shopping"
+            ],
+            "other": [
+              "Swimming Pool",
+              "Fitness Center",
+              "BBQ Area"
+            ]
+          },
+          "jurisdiction": {
+            "state": "Maryland",
+            "tax_rate": 0.015,
+            "assessment": 750000,
+            "parcel_no": "123-456-789"
+          },
+          "valuation_and_taxes": {
+            "assessed_year": 2024,
+            "assessed_amount": 750000,
+            "tax_year": 2025,
+            "tax_amount": 11250
+          }
+        },
+        "property_history": {
+          "sales_history": [
+            {
+              "date": "2023-05-01",
+              "event": "NA",
+              "price": 420000
+            },
+            {
+              "date": "2023-10-03",
+              "event": "NA",
+              "price": 261445
+            },
+            {
+              "date": "2023-06-01",
+              "event": "NA",
+              "price": 135484
+            },
+            {
+              "date": "2023-12-01",
+              "event": "NA",
+              "price": 421351
+            }
+          ],
+          "price_history": {
+            "filter_duration": null,
+            "asset_price": null,
+            "asset_deviation": null,
+            "market_price": null,
+            "market_deviation": null,
+            "price_history_chart": {
+              "date": [
+                "2024-01",
+                "2024-02",
+                "2024-03"
+              ],
+              "data": [
+                2900,
+                2950,
+                3000
+              ]
+            }
+          }
+        },
+        "property_comparison": {
+          "features": {
+            "year_built": 2023,
+            "avg_year_built": 2021,
+            "building_area": "1500 sqft",
+            "avg_building_area": "1400 sqft",
+            "total_units": 25,
+            "avg_total_units": 20,
+            "zoning": {
+              "type": "Residential",
+              "comment": "Lakeside community with family-friendly environment."
+            },
+            "metro": "Annapolis Metro",
+            "market": "Suburban",
+            "sub_market": "Annapolis",
+            "parking": "Dedicated Parking",
+            "price_sqft": 533.33
+          }
+        }
+      }
+    },
+    "Country": "us",
+    "Ext_Ref_Property_Id": "REF456",
+    "Ref_Owner_Id": "OWNER456",
+    "Owner": "sara.jones",
+    "Addr1": "Lakeside Villas",
+    "Addr2": "456 Lakeside Drive",
+    "Addr3": null,
+    "Addr4": null,
+    "City": "Annapolis",
+    "State": "MD",
+    "ZipCode": 21401,
+    "Notes": "Beautiful villas with exceptional amenities and lake access.",
+    "Vat_Recovery_Type": "Standard",
+    "Vat_Opted": 0,
+    "International": 0,
+    "Contract_Reserve": 0,
+    "Commission_Percent": 5,
+    "Commission_Min": 3000,
+    "Contract_Exp_Date": 45050.00011574074,
+    "Affordable": 0,
+    "Student": 0,
+    "Association": 1,
+    "CanadianSocialHousing": 0,
+    "Commercial": 0,
+    "Military": 0,
+    "PublicHousing": 0,
+    "Senior": 0,
+    "Residential": 1,
+    "Is_Estate": 0,
+    "Tax_Status_Changed": null,
+    "Status": "Active",
+    "Tax_Recovery_Percentage": null,
+    "NCREIF_Manager_ID": null,
+    "Purchase_Price": 0,
+    "True_Acquisition_Asset_Date": null,
+    "Net_Sales_Price": 0,
+    "Asset_Date_Not_NCREIF": null,
+    "Project_Type": "Luxury Villas",
+    "Ideal_Lease": 12,
+    "Months_To_Lease": 2,
+    "Acquisition_Date": null,
+    "Disposition_Asset_Date": null,
+    "MLA": null,
+    "VAT_Tran_Type": null,
+    "Pur_Tran_Type": null,
+    "Effective_Date": null,
+    "utilities": [
+      "Electricity",
+      "Water",
+      "Gas"
+    ],
+    "propertyDetails": {
+      "lotArea": "",
+      "zoning": "",
+      "totalUnits": "",
+      "buildingArea": "",
+      "yearBuilt": ""
+    },
+    "Location": "usa",
+    "Checklists": [],
+    "utilities_units": [
+      {
+        "utility": "213",
+        "servicer": "56456",
+        "paidBy": "me",
+        "meterType": "120",
+        "_id": "677e16ad52e202fbe207d4ce"
+      },
+      {
+        "utility": "213",
+        "servicer": "56456",
+        "paidBy": "me",
+        "meterType": "120",
+        "_id": "677e16b352e202fbe207d4dc"
+      }
+    ],
+    "contactPhone": 123456789
+  },
+  {
+    "_id": "67602a14946b5fb50e8e58fc",
+    "assetName": "Lakeside Villas",
+    "assetsAddress": "789 Lakeside Drive, Gaithersburg, MD 20878, United States",
+    "assetType": "Residential",
+    "addedByEmail": "CodesisAI@Codesis.com",
+    "status": "For Rent",
+    "IRR": 260,
+    "equityMultiple": 230,
+    "cashYieldAvg": 502,
+    "level": "Single-Story",
+    "property_type": "Residential",
+    "sponsored": true,
+    "assetValue": 450000,
+    "Property_Code": "lakesidevillas",
+    "assetDescription": "Lakeside Villas offers a serene environment with stunning lake views. Each unit features modern amenities, spacious living areas, and easy access to outdoor activities.",
+    "assetTags": [
+      "villa",
+      "for rent",
+      "Gaithersburg"
+    ],
+    "date": "2024-09-30T00:00:00.000Z",
+    "pricePerUnit": 2200,
+    "assetSquareFeet": 1500,
+    "unitDuplex": 0,
+    "views": 204,
+    "sold": false,
+    "debt": 80000,
+    "addedBy": "sara.miller",
+    "lat_and_long": [
+      [
+        39.141,
+        -77.215
+      ]
+    ],
+    "contact": [
+      {
+        "name": "Michael Brown",
+        "phone": "555-0202",
+        "email": "michael.brown@example.com"
+      }
+    ],
+    "contactEmail": "info@lakesidevillas.com",
+    "contactWebsite": "http://lakesidevillas.com",
+    "contactBrochure": "http://lakesidevillas.com/brochure.pdf",
+    "assetsImages": [
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4892d/7a37a212-8c7c-4ca8-b13b-a911c6ddea8c-modern-apartment-buildings-sunset-3d-rendering1.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4892d/abcb2ce2-1e9f-46d0-a1c1-54d88ba1bc81-images.jpeg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4892d/5b39ed6e-e8c9-4f61-a3ab-a947f404c52c-Rachel-Reider.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4892d/5baa5071-7ae3-437a-8c6a-b3df1fe70e1f-campbell%2Bfirst%2Bfloor%2B%281.6%29-1.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4892d/1dda096c-f6c8-4a7e-898a-89b93713c865-northern-chicago-suburb-home-interior-design-richar-interiors-img~45d1cc86095675a1_4-6250-1-3538ea9.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4892d/358ec491-c985-4157-a0c6-6b66b9e58224-Philadelphia-Features-some-of-the-Best-Interior-Designers-PS.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4892d/75c80f9b-6ef6-4074-bf32-e7f33ae7eff7-Living-room-by-one-of-the-best-NYC-interior-designers-and-decorators-Bradley-Stephens%20%281%29.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4892d/7fbeacad-4a60-4d47-9fb2-360cb9eceffe-new-york-apartment-interior-brad-ford-upper-west-sidetop-nyc-interior-designers-antonio-pio-saracino-penthouse-esperiri-milano.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4892d/0095ed7d-770e-4d53-899d-209c38e6e0ec-The-Best-of-USA_-Top-20-NYC-Interior-Designers-1.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4892d/56466a73-7b48-4b9b-88ee-c2e6dd43d8e9-Living-room-by-one-of-the-best-NYC-interior-designers-and-decorators-Bradley-Stephens.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4892d/a57dc198-b663-4d9d-816e-1338294b9e5e-20-4-1024x569.png"
+    ],
+    "__v": 2,
+    "advanceAssets": {
+      "asset_info": {
+        "preview_media": {
+          "videos": [
+            "https://example.com/video_villa.mp4"
+          ]
+        },
+        "property_details": {
+          "desc": "Charming villas with breathtaking lake views and luxurious finishes.",
+          "features": {
+            "asset_type": "Residential",
+            "year_built": 2023,
+            "building_area": "1500 sqft",
+            "total_units": 25,
+            "zoning": "Residential",
+            "metro": "Gaithersburg Metro",
+            "market": "Suburban",
+            "sub_market": "Gaithersburg",
+            "parking": "Assigned Parking",
+            "price_sqft": 300
+          },
+          "floor_plan": [
+            "https://example.com/floorplan_villa.png"
+          ],
+          "docs": {
+            "land_docs": [
+              "https://example.com/doc5.pdf",
+              "https://example.com/doc6.pdf"
+            ],
+            "advanced_techniques": [],
+            "financing_schemes": []
+          }
+        },
+        "utils_and_amenities": {
+          "utils_arrangement": {
+            "utils_table": [
+              {
+                "utility": "Electricity",
+                "cost": "$150"
+              },
+              {
+                "utility": "Water",
+                "cost": "$60"
+              }
+            ],
+            "utils_cost_history_chart": {
+              "filter_duration": "Last Year",
+              "timelime": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug",
+                "Sep"
+              ],
+              "electricity": [
+                140,
+                145,
+                150,
+                155,
+                160,
+                158,
+                165,
+                170,
+                175
+              ],
+              "gas": [
+                70,
+                72,
+                75,
+                78,
+                80,
+                82,
+                85,
+                88,
+                90
+              ],
+              "water": [
+                55,
+                57,
+                60,
+                62,
+                65,
+                64,
+                68,
+                70,
+                75
+              ]
+            }
+          },
+          "amenities": {
+            "types_of_locations": [
+              "Lake",
+              "Parks"
+            ],
+            "other": [
+              "Swimming Pool",
+              "Community Center",
+              "Walking Trails"
+            ]
+          },
+          "jurisdiction": {
+            "state": "Maryland",
+            "tax_rate": 0.012,
+            "assessment": 400000,
+            "parcel_no": "123-456-789"
+          },
+          "valuation_and_taxes": {
+            "assessed_year": 2024,
+            "assessed_amount": 400000,
+            "tax_year": 2025,
+            "tax_amount": 4800
+          }
+        },
+        "property_history": {
+          "sales_history": [
+            {
+              "date": "2023-05-01",
+              "event": "NA",
+              "price": 420000
+            },
+            {
+              "date": "2023-10-03",
+              "event": "NA",
+              "price": 261445
+            },
+            {
+              "date": "2023-06-01",
+              "event": "NA",
+              "price": 135484
+            },
+            {
+              "date": "2023-12-01",
+              "event": "NA",
+              "price": 421351
+            }
+          ],
+          "price_history": {
+            "filter_duration": null,
+            "asset_price": null,
+            "asset_deviation": null,
+            "market_price": null,
+            "market_deviation": null,
+            "price_history_chart": {
+              "date": [
+                "2024-01",
+                "2024-02",
+                "2024-03"
+              ],
+              "data": [
+                2150,
+                2200,
+                2250
+              ]
+            }
+          }
+        },
+        "property_comparison": {
+          "features": {
+            "year_built": 2023,
+            "avg_year_built": 2021,
+            "building_area": "1500 sqft",
+            "avg_building_area": "1400 sqft",
+            "total_units": 25,
+            "avg_total_units": 20,
+            "zoning": {
+              "type": "Residential",
+              "comment": "Family-friendly community"
+            },
+            "metro": "Gaithersburg Metro",
+            "market": "Suburban",
+            "sub_market": "Gaithersburg",
+            "parking": "Assigned Parking",
+            "price_sqft": 300
+          }
+        }
+      }
+    },
+    "Country": "us",
+    "Ext_Ref_Property_Id": "REF456",
+    "Ref_Owner_Id": "OWNER456",
+    "Owner": "sara.miller",
+    "Addr1": "Lakeside Villas",
+    "Addr2": "789 Lakeside Drive",
+    "Addr3": null,
+    "Addr4": null,
+    "City": "Gaithersburg",
+    "State": "MD",
+    "ZipCode": 20878,
+    "Notes": "Beautiful lakeside properties with modern amenities.",
+    "Vat_Recovery_Type": "Standard",
+    "Vat_Opted": 0,
+    "International": 0,
+    "Contract_Reserve": 0,
+    "Commission_Percent": 5,
+    "Commission_Min": 2000,
+    "Contract_Exp_Date": 45050.00011574074,
+    "Affordable": 1,
+    "Student": 0,
+    "Association": 1,
+    "CanadianSocialHousing": 0,
+    "Commercial": 0,
+    "Military": 0,
+    "PublicHousing": 0,
+    "Senior": 0,
+    "Residential": 1,
+    "Is_Estate": 0,
+    "Tax_Status_Changed": null,
+    "Status": "Active",
+    "Tax_Recovery_Percentage": null,
+    "NCREIF_Manager_ID": null,
+    "Purchase_Price": 0,
+    "True_Acquisition_Asset_Date": null,
+    "Net_Sales_Price": 0,
+    "Asset_Date_Not_NCREIF": null,
+    "Project_Type": "Residential Development",
+    "Ideal_Lease": 12,
+    "Months_To_Lease": 2,
+    "Acquisition_Date": null,
+    "Disposition_Asset_Date": null,
+    "MLA": null,
+    "VAT_Tran_Type": null,
+    "Pur_Tran_Type": null,
+    "Effective_Date": null,
+    "utilities": [
+      "Electricity",
+      "Water",
+      "Gas"
+    ],
+    "propertyDetails": {
+      "lotArea": "8000 sqft",
+      "zoning": "Residential",
+      "totalUnits": "25",
+      "buildingArea": "1500 sqft",
+      "yearBuilt": "2023"
+    },
+    "Location": "usa",
+    "Checklists": [],
+    "utilities_units": []
+  },
+  {
+    "_id": "666bec1d75fd2798ccd48912",
+    "assetName": "Sunny Meadows Townhomes",
+    "assetsAddress": "456 Meadow Lane, Bethesda, MD 20814, United States",
+    "assetType": "Residential",
+    "addedByEmail": "CodesisAI@Codesis.com",
+    "status": "For Sale",
+    "level": "2-Story",
+    "property_type": "Residential",
+    "sponsored": false,
+    "IRR": 260,
+    "equityMultiple": 230,
+    "cashYieldAvg": 502,
+    "assetValue": 320000,
+    "Property_Code": "sunnymeadows",
+    "assetDescription": "Sunny Meadows Townhomes provide a perfect blend of modern living and tranquility. Nestled in a family-friendly neighborhood, these homes offer spacious layouts and beautiful landscaping, close to parks and shopping.",
+    "assetTags": [
+      "townhome",
+      "for sale",
+      "Bethesda"
+    ],
+    "date": "2024-09-15T00:00:00.000Z",
+    "pricePerUnit": 3200,
+    "assetSquareFeet": 1800,
+    "unitDuplex": 0,
+    "views": 158,
+    "sold": false,
+    "debt": 50000,
+    "addedBy": "john.doe",
+    "lat_and_long": [
+      [
+        38.981,
+        -77.094
+      ]
+    ],
+    "contact": [
+      {
+        "name": "Emily Johnson",
+        "phone": "555-0101",
+        "email": "emily.johnson@example.com"
+      }
+    ],
+    "contactEmail": "info@sunnymeadowtownhomes.com",
+    "contactWebsite": "http://sunnymeadowtownhomes.com",
+    "contactBrochure": "http://sunnymeadowtownhomes.com/brochure.pdf",
+    "assetsImages": [
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48918/9ba69784-1894-4428-83c8-374034905b36-modern-crescent-apartment-building-affluent-neighborhood1.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48918/df4632ba-479b-4ba2-8a13-6cf3f8410bcb-images%20%283%29.jpeg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48918/7f805c36-c5a3-4ca8-8980-97f38f278d6e-50-Best-Interior-Designers-In-Florida37.jpeg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48918/7b27ded0-8a5d-4512-a0e3-21a91ff57dd9-images%20%282%29.jpeg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48918/821859af-19ab-4ebe-a7c6-b8188dcb2552-images%20%281%29.jpeg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48918/aa96408b-1458-431c-87a8-4f468fe560c0-211006-CKID_InletTerr_010.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48918/4909420b-cc1c-47dc-a438-de34c6039fe2-tsg-interiordesigners-northeast-mainline-glennastone.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48918/c9b42884-0705-4e15-bd07-241096c6864c-images.jpeg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48918/8ed3163b-f12e-4113-be9f-fd650e9c9e7d-interior-designers-brisbane.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48918/97685340-27ec-4d76-aa15-3e26a197c379-LauraHodgesStudio_BSOShowHouseFamilyRoom2.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd48918/b23890e9-cdc7-4ab3-be05-fc64548d2bfd-LauraHodgesStudio_BSOShowHouseFamilyRoom.jpg"
+    ],
+    "__v": 2,
+    "advanceAssets": {
+      "asset_info": {
+        "preview_media": {
+          "videos": [
+            "https://example.com/video_townhome.mp4"
+          ]
+        },
+        "property_details": {
+          "desc": "Luxurious townhomes with modern amenities and spacious interiors.",
+          "features": {
+            "asset_type": "Residential",
+            "year_built": 2024,
+            "building_area": "1800 sqft",
+            "total_units": 40,
+            "zoning": "Residential",
+            "metro": "Bethesda Metro",
+            "market": "Suburban",
+            "sub_market": "Bethesda",
+            "parking": "Garage and Street Parking",
+            "price_sqft": 177.78
+          },
+          "floor_plan": [
+            "https://example.com/floorplan_townhome.png"
+          ],
+          "docs": {
+            "land_docs": [
+              "https://example.com/doc3.pdf",
+              "https://example.com/doc4.pdf"
+            ],
+            "advanced_techniques": [],
+            "financing_schemes": []
+          }
+        },
+        "utils_and_amenities": {
+          "utils_arrangement": {
+            "utils_table": [
+              {
+                "utility": "Electricity",
+                "cost": "$200"
+              },
+              {
+                "utility": "Water",
+                "cost": "$70"
+              }
+            ],
+            "utils_cost_history_chart": {
+              "filter_duration": "Last Year",
+              "timelime": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug",
+                "Sep"
+              ],
+              "electricity": [
+                190,
+                195,
+                200,
+                210,
+                220,
+                215,
+                230,
+                240,
+                245
+              ],
+              "gas": [
+                60,
+                62,
+                65,
+                67,
+                68,
+                70,
+                72,
+                74,
+                76
+              ],
+              "water": [
+                50,
+                55,
+                58,
+                60,
+                65,
+                62,
+                67,
+                70,
+                75
+              ]
+            }
+          },
+          "amenities": {
+            "types_of_locations": [
+              "Park",
+              "Shopping Center"
+            ],
+            "other": [
+              "Community Pool",
+              "Fitness Center",
+              "Playground"
+            ]
+          },
+          "jurisdiction": {
+            "state": "Maryland",
+            "tax_rate": 0.013,
+            "assessment": 300000,
+            "parcel_no": "321-654-987"
+          },
+          "valuation_and_taxes": {
+            "assessed_year": 2024,
+            "assessed_amount": 300000,
+            "tax_year": 2025,
+            "tax_amount": 3900
+          }
+        },
+        "property_history": {
+          "sales_history": [
+            {
+              "date": "2023-05-01",
+              "event": "NA",
+              "price": 420000
+            },
+            {
+              "date": "2023-10-03",
+              "event": "NA",
+              "price": 261445
+            },
+            {
+              "date": "2023-06-01",
+              "event": "NA",
+              "price": 135484
+            },
+            {
+              "date": "2023-12-01",
+              "event": "NA",
+              "price": 421351
+            }
+          ],
+          "price_history": {
+            "filter_duration": null,
+            "asset_price": null,
+            "asset_deviation": null,
+            "market_price": null,
+            "market_deviation": null,
+            "price_history_chart": {
+              "date": [
+                "2024-01",
+                "2024-02",
+                "2024-03"
+              ],
+              "data": [
+                3100,
+                3150,
+                3200
+              ]
+            }
+          }
+        },
+        "property_comparison": {
+          "features": {
+            "year_built": 2024,
+            "avg_year_built": 2021,
+            "building_area": "1800 sqft",
+            "avg_building_area": "1600 sqft",
+            "total_units": 40,
+            "avg_total_units": 35,
+            "zoning": {
+              "type": "Residential",
+              "comment": "Ideal for families"
+            },
+            "metro": "Bethesda Metro",
+            "market": "Suburban",
+            "sub_market": "Bethesda",
+            "parking": "Garage and Street Parking",
+            "price_sqft": 177.78
+          }
+        }
+      }
+    },
+    "Country": "us",
+    "Ext_Ref_Property_Id": "REF789",
+    "Ref_Owner_Id": "OWNER789",
+    "Owner": "john.doe",
+    "Addr1": "Sunny Meadows Townhomes",
+    "Addr2": "456 Meadow Lane",
+    "Addr3": null,
+    "Addr4": null,
+    "City": "Bethesda",
+    "State": "MD",
+    "ZipCode": 20814,
+    "Notes": "Family-friendly community with ample green space.",
+    "Vat_Recovery_Type": "Standard",
+    "Vat_Opted": 0,
+    "International": 0,
+    "Contract_Reserve": 0,
+    "Commission_Percent": 5,
+    "Commission_Min": 1600,
+    "Contract_Exp_Date": 45049.00011574074,
+    "Affordable": 1,
+    "Student": 0,
+    "Association": 1,
+    "CanadianSocialHousing": 0,
+    "Commercial": 0,
+    "Military": 0,
+    "PublicHousing": 0,
+    "Senior": 0,
+    "Residential": 1,
+    "Is_Estate": 0,
+    "Tax_Status_Changed": null,
+    "Status": "Active",
+    "Tax_Recovery_Percentage": null,
+    "NCREIF_Manager_ID": null,
+    "Purchase_Price": 0,
+    "True_Acquisition_Asset_Date": null,
+    "Net_Sales_Price": 0,
+    "Asset_Date_Not_NCREIF": null,
+    "Project_Type": "Residential Development",
+    "Ideal_Lease": 12,
+    "Months_To_Lease": 3,
+    "Acquisition_Date": null,
+    "Disposition_Asset_Date": null,
+    "MLA": null,
+    "VAT_Tran_Type": null,
+    "Pur_Tran_Type": null,
+    "Effective_Date": null,
+    "utilities": [
+      "Electricity",
+      "Water",
+      "Gas"
+    ],
+    "propertyDetails": {
+      "lotArea": "7000 sqft",
+      "zoning": "Residential",
+      "totalUnits": "40",
+      "buildingArea": "1800 sqft",
+      "yearBuilt": "2024"
+    },
+    "Location": "usa",
+    "Checklists": [],
+    "utilities_units": []
+  },
+  {
+    "_id": "67602a2e946b5fb50e8e58ff",
+    "assetName": "Sunset Ridge Apartments",
+    "assetsAddress": "789 Sunset Boulevard, Silver Spring, MD 20910, United States",
+    "assetType": "Residential",
+    "addedByEmail": "CodesisAI@Codesis.com",
+    "status": "Available",
+    "IRR": 260,
+    "equityMultiple": 230,
+    "cashYieldAvg": 502,
+    "level": "Multi-Story",
+    "property_type": "Residential",
+    "sponsored": false,
+    "assetValue": 1200000,
+    "Property_Code": "sunsetridge",
+    "assetDescription": "Sunset Ridge Apartments features spacious layouts with modern amenities, situated near parks and shopping centers. Enjoy stunning views of the sunset from your balcony.",
+    "assetTags": [
+      "apartment",
+      "modern",
+      "views"
+    ],
+    "date": "2024-09-20T00:00:00.000Z",
+    "pricePerUnit": 2500,
+    "assetSquareFeet": 1800,
+    "unitDuplex": 0,
+    "views": 150,
+    "sold": false,
+    "debt": 500000,
+    "addedBy": "alex.smith",
+    "lat_and_long": [
+      [
+        39.0057,
+        -77.0489
+      ]
+    ],
+    "contact": [
+      {
+        "name": "Jennifer Lee",
+        "phone": "555-4321",
+        "email": "jennifer.lee@example.com"
+      }
+    ],
+    "contactEmail": "info@sunsetridgeapartments.com",
+    "contactWebsite": "http://sunsetridgeapartments.com",
+    "contactBrochure": "http://sunsetridgeapartments.com/brochure.pdf",
+    "assetsImages": [
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891c/fe0c18d0-b854-4249-9428-4738a4bf2761-modern-apartment-building-with-balconies-green-landscaping1.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891c/9955f039-3051-4333-84b4-ba98eee8a820-Interior-Impressions-Vintage-Generational-Design-1080x675.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891c/644178fc-712c-4249-a320-510c54797f95-Robert-Passal_-Top-Modern-Contemporary-Interior-Designs-1.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891c/6c57f2f8-ec23-452b-a77a-8b64a407c53e-CB-Sitting-room.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891c/32c6b1fe-4226-4269-9885-8c1e5ea0156d-White-Modern-Living-Room-Vermont.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891c/eb50b162-edec-42f6-9fd7-58b70e705778-62c6df070502b71f7438d92f_Screenshot%202022-07-07%20092558.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891c/8ede44e0-ca75-40f5-80db-0883fa0a3501-Swan-Interiors-Designers-Hawaii-2-qsqhwdas9vc2jtmgnzugofnzr6hc5zgt4qsnpktpaw.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891c/9e3af9da-9bb4-49e7-817f-e80e93432fb7-Living-Rom-2-Copy.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891c/8e055515-b671-46b3-919d-1bbe979bf52e-Fletcher-Rhodes-how-design-room-foundation-furniture.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891c/202db3b0-5fd2-4fe2-a6a9-e0ec3992a74d-0242Heartland_sm.jpg"
+    ],
+    "__v": 1,
+    "advanceAssets": {
+      "asset_info": {
+        "preview_media": {
+          "videos": [
+            "https://example.com/video_sunsetridge.mp4"
+          ]
+        },
+        "property_details": {
+          "desc": "Luxurious apartments with exceptional amenities and breathtaking views.",
+          "features": {
+            "asset_type": "Residential",
+            "year_built": 2024,
+            "building_area": "1800 sqft",
+            "total_units": 40,
+            "zoning": "Residential",
+            "metro": "Silver Spring Metro",
+            "market": "Urban",
+            "sub_market": "Downtown Silver Spring",
+            "parking": "Underground Parking",
+            "price_sqft": 666.67
+          },
+          "floor_plan": [
+            "https://example.com/floorplan_sunsetridge.png"
+          ],
+          "docs": {
+            "land_docs": [
+              "https://example.com/doc1.pdf",
+              "https://example.com/doc2.pdf"
+            ],
+            "advanced_techniques": [],
+            "financing_schemes": []
+          }
+        },
+        "utils_and_amenities": {
+          "utils_arrangement": {
+            "utils_table": [
+              {
+                "utility": "Electricity",
+                "cost": "$250"
+              },
+              {
+                "utility": "Water",
+                "cost": "$70"
+              },
+              {
+                "utility": "Gas",
+                "cost": "$90"
+              }
+            ],
+            "utils_cost_history_chart": {
+              "filter_duration": "Last Year",
+              "timelime": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug",
+                "Sep"
+              ],
+              "electricity": [
+                240,
+                245,
+                250,
+                255,
+                260,
+                265,
+                270,
+                275,
+                280
+              ],
+              "gas": [
+                85,
+                88,
+                90,
+                92,
+                95,
+                97,
+                100,
+                102,
+                105
+              ],
+              "water": [
+                65,
+                68,
+                70,
+                72,
+                75,
+                78,
+                80,
+                82,
+                85
+              ]
+            }
+          },
+          "amenities": {
+            "types_of_locations": [
+              "Urban",
+              "Parks",
+              "Restaurants"
+            ],
+            "other": [
+              "Rooftop Terrace",
+              "Fitness Center",
+              "Laundry Facilities"
+            ]
+          },
+          "jurisdiction": {
+            "state": "Maryland",
+            "tax_rate": 0.017,
+            "assessment": 1150000,
+            "parcel_no": "987-654-321"
+          },
+          "valuation_and_taxes": {
+            "assessed_year": 2024,
+            "assessed_amount": 1150000,
+            "tax_year": 2025,
+            "tax_amount": 19550
+          }
+        },
+        "property_history": {
+          "sales_history": [
+            {
+              "date": "2023-05-01",
+              "event": "NA",
+              "price": 420000
+            },
+            {
+              "date": "2023-10-03",
+              "event": "NA",
+              "price": 261445
+            },
+            {
+              "date": "2023-06-01",
+              "event": "NA",
+              "price": 135484
+            },
+            {
+              "date": "2023-12-01",
+              "event": "NA",
+              "price": 421351
+            }
+          ],
+          "price_history": {
+            "filter_duration": null,
+            "asset_price": null,
+            "asset_deviation": null,
+            "market_price": null,
+            "market_deviation": null,
+            "price_history_chart": {
+              "date": [
+                "2024-01",
+                "2024-02",
+                "2024-03"
+              ],
+              "data": [
+                2400,
+                2450,
+                2500
+              ]
+            }
+          }
+        },
+        "property_comparison": {
+          "features": {
+            "year_built": 2024,
+            "avg_year_built": 2022,
+            "building_area": "1800 sqft",
+            "avg_building_area": "1600 sqft",
+            "total_units": 40,
+            "avg_total_units": 35,
+            "zoning": {
+              "type": "Residential",
+              "comment": "Urban community with vibrant surroundings."
+            },
+            "metro": "Silver Spring Metro",
+            "market": "Urban",
+            "sub_market": "Downtown Silver Spring",
+            "parking": "Underground Parking",
+            "price_sqft": 666.67
+          }
+        }
+      }
+    },
+    "Country": "us",
+    "Ext_Ref_Property_Id": "REF789",
+    "Ref_Owner_Id": "OWNER789",
+    "Owner": "alex.smith",
+    "Addr1": "Sunset Ridge Apartments",
+    "Addr2": "789 Sunset Boulevard",
+    "Addr3": null,
+    "Addr4": null,
+    "City": "Silver Spring",
+    "State": "MD",
+    "ZipCode": 20910,
+    "Notes": "Stunning apartments with modern design and amenities.",
+    "Vat_Recovery_Type": "Standard",
+    "Vat_Opted": 0,
+    "International": 0,
+    "Contract_Reserve": 0,
+    "Commission_Percent": 4,
+    "Commission_Min": 2500,
+    "Contract_Exp_Date": 45051.00011574074,
+    "Affordable": 0,
+    "Student": 0,
+    "Association": 1,
+    "CanadianSocialHousing": 0,
+    "Commercial": 0,
+    "Military": 0,
+    "PublicHousing": 0,
+    "Senior": 0,
+    "Residential": 1,
+    "Is_Estate": 0,
+    "Tax_Status_Changed": null,
+    "Status": "Active",
+    "Tax_Recovery_Percentage": null,
+    "NCREIF_Manager_ID": null,
+    "Purchase_Price": 0,
+    "True_Acquisition_Asset_Date": null,
+    "Net_Sales_Price": 0,
+    "Asset_Date_Not_NCREIF": null,
+    "Project_Type": "Luxury Apartments",
+    "Ideal_Lease": 12,
+    "Months_To_Lease": 1,
+    "Acquisition_Date": null,
+    "Disposition_Asset_Date": null,
+    "MLA": null,
+    "VAT_Tran_Type": null,
+    "Pur_Tran_Type": null,
+    "Effective_Date": null,
+    "utilities": [
+      "Electricity",
+      "Water",
+      "Gas"
+    ],
+    "propertyDetails": {
+      "lotArea": "9000 sqft",
+      "zoning": "Residential",
+      "totalUnits": "40",
+      "buildingArea": "1800 sqft",
+      "yearBuilt": "2024"
+    },
+    "Location": "usa"
+  },
+  {
+    "_id": "67602a46946b5fb50e8e5902",
+    "assetName": "Lakeview Residences",
+    "assetsAddress": "456 Lakeview Drive, Annapolis, MD 21401, United States",
+    "assetType": "Residential",
+    "addedByEmail": "CodesisAI@Codesis.com",
+    "status": "Available",
+    "IRR": 260,
+    "equityMultiple": 230,
+    "cashYieldAvg": 502,
+    "level": "Mid-Rise",
+    "property_type": "Residential",
+    "sponsored": false,
+    "assetValue": 1800000,
+    "Property_Code": "lakeview",
+    "assetDescription": "Lakeview Residences features modern design, spacious layouts, and scenic views of the lake, just minutes from downtown Annapolis.",
+    "assetTags": [
+      "lakefront",
+      "modern",
+      "family-friendly"
+    ],
+    "date": "2024-08-01T00:00:00.000Z",
+    "pricePerUnit": 2500,
+    "assetSquareFeet": 1800,
+    "unitDuplex": 0,
+    "views": 150,
+    "sold": false,
+    "debt": 600000,
+    "addedBy": "john.doe",
+    "lat_and_long": [
+      [
+        38.9784,
+        -76.4922
+      ]
+    ],
+    "contact": [
+      {
+        "name": "Emily Carter",
+        "phone": "555-1234",
+        "email": "emily.carter@example.com"
+      }
+    ],
+    "contactEmail": "info@lakeviewresidences.com",
+    "contactWebsite": "http://lakeviewresidences.com",
+    "contactBrochure": "http://lakeviewresidences.com/brochure.pdf",
+    "assetsImages": [
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/66fa7a3294703b8923856408/98b9d22a-5e3b-49f9-8522-6c5bbe9b0945-classic-brick-apartment-building-standing-corner-lot1.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/66fa7a3294703b8923856408/6bc60e0e-48a2-4d50-af84-86594df00ba3-kelly-hoppen.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/66fa7a3294703b8923856408/797b35c0-e842-43db-89e1-e17983a86217-Joyelle_200206_006.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/66fa7a3294703b8923856408/39afe37e-cbef-4cf4-a542-582b38f0a1d6-images.jpeg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/66fa7a3294703b8923856408/8a0526d3-ccac-4216-92bd-ae76fdec43ab-do-interior-designers-buy-furniture-1024x682.jpeg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/66fa7a3294703b8923856408/4518995a-a051-4604-b594-ce402a73ef7d-deerpark-thumb.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/66fa7a3294703b8923856408/b332db03-c5ba-4521-b45e-88be85bef231-300s.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/66fa7a3294703b8923856408/190a0902-271d-41e3-9d82-80324e5db655-GNI-Blog-Article3.jpg"
+    ],
+    "__v": 2,
+    "advanceAssets": {
+      "asset_info": {
+        "preview_media": {
+          "videos": [
+            "https://example.com/video_lakeview.mp4"
+          ]
+        },
+        "property_details": {
+          "desc": "Charming residences with ample amenities, close to nature and urban conveniences.",
+          "features": {
+            "asset_type": "Residential",
+            "year_built": 2022,
+            "building_area": "1800 sqft",
+            "total_units": 40,
+            "zoning": "Residential",
+            "metro": "Annapolis Metro",
+            "market": "Suburban",
+            "sub_market": "Annapolis",
+            "parking": "Surface Parking",
+            "price_sqft": 1000
+          },
+          "floor_plan": [
+            "https://example.com/floorplan_lakeview.png"
+          ],
+          "docs": {
+            "land_docs": [
+              "https://example.com/doc5.pdf",
+              "https://example.com/doc6.pdf"
+            ],
+            "advanced_techniques": [],
+            "financing_schemes": []
+          }
+        },
+        "utils_and_amenities": {
+          "utils_arrangement": {
+            "utils_table": [
+              {
+                "utility": "Electricity",
+                "cost": "$250"
+              },
+              {
+                "utility": "Water",
+                "cost": "$70"
+              },
+              {
+                "utility": "Gas",
+                "cost": "$90"
+              }
+            ],
+            "utils_cost_history_chart": {
+              "filter_duration": "Last Year",
+              "timelime": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug"
+              ],
+              "electricity": [
+                240,
+                245,
+                250,
+                255,
+                260,
+                265,
+                270,
+                275
+              ],
+              "gas": [
+                85,
+                87,
+                90,
+                92,
+                95,
+                98,
+                100,
+                102
+              ],
+              "water": [
+                65,
+                68,
+                70,
+                72,
+                75,
+                78,
+                80,
+                82
+              ]
+            }
+          },
+          "amenities": {
+            "types_of_locations": [
+              "Suburban",
+              "Waterfront",
+              "Parks"
+            ],
+            "other": [
+              "Community Garden",
+              "Playground",
+              "Gym"
+            ]
+          },
+          "jurisdiction": {
+            "state": "Maryland",
+            "tax_rate": 0.012,
+            "assessment": 1800000,
+            "parcel_no": "789-456-123"
+          },
+          "valuation_and_taxes": {
+            "assessed_year": 2024,
+            "assessed_amount": 1800000,
+            "tax_year": 2025,
+            "tax_amount": 21600
+          }
+        },
+        "property_history": {
+          "sales_history": [
+            {
+              "date": "2023-05-01",
+              "event": "NA",
+              "price": 420000
+            },
+            {
+              "date": "2023-10-03",
+              "event": "NA",
+              "price": 261445
+            },
+            {
+              "date": "2023-06-01",
+              "event": "NA",
+              "price": 135484
+            },
+            {
+              "date": "2023-12-01",
+              "event": "NA",
+              "price": 421351
+            }
+          ],
+          "price_history": {
+            "filter_duration": null,
+            "asset_price": null,
+            "asset_deviation": null,
+            "market_price": null,
+            "market_deviation": null,
+            "price_history_chart": {
+              "date": [
+                "2024-01",
+                "2024-02",
+                "2024-03"
+              ],
+              "data": [
+                2400,
+                2450,
+                2500
+              ]
+            }
+          }
+        },
+        "property_comparison": {
+          "features": {
+            "year_built": 2022,
+            "avg_year_built": 2020,
+            "building_area": "1800 sqft",
+            "avg_building_area": "1600 sqft",
+            "total_units": 40,
+            "avg_total_units": 35,
+            "zoning": {
+              "type": "Residential",
+              "comment": "Suburban area with family homes."
+            },
+            "metro": "Annapolis Metro",
+            "market": "Suburban",
+            "sub_market": "Annapolis",
+            "parking": "Surface Parking",
+            "price_sqft": 1000
+          }
+        }
+      }
+    },
+    "Country": "us",
+    "Ext_Ref_Property_Id": "REF789",
+    "Ref_Owner_Id": "OWNER789",
+    "Owner": "john.doe",
+    "Addr1": "Lakeview Residences",
+    "Addr2": "456 Lakeview Drive",
+    "Addr3": null,
+    "Addr4": null,
+    "City": "Annapolis",
+    "State": "MD",
+    "ZipCode": 21401,
+    "Notes": "Family-friendly residences with lake access.",
+    "Vat_Recovery_Type": "Standard",
+    "Vat_Opted": 0,
+    "International": 0,
+    "Contract_Reserve": 0,
+    "Commission_Percent": 4,
+    "Commission_Min": 2500,
+    "Contract_Exp_Date": 45056.00011574074,
+    "Affordable": 0,
+    "Student": 0,
+    "Association": 1,
+    "CanadianSocialHousing": 0,
+    "Commercial": 0,
+    "Military": 0,
+    "PublicHousing": 0,
+    "Senior": 0,
+    "Residential": 1,
+    "Is_Estate": 0,
+    "Tax_Status_Changed": null,
+    "Status": "Active",
+    "Tax_Recovery_Percentage": null,
+    "NCREIF_Manager_ID": null,
+    "Purchase_Price": 0,
+    "True_Acquisition_Asset_Date": null,
+    "Net_Sales_Price": 0,
+    "Asset_Date_Not_NCREIF": null,
+    "Project_Type": "Family Residences",
+    "Ideal_Lease": 12,
+    "Months_To_Lease": 3,
+    "Acquisition_Date": null,
+    "Disposition_Asset_Date": null,
+    "MLA": null,
+    "VAT_Tran_Type": null,
+    "Pur_Tran_Type": null,
+    "Effective_Date": null,
+    "utilities": [
+      "Electricity",
+      "Water",
+      "Gas"
+    ],
+    "propertyDetails": {
+      "lotArea": "12000 sqft",
+      "zoning": "Residential",
+      "totalUnits": "40",
+      "buildingArea": "1800 sqft",
+      "yearBuilt": "2022"
+    },
+    "Location": "usa"
+  },
+  {
+    "_id": "666bec1d75fd2798ccd4891b",
+    "assetName": "Urban Haven",
+    "assetsAddress": "123 Sunny Ridge Lane, Bethesda, MD 20814, United States",
+    "assetType": "Residential",
+    "addedByEmail": "CodesisAI@Codesis.com",
+    "status": "Available",
+    "level": "Multi-Story",
+    "IRR": 260,
+    "equityMultiple": 230,
+    "cashYieldAvg": 502,
+    "property_type": "Residential",
+    "sponsored": false,
+    "assetValue": 550000,
+    "Property_Code": "sunnyridge",
+    "assetDescription": "Sunny Ridge Apartments features modern living spaces with breathtaking views and easy access to local amenities, parks, and public transportation.",
+    "assetTags": [
+      "apartment",
+      "for rent",
+      "Bethesda"
+    ],
+    "date": "2024-09-30T00:00:00.000Z",
+    "pricePerUnit": 2500,
+    "assetSquareFeet": 1200,
+    "unitDuplex": 0,
+    "views": 154,
+    "sold": false,
+    "debt": 120000,
+    "addedBy": "john.smith",
+    "lat_and_long": [
+      [
+        38.9807,
+        -77.0971
+      ]
+    ],
+    "contact": [
+      {
+        "name": "Emily Carter",
+        "phone": "555-1234",
+        "email": "emily.carter@example.com"
+      }
+    ],
+    "contactEmail": "info@sunnyridgeapts.com",
+    "contactWebsite": "http://sunnyridgeapts.com",
+    "contactBrochure": "http://sunnyridgeapts.com/brochure.pdf",
+    "assetsImages": [
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891a/443bcc9e-3410-46e2-90a2-da929725c615-modern-orange-apartment-building-with-balconies-sunny-day1.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891a/7c156b7c-9b03-4843-a644-b988c6231102-Kitchen-Lighting-Web.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891a/0222e414-3336-467b-9c2f-f7f3e489ff2f-NewCastle-11-scaled.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891a/2ac64389-8de9-4509-92cc-9534cd557209-CatMax-Photography-JLS-Designs-2021-2069-1.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891a/e69357a7-972a-4bda-9f56-2353cfbf2526-180618_Davitt_Ocean%20Rd-1040__9631__MED.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891a/869dc8b8-a5ab-475b-8a04-9ed301dec6da-65291a2d51b24004f7cba5c9_Maule-15-1024x683.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891a/3ff4158b-26a0-4128-9e7b-edc45ac098c0-9SHORE2Bshorelands2Bkitchen.jpg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891a/e9ab2697-b97b-4837-885b-353097f31362-public.jpeg",
+      "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Assets-images/666bec1d75fd2798ccd4891a/3c302139-0d93-41f8-a2e5-a29460255951-Untitled_HDR-7.jpg"
+    ],
+    "__v": 2,
+    "advanceAssets": {
+      "asset_info": {
+        "preview_media": {
+          "videos": [
+            "https://example.com/video_sunny.mp4"
+          ]
+        },
+        "property_details": {
+          "desc": "Luxury apartments with contemporary designs and high-end finishes.",
+          "features": {
+            "asset_type": "Residential",
+            "year_built": 2022,
+            "building_area": "1200 sqft",
+            "total_units": 30,
+            "zoning": "Residential",
+            "metro": "Bethesda Metro",
+            "market": "Urban",
+            "sub_market": "Bethesda",
+            "parking": "Garage Parking Available",
+            "price_sqft": 458.33
+          },
+          "floor_plan": [
+            "https://example.com/floorplan_sunny.png"
+          ],
+          "docs": {
+            "land_docs": [
+              "https://example.com/doc7.pdf",
+              "https://example.com/doc8.pdf"
+            ],
+            "advanced_techniques": [],
+            "financing_schemes": []
+          }
+        },
+        "utils_and_amenities": {
+          "utils_arrangement": {
+            "utils_table": [
+              {
+                "utility": "Electricity",
+                "cost": "$180"
+              },
+              {
+                "utility": "Water",
+                "cost": "$50"
+              },
+              {
+                "utility": "Gas",
+                "cost": "$70"
+              }
+            ],
+            "utils_cost_history_chart": {
+              "filter_duration": "Last Year",
+              "timelime": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug",
+                "Sep"
+              ],
+              "electricity": [
+                160,
+                165,
+                170,
+                175,
+                180,
+                185,
+                190,
+                195,
+                200
+              ],
+              "gas": [
+                60,
+                62,
+                65,
+                68,
+                70,
+                73,
+                75,
+                78,
+                80
+              ],
+              "water": [
+                45,
+                46,
+                48,
+                50,
+                52,
+                54,
+                55,
+                58,
+                60
+              ]
+            }
+          },
+          "amenities": {
+            "types_of_locations": [
+              "City Center",
+              "Parks",
+              "Restaurants"
+            ],
+            "other": [
+              "Fitness Center",
+              "Rooftop Deck",
+              "Business Lounge"
+            ]
+          },
+          "jurisdiction": {
+            "state": "Maryland",
+            "tax_rate": 0.013,
+            "assessment": 500000,
+            "parcel_no": "789-012-345"
+          },
+          "valuation_and_taxes": {
+            "assessed_year": 2024,
+            "assessed_amount": 500000,
+            "tax_year": 2025,
+            "tax_amount": 6500
+          }
+        },
+        "property_history": {
+          "sales_history": [
+            {
+              "date": "2023-05-01",
+              "event": "NA",
+              "price": 420000
+            },
+            {
+              "date": "2023-10-03",
+              "event": "NA",
+              "price": 261445
+            },
+            {
+              "date": "2023-06-01",
+              "event": "NA",
+              "price": 135484
+            },
+            {
+              "date": "2023-12-01",
+              "event": "NA",
+              "price": 421351
+            }
+          ],
+          "price_history": {
+            "filter_duration": null,
+            "asset_price": null,
+            "asset_deviation": null,
+            "market_price": null,
+            "market_deviation": null,
+            "price_history_chart": {
+              "date": [
+                "2024-01",
+                "2024-02",
+                "2024-03"
+              ],
+              "data": [
+                2400,
+                2450,
+                2500
+              ]
+            }
+          }
+        },
+        "property_comparison": {
+          "features": {
+            "year_built": 2022,
+            "avg_year_built": 2020,
+            "building_area": "1200 sqft",
+            "avg_building_area": "1150 sqft",
+            "total_units": 30,
+            "avg_total_units": 25,
+            "zoning": {
+              "type": "Residential",
+              "comment": "Urban family-oriented community"
+            },
+            "metro": "Bethesda Metro",
+            "market": "Urban",
+            "sub_market": "Bethesda",
+            "parking": "Garage Parking Available",
+            "price_sqft": 458.33
+          }
+        }
+      }
+    },
+    "Country": "us",
+    "Ext_Ref_Property_Id": "REF789",
+    "Ref_Owner_Id": "OWNER789",
+    "Owner": "john.smith",
+    "Addr1": "Sunny Ridge Apartments",
+    "Addr2": "123 Sunny Ridge Lane",
+    "Addr3": null,
+    "Addr4": null,
+    "City": "Bethesda",
+    "State": "MD",
+    "ZipCode": 20814,
+    "Notes": "Modern apartments in a vibrant community.",
+    "Vat_Recovery_Type": "Standard",
+    "Vat_Opted": 0,
+    "International": 0,
+    "Contract_Reserve": 0,
+    "Commission_Percent": 6,
+    "Commission_Min": 2500,
+    "Contract_Exp_Date": 45051.00011574074,
+    "Affordable": 0,
+    "Student": 0,
+    "Association": 1,
+    "CanadianSocialHousing": 0,
+    "Commercial": 0,
+    "Military": 0,
+    "PublicHousing": 0,
+    "Senior": 0,
+    "Residential": 1,
+    "Is_Estate": 0,
+    "Tax_Status_Changed": null,
+    "Status": "Active",
+    "Tax_Recovery_Percentage": null,
+    "NCREIF_Manager_ID": null,
+    "Purchase_Price": 0,
+    "True_Acquisition_Asset_Date": null,
+    "Net_Sales_Price": 0,
+    "Asset_Date_Not_NCREIF": null,
+    "Project_Type": "Residential Complex",
+    "Ideal_Lease": 12,
+    "Months_To_Lease": 3,
+    "Acquisition_Date": null,
+    "Disposition_Asset_Date": null,
+    "MLA": null,
+    "VAT_Tran_Type": null,
+    "Pur_Tran_Type": null,
+    "Effective_Date": null,
+    "utilities": [
+      "Electricity",
+      "Water",
+      "Gas"
+    ],
+    "propertyDetails": {
+      "lotArea": "9500 sqft",
+      "zoning": "Residential",
+      "totalUnits": "30",
+      "buildingArea": "1200 sqft",
+      "yearBuilt": "2022"
+    },
+    "Location": "usa",
+    "Checklists": [],
+    "utilities_units": []
+  }
+]

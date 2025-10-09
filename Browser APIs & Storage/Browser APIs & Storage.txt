@@ -1,0 +1,5 @@
+Browser APIs & Storage -
+   LocalStorage and SessionStorage
+   Working with JSON (JSON.parse(), JSON.stringify())
+   Timers (setTimeout, setInterval)
+

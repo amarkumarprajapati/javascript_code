@@ -1,0 +1,30 @@
+[
+  {
+    "_id": "67726a9d4905c7f34833216c",
+    "ReadyToInvest_id": "67726a784905c7f348332124",
+    "is_paid": true,
+    "imageUrl": "https://lilypadstechdemo.s3.amazonaws.com/User-Submit-Proof-images/67726a784905c7f348332124/b9ce4e15-f7e1-42e2-be63-4b5a5e3f89f3-mceclip1.png",
+    "paymentDetails": {
+      "value": 60000
+    },
+    "user_id": "66fa554894703b89238563f3",
+    "asset_id": "666bec1d75fd2798ccd48963",
+    "createdAt": "2024-12-30T09:40:45.381Z",
+    "updatedAt": "2024-12-30T09:41:23.309Z",
+    "__v": 0
+  },
+  {
+    "_id": "677258c75807ef331719f32c",
+    "ReadyToInvest_id": "67724fb110fbdfd6c04aeb8c",
+    "is_paid": true,
+    "imageUrl": "https://lilypadstechdemo.s3.amazonaws.com/User-Submit-Proof-images/67724fb110fbdfd6c04aeb8c/fecf7ede-4c37-4eb8-aaf2-3ea392f478b4-mceclip1.png",
+    "paymentDetails": {
+      "value": 2450000
+    },
+    "user_id": "66fa554894703b89238563f3",
+    "asset_id": "666bec1d75fd2798ccd4891f",
+    "__v": 0,
+    "createdAt": "2024-12-30T09:40:45.381Z",
+    "updatedAt": "2024-12-30T09:41:23.309Z"
+  }
+]

@@ -1,0 +1,42 @@
+1. Search & Check Methods – (Check if part of a string exists or get its position)
+
+includes():
+indexOf():
+lastIndexOf():
+startsWith():
+endsWith():
+
+2. Manipulation Methods – (Modify or format a string)
+
+toUpperCase():
+toLowerCase():
+trim():
+trimStart():
+trimEnd():
+replace():
+replaceAll():
+padStart():
+padEnd():
+repeat():
+
+3. Split & Extract Methods – (Get parts of a string or break it into pieces)
+
+
+split():
+slice():
+substring():
+substr():
+charAt():
+charCodeAt():
+at():
+
+
+4. Other Methods (Specialized functionality)
+   These methods don't fit neatly into the above categories but provide specific functionality.
+
+toString():
+valueOf():
+localeCompare():
+toLocaleLowerCase():
+toLocaleUpperCase():
+normalize():

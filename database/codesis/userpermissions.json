@@ -1,0 +1,408 @@
+[
+  {
+    "_id": "676510d4666e487c8abc8080",
+    "userId": "6762aa0960600c298051e059",
+    "adminId": "67602836946b5fb50e8e58f4",
+    "assetPermissions": [
+      {
+        "section": "Property Data Overview",
+        "permissions": {
+          "Financial KPI": true,
+          "Utilities": true,
+          "Operating Income & Expenses": true,
+          "Market Analysis": true,
+          "Maintenance": true
+        },
+        "_id": "676510d4666e487c8abc8081"
+      }
+    ],
+    "assetIds": [
+      "666bec1d75fd2798ccd48918",
+      "666bec1d75fd2798ccd48963",
+      "666bec1d75fd2798ccd48912",
+      "676029fe946b5fb50e8e58f9"
+    ],
+    "chatAccess": true,
+    "__v": 3
+  },
+  {
+    "_id": "6765170d18a5f27fa9c0d56b",
+    "userId": "6765170d18a5f27fa9c0d568",
+    "adminId": "67602836946b5fb50e8e58f4",
+    "assetPermissions": [
+      {
+        "section": "Property Data Overview",
+        "permissions": {
+          "Market Analysis": true,
+          "Maintenance": true
+        },
+        "_id": "6765170d18a5f27fa9c0d56c"
+      }
+    ],
+    "assetIds": [
+      "67602a51946b5fb50e8e5903"
+    ],
+    "chatAccess": false,
+    "__v": 0
+  },
+  {
+    "_id": "676556a9592344c0d7d0e815",
+    "userId": "6750217bfc7622c4b895670c",
+    "adminId": "67602836946b5fb50e8e58f4",
+    "assetPermissions": [
+      {
+        "section": "Property Data Overview",
+        "permissions": {
+          "Financial KPI": true,
+          "Utilities": true,
+          "assetName": true
+        },
+        "_id": "676556a9592344c0d7d0e816"
+      }
+    ],
+    "assetIds": [
+      "67602a51946b5fb50e8e5903"
+    ],
+    "chatAccess": false,
+    "__v": 0
+  },
+  {
+    "_id": "676016e3064f14de4859e59f",
+    "userId": "676016e3064f14de4859e59c",
+    "adminId": "67602836946b5fb50e8e58f4",
+    "assetPermissions": [
+      {
+        "section": "Property Data Overview",
+        "permissions": {
+          "Market Analysis": true
+        },
+        "_id": "676016e3064f14de4859e5a0"
+      }
+    ],
+    "assetIds": [
+      "666bec1d75fd2798ccd4893d",
+      "676029fe946b5fb50e8e58f9",
+      "67602a51946b5fb50e8e5903"
+    ],
+    "chatAccess": false,
+    "__v": 2
+  },
+  {
+    "_id": "6760143c88c087695bf66ac2",
+    "userId": "6760143c88c087695bf66abf",
+    "adminId": "66fa554894703b89238563f3",
+    "assetPermissions": [
+      {
+        "section": "Property Data Overview",
+        "permissions": {
+          "Market Analysis": true
+        },
+        "_id": "6760143c88c087695bf66ac3"
+      }
+    ],
+    "assetIds": [
+      "666bec1d75fd2798ccd4893d"
+    ],
+    "chatAccess": false,
+    "__v": 0
+  },
+  {
+    "_id": "66fc0a3ac0166353e2399840",
+    "userId": "66fc0a3ac0166353e239983d",
+    "adminId": "66fa554894703b89238563f3",
+    "assetPermissions": [
+      {
+        "section": "Property Data Overview",
+        "permissions": {
+          "Financial KPI": true,
+          "assetName": true,
+          "assetDescription": true
+        },
+        "_id": "66fc0a3ac0166353e2399841"
+      }
+    ],
+    "assetIds": [
+      "666bec1d75fd2798ccd48917"
+    ],
+    "chatAccess": true,
+    "__v": 0
+  },
+  {
+    "_id": "6750545e6eade59015b2209e",
+    "userId": "6750545e6eade59015b2209b",
+    "adminId": "66fa554894703b89238563f3",
+    "assetPermissions": [
+      {
+        "section": "Property Data Overview",
+        "permissions": {
+          "Financial KPI": true
+        },
+        "_id": "6750545e6eade59015b2209f"
+      }
+    ],
+    "assetIds": [
+      "666bec1d75fd2798ccd48917"
+    ],
+    "chatAccess": false,
+    "__v": 0
+  },
+  {
+    "_id": "67508bef6eade59015b222b6",
+    "userId": "67508bec6eade59015b222ac",
+    "adminId": "66fa554894703b89238563f3",
+    "assetPermissions": [
+      {
+        "section": "Property Data Overview",
+        "permissions": {
+          "Financial KPI": true
+        },
+        "_id": "67508bef6eade59015b222b7"
+      }
+    ],
+    "assetIds": [
+      "666bec1d75fd2798ccd48917"
+    ],
+    "chatAccess": false,
+    "__v": 0
+  },
+  {
+    "_id": "67651525148fcfe84d685c13",
+    "userId": "67651524148fcfe84d685c10",
+    "adminId": "67602836946b5fb50e8e58f4",
+    "assetPermissions": [
+      {
+        "section": "Property Data Overview",
+        "permissions": {
+          "Financial KPI": true,
+          "OperatingIncomeExpenses": true,
+          "Market Analysis": true,
+          "Utilities": true,
+          "Maintenance": true,
+          "assetName": true,
+          "assetDescription": true
+        },
+        "_id": "67651525148fcfe84d685c14"
+      }
+    ],
+    "assetIds": [
+      "67602a51946b5fb50e8e5903"
+    ],
+    "chatAccess": false,
+    "__v": 0
+  },
+  {
+    "_id": "66fe374fc9bc533f0dd842ae",
+    "userId": "66fe374fc9bc533f0dd842ab",
+    "adminId": "66fa554894703b89238563f3",
+    "assetPermissions": [
+      {
+        "section": "Property Data Overview",
+        "permissions": {
+          "OperatingIncomeExpenses": true,
+          "Market Analysis": true,
+          "Maintenance": true,
+          "Financial KPI": true,
+          "Utilities": true,
+          "Operating Income & Expenses": true
+        },
+        "_id": "66fe374fc9bc533f0dd842af"
+      }
+    ],
+    "assetIds": [
+      "666bec1d75fd2798ccd48918",
+      "666bec1d75fd2798ccd48919"
+    ],
+    "chatAccess": true,
+    "__v": 1
+  },
+  {
+    "_id": "676525a757b187a5912a900e",
+    "userId": "676525a757b187a5912a900b",
+    "adminId": "66fa554894703b89238563f3",
+    "assetPermissions": [
+      {
+        "section": "Property Data Overview",
+        "permissions": {
+          "Utilities": true,
+          "Maintenance": true,
+          "assetName": true,
+          "assetDescription": true
+        },
+        "_id": "676525a757b187a5912a900f"
+      }
+    ],
+    "assetIds": [
+      "67602a51946b5fb50e8e5903"
+    ],
+    "chatAccess": false,
+    "__v": 0
+  },
+  {
+    "_id": "676eaeb5ce72a2c4fa50f5c8",
+    "userId": "676eaeb5ce72a2c4fa50f5c5",
+    "adminId": "66fa554894703b89238563f3",
+    "assetPermissions": [
+      {
+        "section": "Property Data Overview",
+        "permissions": {
+          "Market Analysis": true,
+          "Maintenance": true
+        },
+        "_id": "676eaeb5ce72a2c4fa50f5c9"
+      }
+    ],
+    "assetIds": [
+      "666bec1d75fd2798ccd48912"
+    ],
+    "chatAccess": false,
+    "__v": 0
+  },
+  {
+    "_id": "676524aa57b187a5912a8fb6",
+    "userId": "676524aa57b187a5912a8fb3",
+    "adminId": "66fa554894703b89238563f3",
+    "assetPermissions": [
+      {
+        "section": "Property Data Overview",
+        "permissions": {
+          "Market Analysis": true,
+          "Maintenance": true
+        },
+        "_id": "676524aa57b187a5912a8fb7"
+      }
+    ],
+    "assetIds": [
+      "67602a51946b5fb50e8e5903"
+    ],
+    "chatAccess": true,
+    "__v": 0
+  },
+  {
+    "_id": "675022c44d6c9dc679f02277",
+    "userId": "675014e7fc7622c4b89566b2",
+    "adminId": "66fa554894703b89238563f3",
+    "assetPermissions": [
+      {
+        "section": "Property Data Overview",
+        "permissions": {
+          "Market Analysis": true,
+          "Maintenance": true
+        },
+        "_id": "675022c44d6c9dc679f02278"
+      }
+    ],
+    "assetIds": [
+      "666bec1d75fd2798ccd48917",
+      "666bec1d75fd2798ccd4893d"
+    ],
+    "chatAccess": false,
+    "__v": 1
+  },
+  {
+    "_id": "67505a776eade59015b221d2",
+    "userId": "67505a776eade59015b221cf",
+    "adminId": "66fa554894703b89238563f3",
+    "assetPermissions": [
+      {
+        "section": "Property Data Overview",
+        "permissions": {
+          "Maintenance": true
+        },
+        "_id": "67505a776eade59015b221d3"
+      }
+    ],
+    "assetIds": [
+      "666bec1d75fd2798ccd4893d"
+    ],
+    "chatAccess": false,
+    "__v": 0
+  },
+  {
+    "_id": "67b8493464eb7d3f2b12b777",
+    "userId": "67b8493464eb7d3f2b12b774",
+    "adminId": "67602836946b5fb50e8e58f4",
+    "assetPermissions": [
+      {
+        "section": "Property Data Overview",
+        "permissions": {
+          "Maintenance": true,
+          "assetName": true
+        },
+        "_id": "67b8493464eb7d3f2b12b778"
+      }
+    ],
+    "assetIds": [
+      "676029fe946b5fb50e8e58f9"
+    ],
+    "chatAccess": true,
+    "__v": 0
+  },
+  {
+    "_id": "67b84aa708dc6c09fda87434",
+    "userId": "67b84aa708dc6c09fda87431",
+    "adminId": "67602836946b5fb50e8e58f4",
+    "assetPermissions": [
+      {
+        "section": "Property Data Overview",
+        "permissions": {
+          "Financial KPI": true,
+          "OperatingIncomeExpenses": true,
+          "Maintenance": true,
+          "assetName": true
+        },
+        "_id": "67b84aa708dc6c09fda87435"
+      }
+    ],
+    "assetIds": [
+      "676029fe946b5fb50e8e58f9",
+      "67602a1a946b5fb50e8e58fd"
+    ],
+    "chatAccess": false,
+    "__v": 1
+  },
+  {
+    "_id": "67b87802f310d42b1f4475ed",
+    "userId": "67b87802f310d42b1f4475ea",
+    "adminId": "67602836946b5fb50e8e58f4",
+    "assetPermissions": [
+      {
+        "section": "Property Data Overview",
+        "permissions": {
+          "Financial KPI": true,
+          "OperatingIncomeExpenses": true
+        },
+        "_id": "67b87802f310d42b1f4475ee"
+      }
+    ],
+    "assetIds": [
+      "67602a46946b5fb50e8e5902",
+      "67602a1a946b5fb50e8e58fd",
+      "666bec1d75fd2798ccd4891b"
+    ],
+    "chatAccess": false,
+    "__v": 2
+  },
+  {
+    "_id": "67b94406f310d42b1f448043",
+    "userId": "67b94406f310d42b1f448040",
+    "adminId": "67602836946b5fb50e8e58f4",
+    "assetPermissions": [
+      {
+        "section": "Property Data Overview",
+        "permissions": {
+          "Financial KPI": true,
+          "assetName": true,
+          "assetDescription": true,
+          "Utilities": true,
+          "OperatingIncomeExpenses": true
+        },
+        "_id": "67b94406f310d42b1f448044"
+      }
+    ],
+    "assetIds": [
+      "67602a1a946b5fb50e8e58fd"
+    ],
+    "chatAccess": false,
+    "__v": 0
+  }
+]

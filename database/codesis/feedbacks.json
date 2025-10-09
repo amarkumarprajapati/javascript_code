@@ -1,0 +1,165 @@
+[
+  {
+    "_id": "674f044adfa1090244dc938b",
+    "user_id": "66fa554894703b89238563f3",
+    "asset_id": "666bec1d75fd2798ccd48917",
+    "Message_id": "16dbd992-2a87-4129-87a1-c1719b516e34",
+    "feedback": {
+      "feedback_type": [
+        "time duration",
+        "lack of bandwidth",
+        "not sufficient"
+      ]
+    },
+    "createdAt": "2024-12-03T13:14:50.875Z",
+    "updatedAt": "2024-12-03T13:14:50.875Z",
+    "__v": 0
+  },
+  {
+    "_id": "6751a0a5e4889ac6e56080de",
+    "user_id": "66fa554894703b89238563f3",
+    "asset_id": "666bec1d75fd2798ccd48918",
+    "Message_id": "undefined",
+    "feedback": {
+      "feedback_type": []
+    },
+    "createdAt": "2024-12-05T12:46:29.675Z",
+    "updatedAt": "2024-12-05T12:46:29.675Z",
+    "__v": 0
+  },
+  {
+    "_id": "67602f77364f6d4ccfeeba19",
+    "user_id": "67602836946b5fb50e8e58f4",
+    "asset_id": "676029fe946b5fb50e8e58f9",
+    "Message_id": "8c98a3a6-716a-4f0d-a56c-1e4252224324",
+    "feedback": {
+      "feedback_type": []
+    },
+    "createdAt": "2024-12-16T13:47:35.341Z",
+    "updatedAt": "2024-12-16T13:47:35.341Z",
+    "__v": 0
+  },
+  {
+    "_id": "675185ba6eade59015b223a8",
+    "user_id": "66fa554894703b89238563f3",
+    "asset_id": "666bec1d75fd2798ccd48917",
+    "Message_id": "8a1f6c60-3191-4ff1-8894-0d354373fbc8",
+    "feedback": {
+      "feedback_type": [
+        "Too expensive"
+      ]
+    },
+    "createdAt": "2024-12-05T10:51:38.291Z",
+    "updatedAt": "2024-12-05T10:51:38.291Z",
+    "__v": 0
+  },
+  {
+    "_id": "674f0425dfa1090244dc9389",
+    "user_id": "66fa554894703b89238563f3",
+    "asset_id": "666bec1d75fd2798ccd48917",
+    "Message_id": "16dbd992-2a87-4129-87a1-c1719b516e34",
+    "feedback": {
+      "feedback_type": [
+        "Too expensive",
+        "Not feeling it",
+        "lack of bandwidth",
+        "not sufficient"
+      ]
+    },
+    "createdAt": "2024-12-03T13:14:13.875Z",
+    "updatedAt": "2024-12-03T13:14:13.875Z",
+    "__v": 0
+  },
+  {
+    "_id": "67519cb4b7bcc2e1b1101f03",
+    "user_id": "66fa554894703b89238563f3",
+    "asset_id": "666bec1d75fd2798ccd48918",
+    "Message_id": "d2ec4b27-ba62-4bfc-b58f-737b4ee9b69d",
+    "feedback": {
+      "feedback_type": []
+    },
+    "createdAt": "2024-12-05T12:29:40.134Z",
+    "updatedAt": "2024-12-05T12:29:40.134Z",
+    "__v": 0
+  },
+  {
+    "_id": "67938b3ccbc2097f2d0bf249",
+    "user_id": "67602836946b5fb50e8e58f4",
+    "asset_id": "67602a51946b5fb50e8e5903",
+    "Message_id": "6e7fa402-833d-4a15-8a0f-38bb070fd925",
+    "feedback": {
+      "feedback_type": []
+    },
+    "createdAt": "2025-01-24T12:44:44.818Z",
+    "updatedAt": "2025-01-24T12:44:44.818Z",
+    "__v": 0
+  },
+  {
+    "_id": "67519376e4889ac6e5608077",
+    "user_id": "66fa554894703b89238563f3",
+    "asset_id": "666bec1d75fd2798ccd48917",
+    "Message_id": "fde15fe0-f2dd-4f79-9a9b-df1780ff6502",
+    "feedback": {
+      "feedback_type": []
+    },
+    "createdAt": "2024-12-05T11:50:14.161Z",
+    "updatedAt": "2024-12-05T11:50:14.161Z",
+    "__v": 0
+  },
+  {
+    "_id": "6751a4c1e4889ac6e56081be",
+    "user_id": "66fa554894703b89238563f3",
+    "asset_id": "666bec1d75fd2798ccd48917",
+    "Message_id": "4ce6e409-e01b-4048-910b-9e7217816744",
+    "feedback": {
+      "feedback_type": []
+    },
+    "createdAt": "2024-12-05T13:04:01.066Z",
+    "updatedAt": "2024-12-05T13:04:01.066Z",
+    "__v": 0
+  },
+  {
+    "_id": "67502dfe4d6c9dc679f023d1",
+    "user_id": "66fa554894703b89238563f3",
+    "asset_id": "666bec1d75fd2798ccd4893d",
+    "Message_id": "139046dd-cc6f-4060-844a-48cd1a742c3a",
+    "feedback": {
+      "feedback_type": [
+        "Not feeling it",
+        "time duration",
+        "lack of bandwidth",
+        "Too expensive",
+        "not sufficient"
+      ]
+    },
+    "like": false,
+    "createdAt": "2024-12-04T10:25:02.521Z",
+    "updatedAt": "2024-12-04T10:25:02.521Z",
+    "__v": 0
+  },
+  {
+    "_id": "67502c574d6c9dc679f02375",
+    "user_id": "66fa554894703b89238563f3",
+    "asset_id": "666bec1d75fd2798ccd48917",
+    "Message_id": "ddb233c5-b45e-466e-a15b-f18605d0e827",
+    "feedback": {
+      "feedback_type": []
+    },
+    "like": true,
+    "createdAt": "2024-12-04T10:17:59.025Z",
+    "updatedAt": "2024-12-04T10:17:59.025Z",
+    "__v": 0
+  },
+  {
+    "_id": "67b953f7665080142625748a",
+    "user_id": "67602836946b5fb50e8e58f4",
+    "asset_id": "67602a1a946b5fb50e8e58fd",
+    "Message_id": "1aabf287-093d-4707-9fd5-055be539b009",
+    "feedback": {
+      "feedback_type": []
+    },
+    "createdAt": "2025-02-22T04:35:03.491Z",
+    "updatedAt": "2025-02-22T04:35:03.491Z",
+    "__v": 0
+  }
+]

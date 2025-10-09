@@ -1,0 +1,353 @@
+[
+  {
+    "_id": "67615797533332a9780aa727",
+    "type": "deal_start",
+    "userId": "66fa554894703b89238563f3",
+    "assetId": [
+      "666bec1d75fd2798ccd48956"
+    ],
+    "message": "Joe Lilypad's has started a new deal.",
+    "read": true,
+    "__v": 0,
+    "createdAt": "2024-12-17T10:51:03.780Z",
+    "updatedAt": "2024-12-17T11:01:02.004Z"
+  },
+  {
+    "_id": "677d65b733d58f7f2e65d9dc",
+    "type": "deal_start",
+    "userId": "66fa554894703b89238563f3",
+    "assetId": [
+      "676029fe946b5fb50e8e58f9"
+    ],
+    "message": "Joe Lilypad's has started a new deal.",
+    "read": true,
+    "__v": 0,
+    "createdAt": "2025-01-07T17:34:47.963Z",
+    "updatedAt": "2025-01-07T17:35:39.400Z"
+  },
+  {
+    "_id": "676548001e93d7701a0bd937",
+    "type": "deal_start",
+    "userId": "66fa554894703b89238563f3",
+    "assetId": [
+      "666bec1d75fd2798ccd4891b"
+    ],
+    "message": "Joe Lilypad's has started a new deal.",
+    "read": true,
+    "__v": 0,
+    "createdAt": "2024-12-20T10:33:36.618Z",
+    "updatedAt": "2024-12-20T10:42:46.444Z"
+  },
+  {
+    "_id": "677e3715ff1b3a396a92ccf6",
+    "type": "deal_start",
+    "userId": "66fa554894703b89238563f3",
+    "assetId": [
+      "666bec1d75fd2798ccd4891f"
+    ],
+    "message": "Joe Lilypad's has started a new deal.",
+    "read": true,
+    "__v": 0,
+    "createdAt": "2025-01-08T08:28:05.613Z",
+    "updatedAt": "2025-01-08T08:52:14.204Z"
+  },
+  {
+    "_id": "6704d793f1771e45409cfc13",
+    "type": "deal_start",
+    "userId": "66fa554894703b89238563f3",
+    "assetId": [
+      "666bec1d75fd2798ccd4891b"
+    ],
+    "message": "Joe Lilypad's has started a new deal.",
+    "read": true,
+    "__v": 0,
+    "createdAt": "2024-10-08T06:56:19.868Z",
+    "updatedAt": "2024-12-17T06:30:35.416Z"
+  },
+  {
+    "_id": "67615a3ce2293c4b75d62dd4",
+    "type": "deal_start",
+    "userId": "66fa554894703b89238563f3",
+    "assetId": [
+      "67602a51946b5fb50e8e5903"
+    ],
+    "message": "Joe Lilypad's has started a new deal.",
+    "read": true,
+    "__v": 0,
+    "createdAt": "2024-12-17T11:02:20.869Z",
+    "updatedAt": "2024-12-17T11:02:27.628Z"
+  },
+  {
+    "_id": "676552f894d888884e7c6d2e",
+    "type": "deal_start",
+    "userId": "67602836946b5fb50e8e58f4",
+    "assetId": [
+      "666bec1d75fd2798ccd4892e"
+    ],
+    "message": "Joe Lilypad's has started a new deal.",
+    "read": true,
+    "__v": 0,
+    "createdAt": "2024-12-20T11:20:24.528Z",
+    "updatedAt": "2024-12-23T12:37:17.038Z"
+  },
+  {
+    "_id": "677e30a952e202fbe207d670",
+    "type": "deal_start",
+    "userId": "66fa554894703b89238563f3",
+    "assetId": [
+      "666bec1d75fd2798ccd48963"
+    ],
+    "message": "Joe Lilypad's has started a new deal.",
+    "read": true,
+    "__v": 0,
+    "createdAt": "2025-01-08T08:00:41.051Z",
+    "updatedAt": "2025-01-08T08:00:46.305Z"
+  },
+  {
+    "_id": "677e37a7ff1b3a396a92cd74",
+    "type": "deal_start",
+    "userId": "66fa554894703b89238563f3",
+    "assetId": [
+      "666bec1d75fd2798ccd48996"
+    ],
+    "message": "Joe Lilypad's has started a new deal.",
+    "read": true,
+    "__v": 0,
+    "createdAt": "2025-01-08T08:30:31.482Z",
+    "updatedAt": "2025-01-08T08:52:14.204Z"
+  },
+  {
+    "_id": "6765548a592344c0d7d0e6f7",
+    "type": "deal_start",
+    "userId": "67602836946b5fb50e8e58f4",
+    "assetId": [
+      "676029fe946b5fb50e8e58f9"
+    ],
+    "message": "Joe Lilypad's has started a new deal.",
+    "read": true,
+    "__v": 0,
+    "createdAt": "2024-12-20T11:27:06.658Z",
+    "updatedAt": "2024-12-23T12:37:17.038Z"
+  },
+  {
+    "_id": "676152da73f9a1787070c9b8",
+    "type": "deal_start",
+    "userId": "66fa554894703b89238563f3",
+    "assetId": [
+      "666bec1d75fd2798ccd48975"
+    ],
+    "message": "Joe Lilypad's has started a new deal.",
+    "read": true,
+    "__v": 0,
+    "createdAt": "2024-12-17T10:30:50.276Z",
+    "updatedAt": "2024-12-17T10:31:08.556Z"
+  },
+  {
+    "_id": "67615a1ee2293c4b75d62d52",
+    "type": "deal_start",
+    "userId": "66fa554894703b89238563f3",
+    "assetId": [
+      "666bec1d75fd2798ccd48956"
+    ],
+    "message": "Joe Lilypad's has started a new deal.",
+    "read": true,
+    "__v": 0,
+    "createdAt": "2024-12-17T11:01:50.456Z",
+    "updatedAt": "2024-12-17T11:02:27.628Z"
+  },
+  {
+    "_id": "67767d6ca2e7f107d35fed94",
+    "type": "deal_start",
+    "userId": "66fa554894703b89238563f3",
+    "assetId": [
+      "666bec1d75fd2798ccd48956"
+    ],
+    "message": "Joe Lilypad's has started a new deal.",
+    "read": true,
+    "__v": 0,
+    "createdAt": "2025-01-02T11:50:04.172Z",
+    "updatedAt": "2025-01-02T12:31:44.476Z"
+  },
+  {
+    "_id": "677d681c33d58f7f2e65dc5a",
+    "type": "deal_start",
+    "userId": "66fa554894703b89238563f3",
+    "assetId": [
+      "666bec1d75fd2798ccd4891f"
+    ],
+    "message": "Joe Lilypad's has started a new deal.",
+    "read": true,
+    "__v": 0,
+    "createdAt": "2025-01-07T17:45:00.883Z",
+    "updatedAt": "2025-01-07T17:46:16.791Z"
+  },
+  {
+    "_id": "67767d92a2e7f107d35fee02",
+    "type": "deal_start",
+    "userId": "66fa554894703b89238563f3",
+    "assetId": [
+      "666bec1d75fd2798ccd48963"
+    ],
+    "message": "Joe Lilypad's has started a new deal.",
+    "read": true,
+    "__v": 0,
+    "createdAt": "2025-01-02T11:50:42.918Z",
+    "updatedAt": "2025-01-02T12:31:44.476Z"
+  },
+  {
+    "_id": "677cc5b4c7d4c34370dc9d32",
+    "type": "deal_start",
+    "userId": "66fa554894703b89238563f3",
+    "assetId": [
+      "666bec1d75fd2798ccd4891b"
+    ],
+    "message": "Joe Lilypad's has started a new deal.",
+    "read": true,
+    "__v": 0,
+    "createdAt": "2025-01-07T06:12:04.936Z",
+    "updatedAt": "2025-01-07T06:22:18.072Z"
+  },
+  {
+    "_id": "676118e314826ffc843c517f",
+    "type": "deal_start",
+    "userId": "66fa554894703b89238563f3",
+    "assetId": [
+      "666bec1d75fd2798ccd4892e"
+    ],
+    "message": "Joe Lilypad's has started a new deal.",
+    "read": true,
+    "__v": 0,
+    "createdAt": "2024-12-17T06:23:31.267Z",
+    "updatedAt": "2024-12-17T06:30:35.416Z"
+  },
+  {
+    "_id": "6761532973f9a1787070ca45",
+    "type": "deal_start",
+    "userId": "66fa554894703b89238563f3",
+    "assetId": [
+      "67602a51946b5fb50e8e5903"
+    ],
+    "message": "Joe Lilypad's has started a new deal.",
+    "read": true,
+    "__v": 0,
+    "createdAt": "2024-12-17T10:32:09.298Z",
+    "updatedAt": "2024-12-17T10:38:38.335Z"
+  },
+  {
+    "_id": "6761597ee2293c4b75d62cbe",
+    "type": "deal_start",
+    "userId": "66fa554894703b89238563f3",
+    "assetId": [
+      "666bec1d75fd2798ccd48945"
+    ],
+    "message": "Joe Lilypad's has started a new deal.",
+    "read": true,
+    "__v": 0,
+    "createdAt": "2024-12-17T10:59:10.383Z",
+    "updatedAt": "2024-12-17T11:01:02.004Z"
+  },
+  {
+    "_id": "67767b75a2e7f107d35feaa5",
+    "type": "deal_start",
+    "userId": "66fa554894703b89238563f3",
+    "assetId": [
+      "67602a14946b5fb50e8e58fc"
+    ],
+    "message": "Joe Lilypad's has started a new deal.",
+    "read": true,
+    "__v": 0,
+    "createdAt": "2025-01-02T11:41:41.322Z",
+    "updatedAt": "2025-01-02T11:48:51.295Z"
+  },
+  {
+    "_id": "677e3cb0ff1b3a396a92cdb9",
+    "type": "deal_start",
+    "userId": "66fa554894703b89238563f3",
+    "assetId": [
+      "666bec1d75fd2798ccd48912"
+    ],
+    "message": "Joe Lilypad's has started a new deal.",
+    "read": true,
+    "__v": 0,
+    "createdAt": "2025-01-08T08:52:00.173Z",
+    "updatedAt": "2025-01-08T08:52:14.204Z"
+  },
+  {
+    "_id": "67041c89f1771e45409cf31f",
+    "type": "deal_start",
+    "userId": "66fa554894703b89238563f3",
+    "assetId": [
+      "666bec1d75fd2798ccd48918"
+    ],
+    "message": "Joe Lilypad's has started a new deal.",
+    "read": true,
+    "__v": 0,
+    "createdAt": "2024-10-07T17:38:17.339Z",
+    "updatedAt": "2024-12-17T06:30:35.416Z"
+  },
+  {
+    "_id": "6722343fabb3698538a6d7c9",
+    "type": "deal_start",
+    "userId": "6722336fabb3698538a6d6ea",
+    "assetId": [
+      "666bec1d75fd2798ccd48918"
+    ],
+    "message": "Firstname Lastname has started a new deal.",
+    "read": true,
+    "__v": 0,
+    "createdAt": "2024-10-30T13:27:27.585Z",
+    "updatedAt": "2024-12-17T06:30:35.416Z"
+  },
+  {
+    "_id": "67611a52364f6d4ccfeebc9f",
+    "type": "deal_start",
+    "userId": "67602836946b5fb50e8e58f4",
+    "assetId": [
+      "67602a51946b5fb50e8e5903"
+    ],
+    "message": "Joe Lilypad's has started a new deal.",
+    "read": true,
+    "__v": 0,
+    "createdAt": "2024-12-17T06:29:38.480Z",
+    "updatedAt": "2024-12-17T06:30:35.416Z"
+  },
+  {
+    "_id": "6773a6a579851159a98257d5",
+    "type": "deal_start",
+    "userId": "66fa554894703b89238563f3",
+    "assetId": [
+      "666bec1d75fd2798ccd48912"
+    ],
+    "message": "Joe Lilypad's has started a new deal.",
+    "read": true,
+    "__v": 0,
+    "createdAt": "2024-12-31T08:09:09.774Z",
+    "updatedAt": "2025-01-02T11:48:51.295Z"
+  },
+  {
+    "_id": "67d7c6fd26534419a1c63a6f",
+    "type": "deal_start",
+    "userId": "67602836946b5fb50e8e58f4",
+    "assetId": [
+      "666bec1d75fd2798ccd4891f"
+    ],
+    "message": "Codesis AI has started a new deal.",
+    "read": true,
+    "__v": 0,
+    "createdAt": "2025-03-17T06:53:49.800Z",
+    "updatedAt": "2025-03-17T06:54:26.412Z"
+  },
+  {
+    "_id": "67e40bf426534419a1c63c2f",
+    "type": "deal_start",
+    "userId": "67602836946b5fb50e8e58f4",
+    "assetId": [
+      "666bec1d75fd2798ccd48912"
+    ],
+    "message": "Codesis AI has started a new deal.",
+    "read": true,
+    "__v": 0,
+    "createdAt": "2025-03-26T14:15:16.527Z",
+    "updatedAt": "2025-03-28T14:15:26.528Z"
+  }
+]

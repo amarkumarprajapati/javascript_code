@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "6761540973f9a1787070ca8c",
+    "user_id": "66fa554894703b89238563f3",
+    "asset_id": "666bec1d75fd2798ccd48963",
+    "general": {
+      "Name": "River View Apartments",
+      "Yield": "100",
+      "LTV": "2000",
+      "Hold_Period": "300",
+      "Amount": "5000",
+      "Minimum_Investment": "4000",
+      "Redemption_Period": "6000",
+      "Strategy": "",
+      "Area": "6000",
+      "Appraisal_Value": "6000"
+    },
+    "disclaimer": "",
+    "imageUrl": "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Syndicate-images/666bec1d75fd2798ccd48963/dbd52798-5ba4-47ca-9a55-e741c79b4750-lake-jodhpur-rajasthan-india.jpg",
+    "__v": 0
+  },
+  {
+    "_id": "67654a121e93d7701a0bd995",
+    "user_id": "66fa554894703b89238563f3",
+    "asset_id": "666bec1d75fd2798ccd4891b",
+    "general": {
+      "Name": "evsbdbd",
+      "Yield": "12321",
+      "LTV": "312",
+      "Hold_Period": "31313",
+      "Amount": "153",
+      "Minimum_Investment": "13",
+      "Redemption_Period": "135",
+      "Strategy": "Value-Added",
+      "Area": "1",
+      "Appraisal_Value": "351"
+    },
+    "disclaimer": "",
+    "imageUrl": "https://lilypadstechdemo.s3.amazonaws.com/Syndicate-images/666bec1d75fd2798ccd4891b/6958f8ab-5d3f-4876-981c-5394c05b4504-plant-with-orange-yellow-flowers-middle.jpg",
+    "__v": 0
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "_id": "6761736960600c298051ddd3",
+    "user_id": "66fa554894703b89238563f3",
+    "asset_id": "67602a51946b5fb50e8e5903",
+    "is_ready": true,
+    "is_shared": false,
+    "bic": "123456789",
+    "iban": "1234567890",
+    "createdAt": "2024-12-17T12:49:45.974Z",
+    "updatedAt": "2024-12-17T12:49:45.974Z",
+    "__v": 0
+  },
+  {
+    "_id": "67726a784905c7f348332124",
+    "user_id": "66fa554894703b89238563f3",
+    "asset_id": "666bec1d75fd2798ccd48963",
+    "is_ready": true,
+    "is_shared": false,
+    "bic": "646846844",
+    "iban": "15246848646",
+    "createdAt": "2024-12-30T09:40:08.086Z",
+    "updatedAt": "2024-12-30T09:40:43.533Z",
+    "__v": 0,
+    "imageUrl": "https://lilypadstechdemo.s3.amazonaws.com/User-Submit-Proof-images/67726a784905c7f348332124/b9ce4e15-f7e1-42e2-be63-4b5a5e3f89f3-mceclip1.png"
+  },
+  {
+    "_id": "67724fb110fbdfd6c04aeb8c",
+    "user_id": "66fa554894703b89238563f3",
+    "asset_id": "666bec1d75fd2798ccd4891f",
+    "is_ready": true,
+    "is_shared": false,
+    "bic": "1234567890",
+    "iban": "1235468790",
+    "createdAt": "2024-12-30T07:45:53.098Z",
+    "updatedAt": "2024-12-30T08:24:37.004Z",
+    "__v": 0,
+    "imageUrl": "https://lilypadstechdemo.s3.amazonaws.com/User-Submit-Proof-images/67724fb110fbdfd6c04aeb8c/fecf7ede-4c37-4eb8-aaf2-3ea392f478b4-mceclip1.png"
+  },
+  {
+    "_id": "67e6ae3d26534419a1c63d38",
+    "user_id": "67602836946b5fb50e8e58f4",
+    "asset_id": "666bec1d75fd2798ccd48912",
+    "is_ready": true,
+    "is_shared": false,
+    "bic": "2151",
+    "iban": "5446846824",
+    "createdAt": "2025-03-28T14:12:13.347Z",
+    "updatedAt": "2025-03-28T14:12:13.347Z",
+    "__v": 0
+  }
+]

@@ -1,0 +1,6 @@
+Advanced Topics - 
+   Prototype and prototype chain
+   Functional programming concepts (map, reduce, filter, etc.)
+   Memory management & garbage collection
+   Performance optimization basics
+
