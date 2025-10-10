@@ -5,8 +5,6 @@ let data = [
 
 function revwithassdesc(data) {
   let showddata = [];
-  let odd = [];
-  let even = [];
 
   for (let a = data.length - 1; a >= 0; a--) {
     console.log("first - ", data[a]);

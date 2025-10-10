@@ -1,4 +1,4 @@
-// Remove Only Dublicate Elements -
+// Remove Only Dublicate Elements
 
 let data = [112, 12, 3, 5, 6, 4, 5, 5, 5, 1, 5];
 

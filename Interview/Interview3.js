@@ -4,7 +4,7 @@ function extractElements(nestedArray) {
     let result = [];
     for (let element of nestedArray) {
         if (Array.isArray(element)) {
-            result = result.concat(extractElements(element));
+
         } else {
             result.push(element);
         }
