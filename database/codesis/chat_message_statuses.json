@@ -1,0 +1,461 @@
+[
+  {
+    "_id": "6751c127b7bcc2e1b1102215",
+    "user_id": "66fa554894703b89238563f3",
+    "asset_id": "666bec1d75fd2798ccd48917",
+    "Message_id": "2607ceaf-7e70-4ff9-80ce-91723bba20e2",
+    "text_id": "recommendation_1",
+    "text_data": "{\"header\":\"Implement Gradual Rent Increases\",\"description\":\"Increase rents by 3-5% for upcoming lease renewals to boost revenue while maintaining competitive rates, projecting an increase in revenue of approximately $189-$315 per unit monthly.\"}",
+    "status": "Implemented",
+    "email": {
+      "sent": false
+    },
+    "createdAt": "2024-12-05T15:05:11.925Z",
+    "updatedAt": "2024-12-05T15:05:11.925Z",
+    "__v": 0
+  },
+  {
+    "_id": "676285b67acf5aa49d1fcaab",
+    "user_id": "666fea5aa7291d81047fac33",
+    "asset_id": "6675e61b600bf023b8dbd1d2",
+    "Message_id": "155d36ee-3b3e-4189-a71f-f64141308e32",
+    "text_id": "recommendation_3",
+    "text_data": "Follow up on project progress",
+    "status": "Scheduled",
+    "email": {
+      "sent": true,
+      "recipient": "joeAI@lilypads.com",
+      "scheduledFor": "2024-12-01T13:50:00.000Z",
+      "sentAt": "2024-12-18T08:20:09.975Z"
+    },
+    "createdAt": "2024-12-18T08:20:06.814Z",
+    "updatedAt": "2024-12-18T08:20:09.976Z",
+    "__v": 0
+  },
+  {
+    "_id": "67629d2a73c1a6b75c000212",
+    "user_id": "666fea5aa7291d81047fac33",
+    "asset_id": "6675e61b600bf023b8dbd1d2",
+    "Message_id": "155d36ee-3b3e-4189-a71f-f64141308e32",
+    "text_id": "recommendation_3",
+    "text_data": "Follow up on project progress",
+    "status": "Scheduled",
+    "email": {
+      "sent": true,
+      "recipient": "amarkumarprajapati@gmail.com",
+      "scheduledFor": "2024-12-01T15:31:00.000Z",
+      "sentAt": "2024-12-18T10:00:14.004Z"
+    },
+    "createdAt": "2024-12-18T10:00:10.150Z",
+    "updatedAt": "2024-12-18T10:00:14.006Z",
+    "__v": 0
+  },
+  {
+    "_id": "67629d8bf60b0a19cceb4df0",
+    "user_id": "666fea5aa7291d81047fac33",
+    "asset_id": "6675e61b600bf023b8dbd1d2",
+    "Message_id": "155d36ee-3b3e-4189-a71f-f64141308e32",
+    "text_id": "recommendation_3",
+    "text_data": "Follow up on project progress",
+    "status": "Scheduled",
+    "email": {
+      "sent": true,
+      "recipient": "amarkumarprajapati@gmail.com",
+      "scheduledFor": "2024-12-01T15:29:00.000Z",
+      "sentAt": "2024-12-18T10:01:50.805Z"
+    },
+    "createdAt": "2024-12-18T10:01:47.859Z",
+    "updatedAt": "2024-12-18T10:01:50.805Z",
+    "__v": 0
+  },
+  {
+    "_id": "67a5f28acbc2097f2d0bf3a0",
+    "user_id": "67602836946b5fb50e8e58f4",
+    "asset_id": "67602a51946b5fb50e8e5903",
+    "Message_id": "6e7fa402-833d-4a15-8a0f-38bb070fd925",
+    "text_id": "recommendation_4",
+    "text_data": "{\"header\":\"Regular Maintenance and Upgrades\",\"description\":\"Schedule regular maintenance checks to prevent major repair costs and improve property appeal, attracting higher-income tenants.\"}",
+    "status": "Scheduled",
+    "email": {
+      "sent": true,
+      "recipient": "joeAI@lilypads.com",
+      "scheduledFor": "2025-02-15T08:33:04.000Z",
+      "sentAt": "2025-02-07T11:46:19.559Z"
+    },
+    "createdAt": "2025-02-07T11:46:18.458Z",
+    "updatedAt": "2025-02-07T11:46:19.560Z",
+    "__v": 0
+  },
+  {
+    "_id": "676286537acf5aa49d1fcac3",
+    "user_id": "666fea5aa7291d81047fac33",
+    "asset_id": "6675e61b600bf023b8dbd1d2",
+    "Message_id": "155d36ee-3b3e-4189-a71f-f64141308e32",
+    "text_id": "recommendation_3",
+    "text_data": "Follow up on project progress",
+    "status": "Scheduled",
+    "email": {
+      "sent": true,
+      "recipient": "amarkumarprajapati@gmail.com",
+      "scheduledFor": "2024-12-01T13:54:00.000Z",
+      "sentAt": "2024-12-18T08:22:45.969Z"
+    },
+    "createdAt": "2024-12-18T08:22:43.186Z",
+    "updatedAt": "2024-12-18T08:22:45.970Z",
+    "__v": 0
+  },
+  {
+    "_id": "67629c3373c1a6b75c000206",
+    "user_id": "666fea5aa7291d81047fac33",
+    "asset_id": "6675e61b600bf023b8dbd1d2",
+    "Message_id": "155d36ee-3b3e-4189-a71f-f64141308e32",
+    "text_id": "recommendation_3",
+    "text_data": "Follow up on project progress",
+    "status": "Scheduled",
+    "email": {
+      "sent": true,
+      "recipient": "joeAI@lilypads.com",
+      "scheduledFor": "2024-12-01T13:54:00.000Z",
+      "sentAt": "2024-12-18T09:56:06.236Z"
+    },
+    "createdAt": "2024-12-18T09:56:03.273Z",
+    "updatedAt": "2024-12-18T09:56:06.237Z",
+    "__v": 0
+  },
+  {
+    "_id": "6751ebf0b7bcc2e1b1102285",
+    "user_id": "66fa554894703b89238563f3",
+    "asset_id": "666bec1d75fd2798ccd48917",
+    "Message_id": "1ed78851-bd43-4ec5-8fb9-7d043e09ca61",
+    "text_id": "recommendation_2",
+    "text_data": "{\"header\":\"Enhance Maintenance Efficiency\",\"description\":\"Streamline maintenance operations by establishing quicker resolution benchmarks and a maintenance reserve fund to handle frequent HVAC and plumbing issues efficiently.\"}",
+    "status": "Scheduled",
+    "email": {
+      "sent": true,
+      "recipient": "joe@lilypads.com",
+      "scheduledFor": "2024-12-10T08:30:00.000Z",
+      "sentAt": "2024-12-05T18:07:45.321Z"
+    },
+    "createdAt": "2024-12-05T18:07:44.108Z",
+    "updatedAt": "2024-12-05T18:07:45.322Z",
+    "__v": 0
+  },
+  {
+    "_id": "67569a9256d1171a7bc294b1",
+    "user_id": "66fa554894703b89238563f3",
+    "asset_id": "666bec1d75fd2798ccd4893d",
+    "Message_id": "287fa8de-01c3-4d5d-ba20-551aa9c97b0d",
+    "text_id": "recommendation_1",
+    "text_data": "{\"header\":\"Adjust Rent Pricing\",\"description\":\"Increase rentals by 5-10% for the following year based on high demand and market trends to boost revenue.\"}",
+    "status": "Implemented",
+    "email": {
+      "sent": false
+    },
+    "createdAt": "2024-12-09T07:21:54.525Z",
+    "updatedAt": "2024-12-09T07:21:54.525Z",
+    "__v": 0
+  },
+  {
+    "_id": "67629cad73c1a6b75c00020c",
+    "user_id": "666fea5aa7291d81047fac33",
+    "asset_id": "6675e61b600bf023b8dbd1d2",
+    "Message_id": "155d36ee-3b3e-4189-a71f-f64141308e32",
+    "text_id": "recommendation_3",
+    "text_data": "Follow up on project progress",
+    "status": "Scheduled",
+    "email": {
+      "sent": true,
+      "recipient": "joeAI@lilypads.com",
+      "scheduledFor": "2024-12-01T15:30:00.000Z",
+      "sentAt": "2024-12-18T09:58:11.001Z"
+    },
+    "createdAt": "2024-12-18T09:58:05.321Z",
+    "updatedAt": "2024-12-18T09:58:11.002Z",
+    "__v": 0
+  },
+  {
+    "_id": "67629f41ca3d4541a1f40e9a",
+    "user_id": "666fea5aa7291d81047fac33",
+    "asset_id": "6675e61b600bf023b8dbd1d2",
+    "Message_id": "155d36ee-3b3e-4189-a71f-f64141308e32",
+    "text_id": "recommendation_3",
+    "text_data": "Follow up on project progress",
+    "status": "Scheduled",
+    "email": {
+      "sent": true,
+      "recipient": "amarkumarprajapati@gmail.com",
+      "scheduledFor": "2024-12-01T15:40:00.000Z",
+      "sentAt": "2024-12-18T10:09:08.264Z"
+    },
+    "createdAt": "2024-12-18T10:09:05.378Z",
+    "updatedAt": "2024-12-18T10:09:08.265Z",
+    "__v": 0
+  },
+  {
+    "_id": "6751ebdbb7bcc2e1b110227f",
+    "user_id": "66fa554894703b89238563f3",
+    "asset_id": "666bec1d75fd2798ccd48917",
+    "Message_id": "1ed78851-bd43-4ec5-8fb9-7d043e09ca61",
+    "text_id": "recommendation_1",
+    "text_data": "{\"header\":\"Implement Modest Rent Increases\",\"description\":\"Adjust rents upwards by 3-5% for the upcoming lease renewals to enhance revenue, ensuring alignment with market trends while maintaining competitive pricing.\"}",
+    "status": "Assigned",
+    "email": {
+      "sent": false
+    },
+    "createdAt": "2024-12-05T18:07:23.278Z",
+    "updatedAt": "2024-12-05T18:07:23.278Z",
+    "__v": 0
+  },
+  {
+    "_id": "67569b8856d1171a7bc294d0",
+    "user_id": "66fa554894703b89238563f3",
+    "asset_id": "666bec1d75fd2798ccd4893d",
+    "Message_id": "287fa8de-01c3-4d5d-ba20-551aa9c97b0d",
+    "text_id": "recommendation_1",
+    "text_data": "{\"header\":\"Adjust Rent Pricing\",\"description\":\"Increase rentals by 5-10% for the following year based on high demand and market trends to boost revenue.\"}",
+    "status": "Implemented",
+    "email": {
+      "sent": false
+    },
+    "createdAt": "2024-12-09T07:26:00.478Z",
+    "updatedAt": "2024-12-09T07:26:00.478Z",
+    "__v": 0
+  },
+  {
+    "_id": "67627f667acf5aa49d1fcaa5",
+    "user_id": "666fea5aa7291d81047fac33",
+    "asset_id": "6675e61b600bf023b8dbd1d2",
+    "Message_id": "155d36ee-3b3e-4189-a71f-f64141308e32",
+    "text_id": "recommendation_3",
+    "text_data": "Follow up on project progress",
+    "status": "Scheduled",
+    "email": {
+      "sent": true,
+      "recipient": "joeAI@lilypads.com",
+      "scheduledFor": "2024-12-01T15:00:00.000Z",
+      "sentAt": "2024-12-18T07:53:14.424Z"
+    },
+    "createdAt": "2024-12-18T07:53:10.655Z",
+    "updatedAt": "2024-12-18T07:53:14.426Z",
+    "__v": 0
+  },
+  {
+    "_id": "67a5f1decbc2097f2d0bf38d",
+    "user_id": "67602836946b5fb50e8e58f4",
+    "asset_id": "67602a51946b5fb50e8e5903",
+    "Message_id": "6e7fa402-833d-4a15-8a0f-38bb070fd925",
+    "text_id": "recommendation_5",
+    "text_data": "{\"header\":\"Risk Mitigation via Financial Oversight\",\"description\":\"Implement tighter controls on maintenance budgets and ensure sufficient insurance coverage to protect against potential unplanned expenditures.\"}",
+    "status": "Assigned",
+    "email": {
+      "sent": false
+    },
+    "createdAt": "2025-02-07T11:43:26.680Z",
+    "updatedAt": "2025-02-07T11:43:26.680Z",
+    "__v": 0
+  },
+  {
+    "_id": "6751b44eb7bcc2e1b1102045",
+    "user_id": "66fa554894703b89238563f3",
+    "asset_id": "666bec1d75fd2798ccd4893d",
+    "Message_id": "40e85008-d74a-415e-93e9-650f6c868e65",
+    "text_id": "recommendation_1",
+    "text_data": "{\"header\":\"Implement Gradual Rental Increase\",\"description\":\"Boost monthly rental income by implementing a systematic rental increase of 3-5% due to high occupancy and tenant compliance with current rents, maintaining a competitive edge in the market.\"}",
+    "status": "Implemented",
+    "email": {
+      "sent": false
+    },
+    "createdAt": "2024-12-05T14:10:22.173Z",
+    "updatedAt": "2024-12-05T14:10:22.173Z",
+    "__v": 0
+  },
+  {
+    "_id": "6758440ab1a759f9ae122008",
+    "user_id": "66fa554894703b89238563f3",
+    "asset_id": "666bec1d75fd2798ccd48917",
+    "Message_id": "77f385be-6c8e-4d1a-9cab-253dedff3233",
+    "text_id": "recommendation_5",
+    "text_data": "{\"header\":\"Strengthen tenant relationships\",\"description\":\"Establish more robust tenant communication and satisfaction programs to maintain high occupancy and reduce the already low turnover rates further.\"}",
+    "status": "Implemented",
+    "email": {
+      "sent": false
+    },
+    "createdAt": "2024-12-10T13:37:14.430Z",
+    "updatedAt": "2024-12-10T13:37:14.430Z",
+    "__v": 0
+  },
+  {
+    "_id": "6762a0b737f52e16946762ff",
+    "user_id": "666fea5aa7291d81047fac33",
+    "asset_id": "6675e61b600bf023b8dbd1d2",
+    "Message_id": "155d36ee-3b3e-4189-a71f-f64141308e32",
+    "text_id": "recommendation_3",
+    "text_data": "Follow up on project progress",
+    "status": "Scheduled",
+    "email": {
+      "sent": true,
+      "recipient": "amarkumarprajapati@gmail.com",
+      "scheduledFor": "2024-12-01T15:40:00.000Z",
+      "sentAt": "2024-12-18T10:15:22.820Z"
+    },
+    "createdAt": "2024-12-18T10:15:19.057Z",
+    "updatedAt": "2024-12-18T10:15:22.821Z",
+    "__v": 0
+  },
+  {
+    "_id": "6758440db1a759f9ae122012",
+    "user_id": "66fa554894703b89238563f3",
+    "asset_id": "666bec1d75fd2798ccd48917",
+    "Message_id": "77f385be-6c8e-4d1a-9cab-253dedff3233",
+    "text_id": "recommendation_5",
+    "text_data": "{\"header\":\"Strengthen tenant relationships\",\"description\":\"Establish more robust tenant communication and satisfaction programs to maintain high occupancy and reduce the already low turnover rates further.\"}",
+    "status": "Implemented",
+    "email": {
+      "sent": false
+    },
+    "createdAt": "2024-12-10T13:37:17.578Z",
+    "updatedAt": "2024-12-10T13:37:17.578Z",
+    "__v": 0
+  },
+  {
+    "_id": "676285ed7acf5aa49d1fcab1",
+    "user_id": "666fea5aa7291d81047fac33",
+    "asset_id": "6675e61b600bf023b8dbd1d2",
+    "Message_id": "155d36ee-3b3e-4189-a71f-f64141308e32",
+    "text_id": "recommendation_3",
+    "text_data": "Follow up on project progress",
+    "status": "Scheduled",
+    "email": {
+      "sent": true,
+      "recipient": "joeAI@lilypads.com",
+      "scheduledFor": "2024-12-01T13:51:00.000Z",
+      "sentAt": "2024-12-18T08:21:04.057Z"
+    },
+    "createdAt": "2024-12-18T08:21:01.095Z",
+    "updatedAt": "2024-12-18T08:21:04.058Z",
+    "__v": 0
+  },
+  {
+    "_id": "676286997acf5aa49d1fcac9",
+    "user_id": "666fea5aa7291d81047fac33",
+    "asset_id": "6675e61b600bf023b8dbd1d2",
+    "Message_id": "155d36ee-3b3e-4189-a71f-f64141308e32",
+    "text_id": "recommendation_3",
+    "text_data": "Follow up on project progress",
+    "status": "Scheduled",
+    "email": {
+      "sent": true,
+      "recipient": "amarkumarprajapati@gmail.com",
+      "scheduledFor": "2024-12-01T13:54:00.000Z",
+      "sentAt": "2024-12-18T08:23:56.885Z"
+    },
+    "createdAt": "2024-12-18T08:23:53.317Z",
+    "updatedAt": "2024-12-18T08:23:56.886Z",
+    "__v": 0
+  },
+  {
+    "_id": "67629ea599c2fe22a23cb3e9",
+    "user_id": "666fea5aa7291d81047fac33",
+    "asset_id": "6675e61b600bf023b8dbd1d2",
+    "Message_id": "155d36ee-3b3e-4189-a71f-f64141308e32",
+    "text_id": "recommendation_3",
+    "text_data": "Follow up on project progress",
+    "status": "Scheduled",
+    "email": {
+      "sent": true,
+      "recipient": "amarkumarprajapati@gmail.com",
+      "scheduledFor": "2024-12-01T15:29:00.000Z",
+      "sentAt": "2024-12-18T10:06:32.172Z"
+    },
+    "createdAt": "2024-12-18T10:06:29.024Z",
+    "updatedAt": "2024-12-18T10:06:32.173Z",
+    "__v": 0
+  },
+  {
+    "_id": "67a5f16ccbc2097f2d0bf382",
+    "user_id": "67602836946b5fb50e8e58f4",
+    "asset_id": "67602a51946b5fb50e8e5903",
+    "Message_id": "6e7fa402-833d-4a15-8a0f-38bb070fd925",
+    "text_id": "recommendation_5",
+    "text_data": "{\"header\":\"Risk Mitigation via Financial Oversight\",\"description\":\"Implement tighter controls on maintenance budgets and ensure sufficient insurance coverage to protect against potential unplanned expenditures.\"}",
+    "status": "Scheduled",
+    "email": {
+      "sent": true,
+      "recipient": "joeAI@lilypads.com",
+      "scheduledFor": "2025-02-07T08:30:00.176Z",
+      "sentAt": "2025-02-07T11:41:34.003Z"
+    },
+    "createdAt": "2025-02-07T11:41:32.477Z",
+    "updatedAt": "2025-02-07T11:41:34.004Z",
+    "__v": 0
+  },
+  {
+    "_id": "67b6f7ab5919c5c02b79854e",
+    "user_id": "67602836946b5fb50e8e58f4",
+    "asset_id": "67602a1a946b5fb50e8e58fd",
+    "Message_id": "9583bf4f-32c5-4f9c-80ba-d3a3cec3591c",
+    "text_id": "recommendation_2",
+    "text_data": "{\"header\":\"Enhanced Maintenance Schedule\",\"description\":\"Implement a proactive maintenance plan focusing on HVAC, plumbing, and general maintenance to preserve and enhance tenant satisfaction and property value.\"}",
+    "status": "Implemented",
+    "email": {
+      "sent": false
+    },
+    "createdAt": "2025-02-20T09:36:43.430Z",
+    "updatedAt": "2025-02-20T09:36:43.430Z",
+    "__v": 0
+  },
+  {
+    "_id": "676285f27acf5aa49d1fcab7",
+    "user_id": "666fea5aa7291d81047fac33",
+    "asset_id": "6675e61b600bf023b8dbd1d2",
+    "Message_id": "155d36ee-3b3e-4189-a71f-f64141308e32",
+    "text_id": "recommendation_3",
+    "text_data": "Follow up on project progress",
+    "status": "Scheduled",
+    "email": {
+      "sent": true,
+      "recipient": "joeAI@lilypads.com",
+      "scheduledFor": "2024-12-01T13:52:00.000Z",
+      "sentAt": "2024-12-18T08:21:10.093Z"
+    },
+    "createdAt": "2024-12-18T08:21:06.409Z",
+    "updatedAt": "2024-12-18T08:21:10.094Z",
+    "__v": 0
+  },
+  {
+    "_id": "6762861f7acf5aa49d1fcabd",
+    "user_id": "666fea5aa7291d81047fac33",
+    "asset_id": "6675e61b600bf023b8dbd1d2",
+    "Message_id": "155d36ee-3b3e-4189-a71f-f64141308e32",
+    "text_id": "recommendation_3",
+    "text_data": "Follow up on project progress",
+    "status": "Scheduled",
+    "email": {
+      "sent": true,
+      "recipient": "amarkumarprajapati@gmail.com",
+      "scheduledFor": "2024-12-01T13:52:00.000Z",
+      "sentAt": "2024-12-18T08:21:53.921Z"
+    },
+    "createdAt": "2024-12-18T08:21:51.042Z",
+    "updatedAt": "2024-12-18T08:21:53.922Z",
+    "__v": 0
+  },
+  {
+    "_id": "67629f16ca3d4541a1f40e94",
+    "user_id": "666fea5aa7291d81047fac33",
+    "asset_id": "6675e61b600bf023b8dbd1d2",
+    "Message_id": "155d36ee-3b3e-4189-a71f-f64141308e32",
+    "text_id": "recommendation_3",
+    "text_data": "Follow up on project progress",
+    "status": "Scheduled",
+    "email": {
+      "sent": true,
+      "recipient": "amarkumarprajapati@gmail.com",
+      "scheduledFor": "2024-12-01T15:29:00.000Z",
+      "sentAt": "2024-12-18T10:08:55.943Z"
+    },
+    "createdAt": "2024-12-18T10:08:22.496Z",
+    "updatedAt": "2024-12-18T10:08:55.944Z",
+    "__v": 0
+  }
+]

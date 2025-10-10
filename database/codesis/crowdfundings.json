@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "6761274d73f9a1787070c3ac",
+    "assetId": "67602a51946b5fb50e8e5903",
+    "userId": "67602836946b5fb50e8e58f4",
+    "property_images": [],
+    "contact_info": {
+      "phone_numbers": []
+    },
+    "createdAt": "2024-12-17T07:25:01.053Z",
+    "updatedAt": "2024-12-17T07:25:01.053Z",
+    "__v": 0
+  },
+  {
+    "_id": "67767db5a2e7f107d35feecf",
+    "assetId": "666bec1d75fd2798ccd48912",
+    "userId": "66fa554894703b89238563f3",
+    "property_images": [],
+    "contact_info": {
+      "phone_numbers": []
+    },
+    "createdAt": "2025-01-02T11:51:17.763Z",
+    "updatedAt": "2025-01-02T11:51:17.763Z",
+    "__v": 0
+  },
+  {
+    "_id": "67614da873f9a1787070c7a2",
+    "assetId": "666bec1d75fd2798ccd4891f",
+    "userId": "66fa554894703b89238563f3",
+    "property_images": [],
+    "contact_info": {
+      "phone_numbers": []
+    },
+    "createdAt": "2024-12-17T10:08:40.687Z",
+    "updatedAt": "2024-12-17T10:08:40.687Z",
+    "__v": 0
+  },
+  {
+    "_id": "676153d773f9a1787070ca7f",
+    "assetId": "666bec1d75fd2798ccd48963",
+    "userId": "66fa554894703b89238563f3",
+    "property_images": [],
+    "contact_info": {
+      "phone_numbers": []
+    },
+    "createdAt": "2024-12-17T10:35:03.068Z",
+    "updatedAt": "2024-12-17T10:35:03.068Z",
+    "__v": 0
+  },
+  {
+    "_id": "67b84d8f1a541c95aec12dc9",
+    "assetId": "676029fe946b5fb50e8e58f9",
+    "userId": "67602836946b5fb50e8e58f4",
+    "property_images": [],
+    "contact_info": {
+      "phone_numbers": []
+    },
+    "createdAt": "2025-02-21T09:55:27.706Z",
+    "updatedAt": "2025-02-21T09:55:27.706Z",
+    "__v": 0
+  }
+]

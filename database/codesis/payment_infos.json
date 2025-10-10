@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "67778eca72d01e868dea5a16",
+    "user_id": "66fa554894703b89238563f3",
+    "cardNumber": "$2a$10$RkcEM91NZ89Sf86dhJoNh.QxXbeqfZdrBuI2mGgTo/dCtNo3j6TVa",
+    "cardHolder": "$2a$10$TU2T/OGPcfwTePgqomXniem6elCTk7KnKdW7cNU/qz0IhTYkQFmn.",
+    "expiryMonth": "$2a$10$PWaqcvQGJNKdjFzK9blZbuppnHC/FT.GiVWlI1sN6CrVnPyIRdP52",
+    "expiryYear": "$2a$10$khPdua56CNKC28tt6yBqyOoRF9u6odQwZGgCXIzYpGrrGFY/0Gnua",
+    "cvv": "$2a$10$4qiIMGM8r0I//xDQFF1.MO/A4sLLwaRPJ/bjJ37foXwTcfPaMknmC",
+    "createdAt": "2025-01-03T07:16:26.169Z",
+    "updatedAt": "2025-01-03T07:16:26.169Z",
+    "__v": 0
+  },
+  {
+    "_id": "67779445e64ad4eb46569f8c",
+    "user_id": "63d1234567e89abcdef01234",
+    "cardNumber": "$2a$10$On4IcNPXq93Y6Vz8NzVbyukrjNfa8TacT6Do6fvhI85quFsMB1.Q.",
+    "cardHolder": "$2a$10$sLaPup86ImHzMRTTetkyDuQkkKune0TTV3YNqLQ8zBSZNhZnVnuvG",
+    "expiryMonth": "$2a$10$nX7GCGoowITFdcPgv.u4IuUpdAUWAFc5iVfcFTFVrmRoW7qv4yalm",
+    "expiryYear": "$2a$10$ptBjh6Nh7vvkpJJ.dG9TDOR6XXXcAm7cL5toXaOU2yDKn6twcqQQC",
+    "cvv": "$2a$10$HVo7ulakUVtXLpfsol5e9.XI1SBavqm8.BolHChbkHYcmH8bGEAkm",
+    "createdAt": "2025-01-03T07:39:49.897Z",
+    "updatedAt": "2025-01-03T07:39:49.897Z",
+    "__v": 0
+  }
+]

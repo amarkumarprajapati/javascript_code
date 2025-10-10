@@ -1,0 +1,24 @@
+Objects & Object-Oriented Programming  - 
+
+   Object literals, prototypes, inheritance
+   this keyword, constructors, classes (ES6+)
+   Object methods like Object.keys(), Object.entries()
+   
+
+Functions - 
+
+   Function declarations & expressions
+   Arrow functions and differences with normal functions
+   Closures, callback functions, higher-order functions
+
+Scope & Closures -
+
+   Global vs local scope
+   Lexical scope and closures — super important!
+
+ES6+ Features -
+
+   let, const vs var
+   Template literals, destructuring, spread/rest operators
+   Modules (import/export)
+   Default parameters, optional chaining, nullish coalescing

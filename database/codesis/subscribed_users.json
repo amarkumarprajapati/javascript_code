@@ -1,0 +1,40 @@
+[
+  {
+    "_id": "67724fdd325dcb1ac7c8b45b",
+    "accessUser_id": "66fc0acec0166353e239989b",
+    "LilypadsAI_Access": false,
+    "__v": 0,
+    "type": [
+      "home"
+    ]
+  },
+  {
+    "_id": "676022aa8aad39ef8161d577",
+    "accessUser_id": "676016e3064f14de4859e59c",
+    "payment": true,
+    "LilypadsAI_Access": true,
+    "type": [
+      "AI"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "67602da3325dcb1ac77be63e",
+    "accessUser_id": "66fa554894703b89238563f3",
+    "LilypadsAI_Access": false,
+    "__v": 0,
+    "type": [
+      "home"
+    ]
+  },
+  {
+    "_id": "67602acaea8d31ca31a4c36f",
+    "accessUser_id": "67602836946b5fb50e8e58f4",
+    "payment": true,
+    "LilypadsAI_Access": true,
+    "type": [
+      "AI"
+    ],
+    "__v": 0
+  }
+]

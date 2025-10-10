@@ -1,0 +1,43 @@
+[
+  {
+    "_id": "677cc5bec7d4c34370dc9d70",
+    "user_id": "66fa554894703b89238563f3",
+    "asset_id": "67602a51946b5fb50e8e5903",
+    "invested": [],
+    "Action": "active",
+    "createdAt": "2025-01-07T06:12:14.445Z",
+    "updatedAt": "2025-01-07T06:12:14.445Z",
+    "__v": 0
+  },
+  {
+    "_id": "677cc5c5c7d4c34370dc9d97",
+    "user_id": "66fa554894703b89238563f3",
+    "asset_id": "666bec1d75fd2798ccd4891f",
+    "invested": [],
+    "Action": "active",
+    "createdAt": "2025-01-07T06:12:21.215Z",
+    "updatedAt": "2025-01-07T06:12:21.215Z",
+    "__v": 0
+  },
+  {
+    "_id": "677cc5d1c7d4c34370dc9dc3",
+    "user_id": "66fa554894703b89238563f3",
+    "asset_id": "666bec1d75fd2798ccd48963",
+    "invested": [],
+    "Action": "active",
+    "createdAt": "2025-01-07T06:12:33.729Z",
+    "updatedAt": "2025-01-07T06:12:33.729Z",
+    "__v": 0
+  },
+  {
+    "_id": "67b9622a25807a5a24344a38",
+    "user_id": "67b84aa708dc6c09fda87431",
+    "asset_id": "67602a1a946b5fb50e8e58fd",
+    "amount": 0,
+    "invested": [],
+    "imageUrl": "",
+    "createdAt": "2025-02-22T05:35:38.014Z",
+    "updatedAt": "2025-02-22T05:35:38.014Z",
+    "__v": 0
+  }
+]

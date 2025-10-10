@@ -1,0 +1,23 @@
+[
+  {
+    "_id": "677cf6338ced6640ed49b161",
+    "user_id": "66fa554894703b89238563f3",
+    "asset_id": "666bec1d75fd2798ccd48963",
+    "date": {
+      "dateString": "2025-01-07",
+      "timeString": "14:00:00"
+    },
+    "target": "Inventory",
+    "decision": {
+      "status": "Accepted",
+      "iconUrl": "http://example.com/icon.png"
+    },
+    "successRate": "85%",
+    "actions": {
+      "preview": true
+    },
+    "createdAt": "2025-01-07T09:38:59.192Z",
+    "updatedAt": "2025-01-07T09:38:59.192Z",
+    "__v": 0
+  }
+]

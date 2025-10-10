@@ -1,0 +1,5 @@
+DOM Manipulation - 
+ Selecting elements (querySelector, getElementById)
+ Events & Event Listeners
+ Modifying HTML and CSS via JS
+ Creating & removing elements dynamically

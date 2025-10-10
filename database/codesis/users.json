@@ -1,0 +1,2425 @@
+[
+  {
+    "_id": "67508bec6eade59015b222ac",
+    "accountType": "Employee",
+    "name": "Anindya",
+    "surname": "Biswas",
+    "email": "anindya@gmail.com",
+    "role": "",
+    "department": "",
+    "phone_number": "123456789",
+    "street_address": "",
+    "city": "",
+    "secondary_address": "",
+    "state": "",
+    "time_zone": "",
+    "about_me": "",
+    "password": "$2a$10$W7pz0Y.86kheDZuZsWVO4.0ds7zyDmsTg2.PWMqNC.cO53XdltpR2",
+    "companyName": "Null",
+    "accreditedInvestor": true,
+    "countryOfCitizenship": "Null",
+    "countryOfResidence": "Null",
+    "accountTypeChoosen": "entity",
+    "certificateOfFormation": "Null",
+    "operatingAgreement": "Null",
+    "individualAccountInfo": {
+      "dateOfBirth": "01-01-1990",
+      "ssn": "123-45-6789",
+      "address": "123 Sample St, Sample City, SC 12345"
+    },
+    "entityAccountInfo": {
+      "type": "Limited Partnership",
+      "entityCertificateOfFormation": "Null",
+      "entityOperatingAgreement": "Null",
+      "documentsProvided": true
+    },
+    "jointAccountInfo": {
+      "primaryHolder": "Null",
+      "secondaryHolder": "Null"
+    },
+    "investmentInfo": {
+      "initialContribution": 5000,
+      "autoInvest": true,
+      "autoInvestInfo": {
+        "autoInvestmentAmount": 100,
+        "frequency": "Monthly",
+        "paymentDay": "15"
+      }
+    },
+    "trustAccountInfo": {
+      "trustName": "Null",
+      "trustType": "Null",
+      "dateOfTrust": "Null"
+    },
+    "bankAccount": {
+      "accountType": "Null",
+      "bankName": "Null",
+      "accountNumber": "123456789",
+      "routingNumber": "987654321"
+    },
+    "privacyAndNewsletter": {
+      "shareInformation": true,
+      "promotionalOffers": true
+    },
+    "roleTypes": 3,
+    "persona": {
+      "strategy": "sample Null",
+      "investment_objectives": {
+        "expected_in_12_months": 10000,
+        "expected_per_project": 5000,
+        "risk_tolerance": "moderate"
+      },
+      "investment_vehicles": "stocks",
+      "location": {
+        "region": "Null Null",
+        "state": "Null",
+        "submarket": "Null"
+      },
+      "market_size": "Null",
+      "property_details": {
+        "property_type": "Null",
+        "focus_on_green": true,
+        "property_class": "A",
+        "tenancy": "multi-tenant",
+        "investment_objectives": {
+          "price": {
+            "from": 20000,
+            "to": 100000
+          },
+          "size": {
+            "from": 1500,
+            "to": 50000
+          },
+          "units": {
+            "from": 10,
+            "to": 20
+          }
+        }
+      },
+      "hold_period": "long-term",
+      "loan_parameters": {
+        "annual_income": 0,
+        "investment_horizon": "5 years",
+        "liquidity_severity": "low",
+        "net_worth": 0,
+        "investing_experience": "experienced",
+        "additional_parameters": {
+          "broker_or_dealer_connection": false,
+          "shareholder_or_director": false,
+          "public_official_connection": false
+        }
+      },
+      "prospects": {
+        "investment_frequency": "monthly",
+        "lps": "yes",
+        "strategy_description": {
+          "buying": "sample buying strategy",
+          "managing": "sample managing strategy",
+          "projected": "sample projected returns"
+        }
+      },
+      "preferred_properties": {
+        "Resort": 0,
+        "Hotel": 0,
+        "Villa": 0,
+        "Condo": 0,
+        "Lodge": 0,
+        "Apartment": 0,
+        "Chalet": 0
+      }
+    },
+    "loan_setups_list": [],
+    "date": "2024-12-04T17:05:48.560Z",
+    "createdAt": "2024-12-04T17:05:48.561Z",
+    "updatedAt": "2024-12-04T17:05:48.561Z",
+    "__v": 0
+  },
+  {
+    "_id": "675013105aed682a4b8f3a4a",
+    "accountType": "Employee",
+    "name": "Liam",
+    "surname": "Noah",
+    "email": "wasiwaqe@teleg.eu",
+    "password": "$2a$10$syYziwFY4YHc/dPEiJU5Heryo/tpSss1O4onKiwALOv9QTESwAFyW",
+    "companyName": "Null",
+    "accreditedInvestor": true,
+    "countryOfCitizenship": "Null",
+    "countryOfResidence": "Null",
+    "accountTypeChoosen": "entity",
+    "certificateOfFormation": "Null",
+    "operatingAgreement": "Null",
+    "individualAccountInfo": {
+      "dateOfBirth": "01-01-1990",
+      "ssn": "123-45-6789",
+      "address": "123 Sample St, Sample City, SC 12345"
+    },
+    "entityAccountInfo": {
+      "type": "Limited Partnership",
+      "entityCertificateOfFormation": "Null",
+      "entityOperatingAgreement": "Null",
+      "documentsProvided": true
+    },
+    "jointAccountInfo": {
+      "primaryHolder": "Null",
+      "secondaryHolder": "Null"
+    },
+    "investmentInfo": {
+      "initialContribution": 5000,
+      "autoInvest": true,
+      "autoInvestInfo": {
+        "autoInvestmentAmount": 100,
+        "frequency": "Monthly",
+        "paymentDay": "15"
+      }
+    },
+    "trustAccountInfo": {
+      "trustName": "Null",
+      "trustType": "Null",
+      "dateOfTrust": "Null"
+    },
+    "bankAccount": {
+      "accountType": "Null",
+      "bankName": "Null",
+      "accountNumber": "123456789",
+      "routingNumber": "987654321"
+    },
+    "privacyAndNewsletter": {
+      "shareInformation": true,
+      "promotionalOffers": true
+    },
+    "roleTypes": 3,
+    "persona": {
+      "strategy": "sample Null",
+      "investment_objectives": {
+        "expected_in_12_months": 10000,
+        "expected_per_project": 5000,
+        "risk_tolerance": "moderate"
+      },
+      "investment_vehicles": "stocks",
+      "location": {
+        "region": "Null Null",
+        "state": "Null",
+        "submarket": "Null"
+      },
+      "market_size": "Null",
+      "property_details": {
+        "property_type": "Null",
+        "focus_on_green": true,
+        "property_class": "A",
+        "tenancy": "multi-tenant",
+        "investment_objectives": {
+          "price": {
+            "from": 20000,
+            "to": 100000
+          },
+          "size": {
+            "from": 1500,
+            "to": 50000
+          },
+          "units": {
+            "from": 10,
+            "to": 20
+          }
+        }
+      },
+      "hold_period": "long-term",
+      "loan_parameters": {
+        "annual_income": 0,
+        "investment_horizon": "5 years",
+        "liquidity_severity": "low",
+        "net_worth": 0,
+        "investing_experience": "experienced",
+        "additional_parameters": {
+          "broker_or_dealer_connection": false,
+          "shareholder_or_director": false,
+          "public_official_connection": false
+        }
+      },
+      "prospects": {
+        "investment_frequency": "monthly",
+        "lps": "yes",
+        "strategy_description": {
+          "buying": "sample buying strategy",
+          "managing": "sample managing strategy",
+          "projected": "sample projected returns"
+        }
+      },
+      "preferred_properties": {
+        "Resort": 0,
+        "Hotel": 0,
+        "Villa": 0,
+        "Condo": 0,
+        "Lodge": 0,
+        "Apartment": 0,
+        "Chalet": 0
+      }
+    },
+    "loan_setups_list": [],
+    "date": "2024-12-04T08:30:08.860Z",
+    "createdAt": "2024-12-04T08:30:08.885Z",
+    "updatedAt": "2024-12-04T08:30:08.885Z",
+    "__v": 0
+  },
+  {
+    "_id": "6750545e6eade59015b2209b",
+    "accountType": "Employee",
+    "name": "Anindya",
+    "surname": "Biswas",
+    "email": "biswas.anindya6@gmail.com",
+    "role": "",
+    "department": "",
+    "phone_number": "",
+    "street_address": "",
+    "city": "",
+    "secondary_address": "",
+    "state": "",
+    "time_zone": "",
+    "about_me": "",
+    "password": "$2a$10$3.H/FixL040SQr6YL/bBeOkhqerkXmQE0wS66teOM7n2/4.6t70DW",
+    "companyName": "Null",
+    "accreditedInvestor": true,
+    "countryOfCitizenship": "Null",
+    "countryOfResidence": "Null",
+    "accountTypeChoosen": "entity",
+    "certificateOfFormation": "Null",
+    "operatingAgreement": "Null",
+    "individualAccountInfo": {
+      "dateOfBirth": "01-01-1990",
+      "ssn": "123-45-6789",
+      "address": "123 Sample St, Sample City, SC 12345"
+    },
+    "entityAccountInfo": {
+      "type": "Limited Partnership",
+      "entityCertificateOfFormation": "Null",
+      "entityOperatingAgreement": "Null",
+      "documentsProvided": true
+    },
+    "jointAccountInfo": {
+      "primaryHolder": "Null",
+      "secondaryHolder": "Null"
+    },
+    "investmentInfo": {
+      "initialContribution": 5000,
+      "autoInvest": true,
+      "autoInvestInfo": {
+        "autoInvestmentAmount": 100,
+        "frequency": "Monthly",
+        "paymentDay": "15"
+      }
+    },
+    "trustAccountInfo": {
+      "trustName": "Null",
+      "trustType": "Null",
+      "dateOfTrust": "Null"
+    },
+    "bankAccount": {
+      "accountType": "Null",
+      "bankName": "Null",
+      "accountNumber": "123456789",
+      "routingNumber": "987654321"
+    },
+    "privacyAndNewsletter": {
+      "shareInformation": true,
+      "promotionalOffers": true
+    },
+    "roleTypes": 3,
+    "persona": {
+      "strategy": "sample Null",
+      "investment_objectives": {
+        "expected_in_12_months": 10000,
+        "expected_per_project": 5000,
+        "risk_tolerance": "moderate"
+      },
+      "investment_vehicles": "stocks",
+      "location": {
+        "region": "Null Null",
+        "state": "Null",
+        "submarket": "Null"
+      },
+      "market_size": "Null",
+      "property_details": {
+        "property_type": "Null",
+        "focus_on_green": true,
+        "property_class": "A",
+        "tenancy": "multi-tenant",
+        "investment_objectives": {
+          "price": {
+            "from": 20000,
+            "to": 100000
+          },
+          "size": {
+            "from": 1500,
+            "to": 50000
+          },
+          "units": {
+            "from": 10,
+            "to": 20
+          }
+        }
+      },
+      "hold_period": "long-term",
+      "loan_parameters": {
+        "annual_income": 0,
+        "investment_horizon": "5 years",
+        "liquidity_severity": "low",
+        "net_worth": 0,
+        "investing_experience": "experienced",
+        "additional_parameters": {
+          "broker_or_dealer_connection": false,
+          "shareholder_or_director": false,
+          "public_official_connection": false
+        }
+      },
+      "prospects": {
+        "investment_frequency": "monthly",
+        "lps": "yes",
+        "strategy_description": {
+          "buying": "sample buying strategy",
+          "managing": "sample managing strategy",
+          "projected": "sample projected returns"
+        }
+      },
+      "preferred_properties": {
+        "Resort": 0,
+        "Hotel": 0,
+        "Villa": 0,
+        "Condo": 0,
+        "Lodge": 0,
+        "Apartment": 0,
+        "Chalet": 0
+      }
+    },
+    "loan_setups_list": [],
+    "date": "2024-12-04T13:08:46.450Z",
+    "createdAt": "2024-12-04T13:08:46.451Z",
+    "updatedAt": "2024-12-04T13:08:46.451Z",
+    "__v": 0
+  },
+  {
+    "_id": "67602836946b5fb50e8e58f4",
+    "accountType": "OwnerOperator",
+    "name": "Codesis",
+    "surname": "AI",
+    "email": "CodesisAI@Codesis.com",
+    "password": "$2a$10$rMNsDKAQ.A8YSChkV6TA8.EB4HsWAzJsbo3bpdWhfUGXdouJt8IUq",
+    "companyName": "Smith Enterprises",
+    "accreditedInvestor": true,
+    "countryOfCitizenship": "Canada",
+    "countryOfResidence": "Canada",
+    "accountTypeChoosen": "individual",
+    "certificateOfFormation": "SMITH123456",
+    "operatingAgreement": "SMITH_AGREEMENT_789",
+    "individualAccountInfo": {
+      "dateOfBirth": "1990-07-20",
+      "ssn": "123-45-6789",
+      "address": "123 Market Street, Toronto, ON M5J2N8"
+    },
+    "entityAccountInfo": {
+      "type": "Corporation",
+      "entityCertificateOfFormation": "CORP12345",
+      "entityOperatingAgreement": "CORP_AGREEMENT_123",
+      "documentsProvided": true
+    },
+    "jointAccountInfo": {
+      "primaryHolder": "Tom Smith",
+      "secondaryHolder": "Jane Smith"
+    },
+    "investmentInfo": {
+      "initialContribution": 5000,
+      "autoInvest": false,
+      "autoInvestInfo": {
+        "autoInvestmentAmount": 100,
+        "frequency": "Monthly",
+        "paymentDay": "15"
+      }
+    },
+    "trustAccountInfo": {
+      "trustName": "Smith Family Trust",
+      "trustType": "Revocable Trust",
+      "dateOfTrust": "2021-01-10"
+    },
+    "bankAccount": {
+      "accountType": "Savings",
+      "bankName": "Bank of Toronto",
+      "accountNumber": "1234567890",
+      "routingNumber": "098765432"
+    },
+    "privacyAndNewsletter": {
+      "shareInformation": false,
+      "promotionalOffers": true
+    },
+    "roleTypes": 2,
+    "persona": {
+      "strategy": "Core-plus real estate investments focusing on stable returns with moderate risk",
+      "investment_objectives": {
+        "expected_in_12_months": 20000,
+        "expected_per_project": 10000,
+        "risk_tolerance": "low"
+      },
+      "investment_vehicles": "real estate, bonds, private equity",
+      "location": {
+        "region": "North America",
+        "state": "Ontario",
+        "submarket": "Greater Toronto Area"
+      },
+      "market_size": "Medium metropolitan areas",
+      "property_details": {
+        "property_type": "Commercial",
+        "focus_on_green": false,
+        "property_class": "A",
+        "tenancy": "single-tenant",
+        "investment_objectives": {
+          "price": {
+            "from": 100000,
+            "to": 500000
+          },
+          "size": {
+            "from": 10000,
+            "to": 100000
+          },
+          "units": {
+            "from": 5,
+            "to": 20
+          }
+        }
+      },
+      "hold_period": "3-5 years",
+      "loan_parameters": {
+        "annual_income": 200000,
+        "investment_horizon": "3-7 years",
+        "liquidity_severity": "high",
+        "net_worth": 2000000,
+        "investing_experience": "experienced",
+        "additional_parameters": {
+          "broker_or_dealer_connection": true,
+          "shareholder_or_director": false,
+          "public_official_connection": false
+        }
+      },
+      "prospects": {
+        "investment_frequency": "semi-annually",
+        "lps": "no",
+        "strategy_description": {
+          "buying": "Targeting high-growth commercial properties",
+          "managing": "Improving lease agreements and reducing vacancy",
+          "projected": "Anticipating a 10-15% IRR over the hold period"
+        }
+      },
+      "preferred_properties": {
+        "Resort": 2,
+        "Hotel": 3,
+        "Villa": 1,
+        "Condo": 10,
+        "Lodge": 0,
+        "Apartment": 25,
+        "Chalet": 1,
+        "Residential": 40
+      }
+    },
+    "loan_setups_list": [],
+    "profile_image": "https://codesisai.s3.ap-south-1.amazonaws.com/User-profile-images/67602836946b5fb50e8e58f4/1740200100036-1740132076275-1740132031393-Group_122.png",
+    "date": "2024-09-30T11:20:27.411Z",
+    "createdAt": "2024-09-30T11:20:27.416Z",
+    "updatedAt": "2025-04-29T13:35:43.956Z",
+    "__v": 1,
+    "phone_number": "9876543210",
+    "role": "Owner Operator",
+    "department": "Real Estate Operations",
+    "street_address": "123 Market Street",
+    "secondary_address": "Suite 100",
+    "city": "Toronto",
+    "state": "Ontario",
+    "zip_code": "M5J2N8",
+    "country": "Canada",
+    "time_zone": "Eastern Standard Time",
+    "about_me": "Codesis AI is an AI-powered platform that empowers owners, investors, asset managers, and operators to maximize revenue by leveraging existing data to increase transactional efficiency and optimize property performance.",
+    "Location": [
+      {
+        "_id": "67b82c6b89bd4820acf9d703",
+        "Street_Address": "Secondary Address Designation",
+        "Secondary_Address ": "Sint minim aute qui ",
+        "City": "Incidunt amet sit",
+        "State": "Deserunt magnam nost",
+        "Zipcode": 123456,
+        "country": "US"
+      }
+    ]
+  },
+  {
+    "_id": "676016e3064f14de4859e59c",
+    "accountType": "Employee",
+    "name": "Laura",
+    "surname": "Dean ",
+    "email": "lunumave@teleg.eu",
+    "role": "",
+    "department": "",
+    "phone_number": "123456789",
+    "street_address": "",
+    "city": "",
+    "secondary_address": "",
+    "state": "",
+    "time_zone": "",
+    "about_me": "",
+    "password": "$2a$10$qtVDWfuKJ7f37hKCBvIk0OtkConAKAZ3RoyiqKRUd7IT4CMZKLldi",
+    "companyName": "Null",
+    "accreditedInvestor": true,
+    "countryOfCitizenship": "Null",
+    "countryOfResidence": "Null",
+    "accountTypeChoosen": "entity",
+    "certificateOfFormation": "Null",
+    "operatingAgreement": "Null",
+    "individualAccountInfo": {
+      "dateOfBirth": "01-01-1990",
+      "ssn": "123-45-6789",
+      "address": "123 Sample St, Sample City, SC 12345"
+    },
+    "entityAccountInfo": {
+      "type": "Limited Partnership",
+      "entityCertificateOfFormation": "Null",
+      "entityOperatingAgreement": "Null",
+      "documentsProvided": true
+    },
+    "jointAccountInfo": {
+      "primaryHolder": "Null",
+      "secondaryHolder": "Null"
+    },
+    "investmentInfo": {
+      "initialContribution": 5000,
+      "autoInvest": true,
+      "autoInvestInfo": {
+        "autoInvestmentAmount": 100,
+        "frequency": "Monthly",
+        "paymentDay": "15"
+      }
+    },
+    "trustAccountInfo": {
+      "trustName": "Null",
+      "trustType": "Null",
+      "dateOfTrust": "Null"
+    },
+    "bankAccount": {
+      "accountType": "Null",
+      "bankName": "Null",
+      "accountNumber": "123456789",
+      "routingNumber": "987654321"
+    },
+    "privacyAndNewsletter": {
+      "shareInformation": true,
+      "promotionalOffers": true
+    },
+    "roleTypes": 3,
+    "persona": {
+      "strategy": "sample Null",
+      "investment_objectives": {
+        "expected_in_12_months": 10000,
+        "expected_per_project": 5000,
+        "risk_tolerance": "moderate"
+      },
+      "investment_vehicles": "stocks",
+      "location": {
+        "region": "Null Null",
+        "state": "Null",
+        "submarket": "Null"
+      },
+      "market_size": "Null",
+      "property_details": {
+        "property_type": "Null",
+        "focus_on_green": true,
+        "property_class": "A",
+        "tenancy": "multi-tenant",
+        "investment_objectives": {
+          "price": {
+            "from": 20000,
+            "to": 100000
+          },
+          "size": {
+            "from": 1500,
+            "to": 50000
+          },
+          "units": {
+            "from": 10,
+            "to": 20
+          }
+        }
+      },
+      "roleTypes": 3,
+      "hold_period": "long-term",
+      "loan_parameters": {
+        "annual_income": 0,
+        "investment_horizon": "5 years",
+        "liquidity_severity": "low",
+        "net_worth": 0,
+        "investing_experience": "experienced",
+        "additional_parameters": {
+          "broker_or_dealer_connection": false,
+          "shareholder_or_director": false,
+          "public_official_connection": false
+        }
+      },
+      "prospects": {
+        "investment_frequency": "monthly",
+        "lps": "yes",
+        "strategy_description": {
+          "buying": "sample buying strategy",
+          "managing": "sample managing strategy",
+          "projected": "sample projected returns"
+        }
+      },
+      "preferred_properties": {
+        "Resort": 0,
+        "Hotel": 0,
+        "Villa": 0,
+        "Condo": 0,
+        "Lodge": 0,
+        "Apartment": 0,
+        "Chalet": 0
+      }
+    },
+    "loan_setups_list": [],
+    "date": "2024-12-16T12:02:43.085Z",
+    "createdAt": "2024-12-16T12:02:43.092Z",
+    "updatedAt": "2024-12-16T12:02:43.092Z",
+    "__v": 0
+  },
+  {
+    "_id": "676524aa57b187a5912a8fb3",
+    "accountType": "Employee",
+    "name": "sdvsv",
+    "surname": "sdfvfsdvsd",
+    "email": "kubunuky@cyclelove.cc",
+    "role": "",
+    "department": "",
+    "phone_number": "",
+    "street_address": "",
+    "city": "",
+    "secondary_address": "",
+    "state": "",
+    "time_zone": "",
+    "about_me": "",
+    "password": "$2a$10$ArpdI5y04tzxbP5tM/s9cO7s6WN1c19gha4ea003ab5dK57/NtbjO",
+    "companyName": "Null",
+    "accreditedInvestor": true,
+    "countryOfCitizenship": "Null",
+    "countryOfResidence": "Null",
+    "accountTypeChoosen": "entity",
+    "certificateOfFormation": "Null",
+    "operatingAgreement": "Null",
+    "individualAccountInfo": {
+      "dateOfBirth": "01-01-1990",
+      "ssn": "123-45-6789",
+      "address": "123 Sample St, Sample City, SC 12345"
+    },
+    "entityAccountInfo": {
+      "type": "Limited Partnership",
+      "entityCertificateOfFormation": "Null",
+      "entityOperatingAgreement": "Null",
+      "documentsProvided": true
+    },
+    "jointAccountInfo": {
+      "primaryHolder": "Null",
+      "secondaryHolder": "Null"
+    },
+    "investmentInfo": {
+      "initialContribution": 5000,
+      "autoInvest": true,
+      "autoInvestInfo": {
+        "autoInvestmentAmount": 100,
+        "frequency": "Monthly",
+        "paymentDay": "15"
+      }
+    },
+    "trustAccountInfo": {
+      "trustName": "Null",
+      "trustType": "Null",
+      "dateOfTrust": "Null"
+    },
+    "bankAccount": {
+      "accountType": "Null",
+      "bankName": "Null",
+      "accountNumber": "123456789",
+      "routingNumber": "987654321"
+    },
+    "privacyAndNewsletter": {
+      "shareInformation": true,
+      "promotionalOffers": true
+    },
+    "roleTypes": 3,
+    "persona": {
+      "strategy": "sample Null",
+      "investment_objectives": {
+        "expected_in_12_months": 10000,
+        "expected_per_project": 5000,
+        "risk_tolerance": "moderate"
+      },
+      "investment_vehicles": "stocks",
+      "location": {
+        "region": "Null Null",
+        "state": "Null",
+        "submarket": "Null"
+      },
+      "market_size": "Null",
+      "property_details": {
+        "property_type": "Null",
+        "focus_on_green": true,
+        "property_class": "A",
+        "tenancy": "multi-tenant",
+        "investment_objectives": {
+          "price": {
+            "from": 20000,
+            "to": 100000
+          },
+          "size": {
+            "from": 1500,
+            "to": 50000
+          },
+          "units": {
+            "from": 10,
+            "to": 20
+          }
+        }
+      },
+      "hold_period": "long-term",
+      "loan_parameters": {
+        "annual_income": 0,
+        "investment_horizon": "5 years",
+        "liquidity_severity": "low",
+        "net_worth": 0,
+        "investing_experience": "experienced",
+        "additional_parameters": {
+          "broker_or_dealer_connection": false,
+          "shareholder_or_director": false,
+          "public_official_connection": false
+        }
+      },
+      "prospects": {
+        "investment_frequency": "monthly",
+        "lps": "yes",
+        "strategy_description": {
+          "buying": "sample buying strategy",
+          "managing": "sample managing strategy",
+          "projected": "sample projected returns"
+        }
+      },
+      "preferred_properties": {
+        "Resort": 0,
+        "Hotel": 0,
+        "Villa": 0,
+        "Condo": 0,
+        "Lodge": 0,
+        "Apartment": 0,
+        "Chalet": 0
+      }
+    },
+    "loan_setups_list": [],
+    "date": "2024-12-20T08:02:50.438Z",
+    "createdAt": "2024-12-20T08:02:50.451Z",
+    "updatedAt": "2024-12-20T08:02:50.451Z",
+    "__v": 0
+  },
+  {
+    "_id": "675014e7fc7622c4b89566b2",
+    "accountType": "Employee",
+    "name": "Rachel",
+    "surname": "Townsend",
+    "email": "lunytali@thetechnext.net",
+    "password": "$2a$10$HXvMB9mLk.9URwsQvRYN0OnETfHsKnzOkZJMBUV2aaKl5.cEhSc.6",
+    "companyName": "Null",
+    "accreditedInvestor": true,
+    "countryOfCitizenship": "Null",
+    "countryOfResidence": "Null",
+    "accountTypeChoosen": "entity",
+    "certificateOfFormation": "Null",
+    "operatingAgreement": "Null",
+    "individualAccountInfo": {
+      "dateOfBirth": "01-01-1990",
+      "ssn": "123-45-6789",
+      "address": "123 Sample St, Sample City, SC 12345"
+    },
+    "entityAccountInfo": {
+      "type": "Limited Partnership",
+      "entityCertificateOfFormation": "Null",
+      "entityOperatingAgreement": "Null",
+      "documentsProvided": true
+    },
+    "jointAccountInfo": {
+      "primaryHolder": "Null",
+      "secondaryHolder": "Null"
+    },
+    "investmentInfo": {
+      "initialContribution": 5000,
+      "autoInvest": true,
+      "autoInvestInfo": {
+        "autoInvestmentAmount": 100,
+        "frequency": "Monthly",
+        "paymentDay": "15"
+      }
+    },
+    "trustAccountInfo": {
+      "trustName": "Null",
+      "trustType": "Null",
+      "dateOfTrust": "Null"
+    },
+    "bankAccount": {
+      "accountType": "Null",
+      "bankName": "Null",
+      "accountNumber": "123456789",
+      "routingNumber": "987654321"
+    },
+    "privacyAndNewsletter": {
+      "shareInformation": true,
+      "promotionalOffers": true
+    },
+    "roleTypes": 3,
+    "persona": {
+      "strategy": "sample Null",
+      "investment_objectives": {
+        "expected_in_12_months": 10000,
+        "expected_per_project": 5000,
+        "risk_tolerance": "moderate"
+      },
+      "investment_vehicles": "stocks",
+      "location": {
+        "region": "Null Null",
+        "state": "Null",
+        "submarket": "Null"
+      },
+      "market_size": "Null",
+      "property_details": {
+        "property_type": "Null",
+        "focus_on_green": true,
+        "property_class": "A",
+        "tenancy": "multi-tenant",
+        "investment_objectives": {
+          "price": {
+            "from": 20000,
+            "to": 100000
+          },
+          "size": {
+            "from": 1500,
+            "to": 50000
+          },
+          "units": {
+            "from": 10,
+            "to": 20
+          }
+        }
+      },
+      "hold_period": "long-term",
+      "loan_parameters": {
+        "annual_income": 0,
+        "investment_horizon": "5 years",
+        "liquidity_severity": "low",
+        "net_worth": 0,
+        "investing_experience": "experienced",
+        "additional_parameters": {
+          "broker_or_dealer_connection": false,
+          "shareholder_or_director": false,
+          "public_official_connection": false
+        }
+      },
+      "prospects": {
+        "investment_frequency": "monthly",
+        "lps": "yes",
+        "strategy_description": {
+          "buying": "sample buying strategy",
+          "managing": "sample managing strategy",
+          "projected": "sample projected returns"
+        }
+      },
+      "preferred_properties": {
+        "Resort": 0,
+        "Hotel": 0,
+        "Villa": 0,
+        "Condo": 0,
+        "Lodge": 0,
+        "Apartment": 0,
+        "Chalet": 0
+      }
+    },
+    "loan_setups_list": [],
+    "date": "2024-12-04T08:37:59.974Z",
+    "createdAt": "2024-12-04T08:38:00.037Z",
+    "updatedAt": "2024-12-04T08:38:00.037Z",
+    "__v": 0
+  },
+  {
+    "_id": "6765170d18a5f27fa9c0d568",
+    "accountType": "Employee",
+    "name": "Rachel",
+    "surname": "Townsend",
+    "email": "cidigejo@polkaroad.net",
+    "role": "",
+    "department": "",
+    "phone_number": "",
+    "street_address": "",
+    "city": "",
+    "secondary_address": "",
+    "state": "",
+    "time_zone": "",
+    "about_me": "",
+    "password": "$2a$10$6FZEVK9kwymvwEEP.fGf2.UUfVIDUxqI9hDkg7WuzXCktcANnEZPq",
+    "companyName": "Null",
+    "accreditedInvestor": true,
+    "countryOfCitizenship": "Null",
+    "countryOfResidence": "Null",
+    "accountTypeChoosen": "entity",
+    "certificateOfFormation": "Null",
+    "operatingAgreement": "Null",
+    "individualAccountInfo": {
+      "dateOfBirth": "01-01-1990",
+      "ssn": "123-45-6789",
+      "address": "123 Sample St, Sample City, SC 12345"
+    },
+    "entityAccountInfo": {
+      "type": "Limited Partnership",
+      "entityCertificateOfFormation": "Null",
+      "entityOperatingAgreement": "Null",
+      "documentsProvided": true
+    },
+    "jointAccountInfo": {
+      "primaryHolder": "Null",
+      "secondaryHolder": "Null"
+    },
+    "investmentInfo": {
+      "initialContribution": 5000,
+      "autoInvest": true,
+      "autoInvestInfo": {
+        "autoInvestmentAmount": 100,
+        "frequency": "Monthly",
+        "paymentDay": "15"
+      }
+    },
+    "trustAccountInfo": {
+      "trustName": "Null",
+      "trustType": "Null",
+      "dateOfTrust": "Null"
+    },
+    "bankAccount": {
+      "accountType": "Null",
+      "bankName": "Null",
+      "accountNumber": "123456789",
+      "routingNumber": "987654321"
+    },
+    "privacyAndNewsletter": {
+      "shareInformation": true,
+      "promotionalOffers": true
+    },
+    "roleTypes": 3,
+    "persona": {
+      "strategy": "sample Null",
+      "investment_objectives": {
+        "expected_in_12_months": 10000,
+        "expected_per_project": 5000,
+        "risk_tolerance": "moderate"
+      },
+      "investment_vehicles": "stocks",
+      "location": {
+        "region": "Null Null",
+        "state": "Null",
+        "submarket": "Null"
+      },
+      "market_size": "Null",
+      "property_details": {
+        "property_type": "Null",
+        "focus_on_green": true,
+        "property_class": "A",
+        "tenancy": "multi-tenant",
+        "investment_objectives": {
+          "price": {
+            "from": 20000,
+            "to": 100000
+          },
+          "size": {
+            "from": 1500,
+            "to": 50000
+          },
+          "units": {
+            "from": 10,
+            "to": 20
+          }
+        }
+      },
+      "hold_period": "long-term",
+      "loan_parameters": {
+        "annual_income": 0,
+        "investment_horizon": "5 years",
+        "liquidity_severity": "low",
+        "net_worth": 0,
+        "investing_experience": "experienced",
+        "additional_parameters": {
+          "broker_or_dealer_connection": false,
+          "shareholder_or_director": false,
+          "public_official_connection": false
+        }
+      },
+      "prospects": {
+        "investment_frequency": "monthly",
+        "lps": "yes",
+        "strategy_description": {
+          "buying": "sample buying strategy",
+          "managing": "sample managing strategy",
+          "projected": "sample projected returns"
+        }
+      },
+      "preferred_properties": {
+        "Resort": 0,
+        "Hotel": 0,
+        "Villa": 0,
+        "Condo": 0,
+        "Lodge": 0,
+        "Apartment": 0,
+        "Chalet": 0
+      }
+    },
+    "loan_setups_list": [],
+    "date": "2024-12-20T07:04:45.528Z",
+    "createdAt": "2024-12-20T07:04:45.533Z",
+    "updatedAt": "2024-12-20T07:04:45.533Z",
+    "__v": 0
+  },
+  {
+    "_id": "6750217bfc7622c4b895670c",
+    "accountType": "Employee",
+    "name": "Rachel",
+    "surname": "Townsend",
+    "email": "murn@test.com",
+    "password": "$2a$10$6870sFUZSLcTo/CCVEL2T.PrO..fGL1pruFtI2dUuBkc71IErNJH.",
+    "companyName": "Null",
+    "accreditedInvestor": true,
+    "countryOfCitizenship": "Null",
+    "countryOfResidence": "Null",
+    "accountTypeChoosen": "entity",
+    "certificateOfFormation": "Null",
+    "operatingAgreement": "Null",
+    "individualAccountInfo": {
+      "dateOfBirth": "01-01-1990",
+      "ssn": "123-45-6789",
+      "address": "123 Sample St, Sample City, SC 12345"
+    },
+    "entityAccountInfo": {
+      "type": "Limited Partnership",
+      "entityCertificateOfFormation": "Null",
+      "entityOperatingAgreement": "Null",
+      "documentsProvided": true
+    },
+    "jointAccountInfo": {
+      "primaryHolder": "Null",
+      "secondaryHolder": "Null"
+    },
+    "investmentInfo": {
+      "initialContribution": 5000,
+      "autoInvest": true,
+      "autoInvestInfo": {
+        "autoInvestmentAmount": 100,
+        "frequency": "Monthly",
+        "paymentDay": "15"
+      }
+    },
+    "trustAccountInfo": {
+      "trustName": "Null",
+      "trustType": "Null",
+      "dateOfTrust": "Null"
+    },
+    "bankAccount": {
+      "accountType": "Null",
+      "bankName": "Null",
+      "accountNumber": "123456789",
+      "routingNumber": "987654321"
+    },
+    "privacyAndNewsletter": {
+      "shareInformation": true,
+      "promotionalOffers": true
+    },
+    "roleTypes": 3,
+    "persona": {
+      "strategy": "sample Null",
+      "investment_objectives": {
+        "expected_in_12_months": 10000,
+        "expected_per_project": 5000,
+        "risk_tolerance": "moderate"
+      },
+      "investment_vehicles": "stocks",
+      "location": {
+        "region": "Null Null",
+        "state": "Null",
+        "submarket": "Null"
+      },
+      "market_size": "Null",
+      "property_details": {
+        "property_type": "Null",
+        "focus_on_green": true,
+        "property_class": "A",
+        "tenancy": "multi-tenant",
+        "investment_objectives": {
+          "price": {
+            "from": 20000,
+            "to": 100000
+          },
+          "size": {
+            "from": 1500,
+            "to": 50000
+          },
+          "units": {
+            "from": 10,
+            "to": 20
+          }
+        }
+      },
+      "hold_period": "long-term",
+      "loan_parameters": {
+        "annual_income": 0,
+        "investment_horizon": "5 years",
+        "liquidity_severity": "low",
+        "net_worth": 0,
+        "investing_experience": "experienced",
+        "additional_parameters": {
+          "broker_or_dealer_connection": false,
+          "shareholder_or_director": false,
+          "public_official_connection": false
+        }
+      },
+      "prospects": {
+        "investment_frequency": "monthly",
+        "lps": "yes",
+        "strategy_description": {
+          "buying": "sample buying strategy",
+          "managing": "sample managing strategy",
+          "projected": "sample projected returns"
+        }
+      },
+      "preferred_properties": {
+        "Resort": 0,
+        "Hotel": 0,
+        "Villa": 0,
+        "Condo": 0,
+        "Lodge": 0,
+        "Apartment": 0,
+        "Chalet": 0
+      }
+    },
+    "loan_setups_list": [],
+    "date": "2024-12-04T09:31:39.560Z",
+    "createdAt": "2024-12-04T09:31:39.566Z",
+    "updatedAt": "2024-12-04T09:31:39.566Z",
+    "__v": 0
+  },
+  {
+    "_id": "67651524148fcfe84d685c10",
+    "accountType": "Employee",
+    "name": "Rachel",
+    "surname": "Townsend",
+    "email": "zemari@teleg.eu",
+    "role": "",
+    "department": "",
+    "phone_number": "65468456486",
+    "street_address": "",
+    "city": "",
+    "secondary_address": "",
+    "state": "",
+    "time_zone": "",
+    "about_me": "",
+    "password": "$2a$10$BEoiy7y4lutKpgXPYVinaOdxVsqza5o.yDM2ueDZXv1S.o3sOwh0i",
+    "companyName": "Null",
+    "accreditedInvestor": true,
+    "countryOfCitizenship": "Null",
+    "countryOfResidence": "Null",
+    "accountTypeChoosen": "entity",
+    "certificateOfFormation": "Null",
+    "operatingAgreement": "Null",
+    "individualAccountInfo": {
+      "dateOfBirth": "01-01-1990",
+      "ssn": "123-45-6789",
+      "address": "123 Sample St, Sample City, SC 12345"
+    },
+    "entityAccountInfo": {
+      "type": "Limited Partnership",
+      "entityCertificateOfFormation": "Null",
+      "entityOperatingAgreement": "Null",
+      "documentsProvided": true
+    },
+    "jointAccountInfo": {
+      "primaryHolder": "Null",
+      "secondaryHolder": "Null"
+    },
+    "investmentInfo": {
+      "initialContribution": 5000,
+      "autoInvest": true,
+      "autoInvestInfo": {
+        "autoInvestmentAmount": 100,
+        "frequency": "Monthly",
+        "paymentDay": "15"
+      }
+    },
+    "trustAccountInfo": {
+      "trustName": "Null",
+      "trustType": "Null",
+      "dateOfTrust": "Null"
+    },
+    "bankAccount": {
+      "accountType": "Null",
+      "bankName": "Null",
+      "accountNumber": "123456789",
+      "routingNumber": "987654321"
+    },
+    "privacyAndNewsletter": {
+      "shareInformation": true,
+      "promotionalOffers": true
+    },
+    "roleTypes": 3,
+    "persona": {
+      "strategy": "sample Null",
+      "investment_objectives": {
+        "expected_in_12_months": 10000,
+        "expected_per_project": 5000,
+        "risk_tolerance": "moderate"
+      },
+      "investment_vehicles": "stocks",
+      "location": {
+        "region": "Null Null",
+        "state": "Null",
+        "submarket": "Null"
+      },
+      "market_size": "Null",
+      "property_details": {
+        "property_type": "Null",
+        "focus_on_green": true,
+        "property_class": "A",
+        "tenancy": "multi-tenant",
+        "investment_objectives": {
+          "price": {
+            "from": 20000,
+            "to": 100000
+          },
+          "size": {
+            "from": 1500,
+            "to": 50000
+          },
+          "units": {
+            "from": 10,
+            "to": 20
+          }
+        }
+      },
+      "hold_period": "long-term",
+      "loan_parameters": {
+        "annual_income": 0,
+        "investment_horizon": "5 years",
+        "liquidity_severity": "low",
+        "net_worth": 0,
+        "investing_experience": "experienced",
+        "additional_parameters": {
+          "broker_or_dealer_connection": false,
+          "shareholder_or_director": false,
+          "public_official_connection": false
+        }
+      },
+      "prospects": {
+        "investment_frequency": "monthly",
+        "lps": "yes",
+        "strategy_description": {
+          "buying": "sample buying strategy",
+          "managing": "sample managing strategy",
+          "projected": "sample projected returns"
+        }
+      },
+      "preferred_properties": {
+        "Resort": 0,
+        "Hotel": 0,
+        "Villa": 0,
+        "Condo": 0,
+        "Lodge": 0,
+        "Apartment": 0,
+        "Chalet": 0
+      }
+    },
+    "loan_setups_list": [],
+    "date": "2024-12-20T06:56:36.934Z",
+    "createdAt": "2024-12-20T06:56:36.948Z",
+    "updatedAt": "2024-12-20T06:56:36.948Z",
+    "__v": 0
+  },
+  {
+    "_id": "676525a757b187a5912a900b",
+    "accountType": "Employee",
+    "name": "aecs",
+    "surname": "dvsvsfv",
+    "email": "myvylu@logsmarter.net",
+    "role": "",
+    "department": "",
+    "phone_number": "654684684",
+    "street_address": "",
+    "city": "",
+    "secondary_address": "",
+    "state": "",
+    "time_zone": "",
+    "about_me": "",
+    "password": "$2a$10$q8UZil8wFHeN8vb1OpsfaOfvPA1cKoCr3OBDwGJV/G15Wf0BmgN7.",
+    "companyName": "Null",
+    "accreditedInvestor": true,
+    "countryOfCitizenship": "Null",
+    "countryOfResidence": "Null",
+    "accountTypeChoosen": "entity",
+    "certificateOfFormation": "Null",
+    "operatingAgreement": "Null",
+    "individualAccountInfo": {
+      "dateOfBirth": "01-01-1990",
+      "ssn": "123-45-6789",
+      "address": "123 Sample St, Sample City, SC 12345"
+    },
+    "entityAccountInfo": {
+      "type": "Limited Partnership",
+      "entityCertificateOfFormation": "Null",
+      "entityOperatingAgreement": "Null",
+      "documentsProvided": true
+    },
+    "jointAccountInfo": {
+      "primaryHolder": "Null",
+      "secondaryHolder": "Null"
+    },
+    "investmentInfo": {
+      "initialContribution": 5000,
+      "autoInvest": true,
+      "autoInvestInfo": {
+        "autoInvestmentAmount": 100,
+        "frequency": "Monthly",
+        "paymentDay": "15"
+      }
+    },
+    "trustAccountInfo": {
+      "trustName": "Null",
+      "trustType": "Null",
+      "dateOfTrust": "Null"
+    },
+    "bankAccount": {
+      "accountType": "Null",
+      "bankName": "Null",
+      "accountNumber": "123456789",
+      "routingNumber": "987654321"
+    },
+    "privacyAndNewsletter": {
+      "shareInformation": true,
+      "promotionalOffers": true
+    },
+    "roleTypes": 3,
+    "persona": {
+      "strategy": "sample Null",
+      "investment_objectives": {
+        "expected_in_12_months": 10000,
+        "expected_per_project": 5000,
+        "risk_tolerance": "moderate"
+      },
+      "investment_vehicles": "stocks",
+      "location": {
+        "region": "Null Null",
+        "state": "Null",
+        "submarket": "Null"
+      },
+      "market_size": "Null",
+      "property_details": {
+        "property_type": "Null",
+        "focus_on_green": true,
+        "property_class": "A",
+        "tenancy": "multi-tenant",
+        "investment_objectives": {
+          "price": {
+            "from": 20000,
+            "to": 100000
+          },
+          "size": {
+            "from": 1500,
+            "to": 50000
+          },
+          "units": {
+            "from": 10,
+            "to": 20
+          }
+        }
+      },
+      "hold_period": "long-term",
+      "loan_parameters": {
+        "annual_income": 0,
+        "investment_horizon": "5 years",
+        "liquidity_severity": "low",
+        "net_worth": 0,
+        "investing_experience": "experienced",
+        "additional_parameters": {
+          "broker_or_dealer_connection": false,
+          "shareholder_or_director": false,
+          "public_official_connection": false
+        }
+      },
+      "prospects": {
+        "investment_frequency": "monthly",
+        "lps": "yes",
+        "strategy_description": {
+          "buying": "sample buying strategy",
+          "managing": "sample managing strategy",
+          "projected": "sample projected returns"
+        }
+      },
+      "preferred_properties": {
+        "Resort": 0,
+        "Hotel": 0,
+        "Villa": 0,
+        "Condo": 0,
+        "Lodge": 0,
+        "Apartment": 0,
+        "Chalet": 0
+      }
+    },
+    "loan_setups_list": [],
+    "date": "2024-12-20T08:07:03.366Z",
+    "createdAt": "2024-12-20T08:07:03.367Z",
+    "updatedAt": "2024-12-20T08:07:03.367Z",
+    "__v": 0
+  },
+  {
+    "_id": "676eaeb5ce72a2c4fa50f5c5",
+    "accountType": "Employee",
+    "name": "ascad",
+    "surname": "asca",
+    "email": "puvelawe@teleg.eu",
+    "role": "",
+    "department": "",
+    "phone_number": "",
+    "street_address": "",
+    "city": "",
+    "secondary_address": "",
+    "state": "",
+    "time_zone": "",
+    "about_me": "",
+    "password": "$2a$10$aYIpXVQDRmLo6DhQxkP1KeXUxb2cs5u439SoefgXDv2Fgbpvz2Gd.",
+    "companyName": "Null",
+    "accreditedInvestor": true,
+    "countryOfCitizenship": "Null",
+    "countryOfResidence": "Null",
+    "accountTypeChoosen": "entity",
+    "certificateOfFormation": "Null",
+    "operatingAgreement": "Null",
+    "individualAccountInfo": {
+      "dateOfBirth": "01-01-1990",
+      "ssn": "123-45-6789",
+      "address": "123 Sample St, Sample City, SC 12345"
+    },
+    "entityAccountInfo": {
+      "type": "Limited Partnership",
+      "entityCertificateOfFormation": "Null",
+      "entityOperatingAgreement": "Null",
+      "documentsProvided": true
+    },
+    "jointAccountInfo": {
+      "primaryHolder": "Null",
+      "secondaryHolder": "Null"
+    },
+    "investmentInfo": {
+      "initialContribution": 5000,
+      "autoInvest": true,
+      "autoInvestInfo": {
+        "autoInvestmentAmount": 100,
+        "frequency": "Monthly",
+        "paymentDay": "15"
+      }
+    },
+    "trustAccountInfo": {
+      "trustName": "Null",
+      "trustType": "Null",
+      "dateOfTrust": "Null"
+    },
+    "bankAccount": {
+      "accountType": "Null",
+      "bankName": "Null",
+      "accountNumber": "123456789",
+      "routingNumber": "987654321"
+    },
+    "privacyAndNewsletter": {
+      "shareInformation": true,
+      "promotionalOffers": true
+    },
+    "roleTypes": 3,
+    "persona": {
+      "strategy": "sample Null",
+      "investment_objectives": {
+        "expected_in_12_months": 10000,
+        "expected_per_project": 5000,
+        "risk_tolerance": "moderate"
+      },
+      "investment_vehicles": "stocks",
+      "location": {
+        "region": "Null Null",
+        "state": "Null",
+        "submarket": "Null"
+      },
+      "market_size": "Null",
+      "property_details": {
+        "property_type": "Null",
+        "focus_on_green": true,
+        "property_class": "A",
+        "tenancy": "multi-tenant",
+        "investment_objectives": {
+          "price": {
+            "from": 20000,
+            "to": 100000
+          },
+          "size": {
+            "from": 1500,
+            "to": 50000
+          },
+          "units": {
+            "from": 10,
+            "to": 20
+          }
+        }
+      },
+      "hold_period": "long-term",
+      "loan_parameters": {
+        "annual_income": 0,
+        "investment_horizon": "5 years",
+        "liquidity_severity": "low",
+        "net_worth": 0,
+        "investing_experience": "experienced",
+        "additional_parameters": {
+          "broker_or_dealer_connection": false,
+          "shareholder_or_director": false,
+          "public_official_connection": false
+        }
+      },
+      "prospects": {
+        "investment_frequency": "monthly",
+        "lps": "yes",
+        "strategy_description": {
+          "buying": "sample buying strategy",
+          "managing": "sample managing strategy",
+          "projected": "sample projected returns"
+        }
+      },
+      "preferred_properties": {
+        "Resort": 0,
+        "Hotel": 0,
+        "Villa": 0,
+        "Condo": 0,
+        "Lodge": 0,
+        "Apartment": 0,
+        "Chalet": 0
+      }
+    },
+    "loan_setups_list": [],
+    "date": "2024-12-27T13:42:13.707Z",
+    "createdAt": "2024-12-27T13:42:13.714Z",
+    "updatedAt": "2024-12-27T13:42:13.714Z",
+    "__v": 0
+  },
+  {
+    "_id": "67505a776eade59015b221cf",
+    "accountType": "Employee",
+    "name": "sfgbdsfhbdg",
+    "surname": "srgsdgdfg",
+    "email": "qydizobo@thetechnext.net",
+    "role": "",
+    "department": "",
+    "phone_number": "",
+    "street_address": "",
+    "city": "",
+    "secondary_address": "",
+    "state": "",
+    "time_zone": "",
+    "about_me": "",
+    "password": "$2a$10$gs24eieekvDEOSmcghJlo.xnNFB7BI2YHOdhl5Igwqqk5z9yHXtz2",
+    "companyName": "Null",
+    "accreditedInvestor": true,
+    "countryOfCitizenship": "Null",
+    "countryOfResidence": "Null",
+    "accountTypeChoosen": "entity",
+    "certificateOfFormation": "Null",
+    "operatingAgreement": "Null",
+    "individualAccountInfo": {
+      "dateOfBirth": "01-01-1990",
+      "ssn": "123-45-6789",
+      "address": "123 Sample St, Sample City, SC 12345"
+    },
+    "entityAccountInfo": {
+      "type": "Limited Partnership",
+      "entityCertificateOfFormation": "Null",
+      "entityOperatingAgreement": "Null",
+      "documentsProvided": true
+    },
+    "jointAccountInfo": {
+      "primaryHolder": "Null",
+      "secondaryHolder": "Null"
+    },
+    "investmentInfo": {
+      "initialContribution": 5000,
+      "autoInvest": true,
+      "autoInvestInfo": {
+        "autoInvestmentAmount": 100,
+        "frequency": "Monthly",
+        "paymentDay": "15"
+      }
+    },
+    "trustAccountInfo": {
+      "trustName": "Null",
+      "trustType": "Null",
+      "dateOfTrust": "Null"
+    },
+    "bankAccount": {
+      "accountType": "Null",
+      "bankName": "Null",
+      "accountNumber": "123456789",
+      "routingNumber": "987654321"
+    },
+    "privacyAndNewsletter": {
+      "shareInformation": true,
+      "promotionalOffers": true
+    },
+    "roleTypes": 3,
+    "persona": {
+      "strategy": "sample Null",
+      "investment_objectives": {
+        "expected_in_12_months": 10000,
+        "expected_per_project": 5000,
+        "risk_tolerance": "moderate"
+      },
+      "investment_vehicles": "stocks",
+      "location": {
+        "region": "Null Null",
+        "state": "Null",
+        "submarket": "Null"
+      },
+      "market_size": "Null",
+      "property_details": {
+        "property_type": "Null",
+        "focus_on_green": true,
+        "property_class": "A",
+        "tenancy": "multi-tenant",
+        "investment_objectives": {
+          "price": {
+            "from": 20000,
+            "to": 100000
+          },
+          "size": {
+            "from": 1500,
+            "to": 50000
+          },
+          "units": {
+            "from": 10,
+            "to": 20
+          }
+        }
+      },
+      "hold_period": "long-term",
+      "loan_parameters": {
+        "annual_income": 0,
+        "investment_horizon": "5 years",
+        "liquidity_severity": "low",
+        "net_worth": 0,
+        "investing_experience": "experienced",
+        "additional_parameters": {
+          "broker_or_dealer_connection": false,
+          "shareholder_or_director": false,
+          "public_official_connection": false
+        }
+      },
+      "prospects": {
+        "investment_frequency": "monthly",
+        "lps": "yes",
+        "strategy_description": {
+          "buying": "sample buying strategy",
+          "managing": "sample managing strategy",
+          "projected": "sample projected returns"
+        }
+      },
+      "preferred_properties": {
+        "Resort": 0,
+        "Hotel": 0,
+        "Villa": 0,
+        "Condo": 0,
+        "Lodge": 0,
+        "Apartment": 0,
+        "Chalet": 0
+      }
+    },
+    "loan_setups_list": [],
+    "date": "2024-12-04T13:34:47.101Z",
+    "createdAt": "2024-12-04T13:34:47.102Z",
+    "updatedAt": "2024-12-04T13:34:47.102Z",
+    "__v": 0
+  },
+  {
+    "_id": "6760143c88c087695bf66abf",
+    "accountType": "Employee",
+    "name": "Carol",
+    "surname": "Kay",
+    "email": "nuxeda@thetechnext.net",
+    "role": "",
+    "department": "",
+    "phone_number": "",
+    "street_address": "",
+    "city": "",
+    "secondary_address": "",
+    "state": "",
+    "time_zone": "",
+    "about_me": "",
+    "password": "$2a$10$0M7H.VFtpgqBTKTduTmLtebB3W2iRQ3zD.t6Bip7paPnSCZaXyWLC",
+    "companyName": "Null",
+    "accreditedInvestor": true,
+    "countryOfCitizenship": "Null",
+    "countryOfResidence": "Null",
+    "accountTypeChoosen": "entity",
+    "certificateOfFormation": "Null",
+    "operatingAgreement": "Null",
+    "individualAccountInfo": {
+      "dateOfBirth": "01-01-1990",
+      "ssn": "123-45-6789",
+      "address": "123 Sample St, Sample City, SC 12345"
+    },
+    "entityAccountInfo": {
+      "type": "Limited Partnership",
+      "entityCertificateOfFormation": "Null",
+      "entityOperatingAgreement": "Null",
+      "documentsProvided": true
+    },
+    "jointAccountInfo": {
+      "primaryHolder": "Null",
+      "secondaryHolder": "Null"
+    },
+    "investmentInfo": {
+      "initialContribution": 5000,
+      "autoInvest": true,
+      "autoInvestInfo": {
+        "autoInvestmentAmount": 100,
+        "frequency": "Monthly",
+        "paymentDay": "15"
+      }
+    },
+    "trustAccountInfo": {
+      "trustName": "Null",
+      "trustType": "Null",
+      "dateOfTrust": "Null"
+    },
+    "bankAccount": {
+      "accountType": "Null",
+      "bankName": "Null",
+      "accountNumber": "123456789",
+      "routingNumber": "987654321"
+    },
+    "privacyAndNewsletter": {
+      "shareInformation": true,
+      "promotionalOffers": true
+    },
+    "roleTypes": 3,
+    "persona": {
+      "strategy": "sample Null",
+      "investment_objectives": {
+        "expected_in_12_months": 10000,
+        "expected_per_project": 5000,
+        "risk_tolerance": "moderate"
+      },
+      "investment_vehicles": "stocks",
+      "location": {
+        "region": "Null Null",
+        "state": "Null",
+        "submarket": "Null"
+      },
+      "market_size": "Null",
+      "property_details": {
+        "property_type": "Null",
+        "focus_on_green": true,
+        "property_class": "A",
+        "tenancy": "multi-tenant",
+        "investment_objectives": {
+          "price": {
+            "from": 20000,
+            "to": 100000
+          },
+          "size": {
+            "from": 1500,
+            "to": 50000
+          },
+          "units": {
+            "from": 10,
+            "to": 20
+          }
+        }
+      },
+      "hold_period": "long-term",
+      "loan_parameters": {
+        "annual_income": 0,
+        "investment_horizon": "5 years",
+        "liquidity_severity": "low",
+        "net_worth": 0,
+        "investing_experience": "experienced",
+        "additional_parameters": {
+          "broker_or_dealer_connection": false,
+          "shareholder_or_director": false,
+          "public_official_connection": false
+        }
+      },
+      "prospects": {
+        "investment_frequency": "monthly",
+        "lps": "yes",
+        "strategy_description": {
+          "buying": "sample buying strategy",
+          "managing": "sample managing strategy",
+          "projected": "sample projected returns"
+        }
+      },
+      "preferred_properties": {
+        "Resort": 0,
+        "Hotel": 0,
+        "Villa": 0,
+        "Condo": 0,
+        "Lodge": 0,
+        "Apartment": 0,
+        "Chalet": 0
+      }
+    },
+    "loan_setups_list": [],
+    "date": "2024-12-16T11:51:24.348Z",
+    "createdAt": "2024-12-16T11:51:24.353Z",
+    "updatedAt": "2024-12-16T11:51:24.353Z",
+    "__v": 0
+  },
+  {
+    "_id": "67b8493464eb7d3f2b12b774",
+    "accountType": "Employee",
+    "name": "Amar",
+    "surname": "sdvsvs",
+    "email": "kamadedu@polkaroad.net",
+    "role": "",
+    "department": "",
+    "phone_number": "",
+    "street_address": "",
+    "city": "",
+    "secondary_address": "",
+    "state": "",
+    "time_zone": "",
+    "about_me": "",
+    "password": "$2a$10$M.QkNqxKxJ0WQmAJIT.6Xe3uqY.fCE3W/OaA2uGo79X60u7pjOoP6",
+    "companyName": "Null",
+    "accreditedInvestor": true,
+    "countryOfCitizenship": "Null",
+    "countryOfResidence": "Null",
+    "accountTypeChoosen": "entity",
+    "certificateOfFormation": "Null",
+    "operatingAgreement": "Null",
+    "individualAccountInfo": {
+      "dateOfBirth": "01-01-1990",
+      "ssn": "123-45-6789",
+      "address": "123 Sample St, Sample City, SC 12345"
+    },
+    "entityAccountInfo": {
+      "type": "Limited Partnership",
+      "entityCertificateOfFormation": "Null",
+      "entityOperatingAgreement": "Null",
+      "documentsProvided": true
+    },
+    "jointAccountInfo": {
+      "primaryHolder": "Null",
+      "secondaryHolder": "Null"
+    },
+    "investmentInfo": {
+      "initialContribution": 5000,
+      "autoInvest": true,
+      "autoInvestInfo": {
+        "autoInvestmentAmount": 100,
+        "frequency": "Monthly",
+        "paymentDay": "15"
+      }
+    },
+    "trustAccountInfo": {
+      "trustName": "Null",
+      "trustType": "Null",
+      "dateOfTrust": "Null"
+    },
+    "bankAccount": {
+      "accountType": "Null",
+      "bankName": "Null",
+      "accountNumber": "123456789",
+      "routingNumber": "987654321"
+    },
+    "privacyAndNewsletter": {
+      "shareInformation": true,
+      "promotionalOffers": true
+    },
+    "roleTypes": 3,
+    "persona": {
+      "strategy": "sample Null",
+      "investment_objectives": {
+        "expected_in_12_months": 10000,
+        "expected_per_project": 5000,
+        "risk_tolerance": "moderate"
+      },
+      "investment_vehicles": "stocks",
+      "location": {
+        "region": "Null Null",
+        "state": "Null",
+        "submarket": "Null"
+      },
+      "market_size": "Null",
+      "property_details": {
+        "property_type": "Null",
+        "focus_on_green": true,
+        "property_class": "A",
+        "tenancy": "multi-tenant",
+        "investment_objectives": {
+          "price": {
+            "from": 20000,
+            "to": 100000
+          },
+          "size": {
+            "from": 1500,
+            "to": 50000
+          },
+          "units": {
+            "from": 10,
+            "to": 20
+          }
+        }
+      },
+      "hold_period": "long-term",
+      "loan_parameters": {
+        "annual_income": 0,
+        "investment_horizon": "5 years",
+        "liquidity_severity": "low",
+        "net_worth": 0,
+        "investing_experience": "experienced",
+        "additional_parameters": {
+          "broker_or_dealer_connection": false,
+          "shareholder_or_director": false,
+          "public_official_connection": false
+        }
+      },
+      "prospects": {
+        "investment_frequency": "monthly",
+        "lps": "yes",
+        "strategy_description": {
+          "buying": "sample buying strategy",
+          "managing": "sample managing strategy",
+          "projected": "sample projected returns"
+        }
+      },
+      "preferred_properties": {
+        "Resort": 0,
+        "Hotel": 0,
+        "Villa": 0,
+        "Condo": 0,
+        "Lodge": 0,
+        "Apartment": 0,
+        "Chalet": 0
+      }
+    },
+    "loan_setups_list": [],
+    "date": "2025-02-21T09:36:52.354Z",
+    "Location": [],
+    "createdAt": "2025-02-21T09:36:52.378Z",
+    "updatedAt": "2025-02-21T09:36:52.378Z",
+    "__v": 0
+  },
+  {
+    "_id": "67b84aa708dc6c09fda87431",
+    "accountType": "Employee",
+    "name": "Amar",
+    "surname": "sdvsvs",
+    "email": "amarkumarprajapatiwork@gmail.com",
+    "role": "",
+    "department": "",
+    "phone_number": "",
+    "street_address": "",
+    "city": "",
+    "secondary_address": "",
+    "state": "",
+    "time_zone": "",
+    "about_me": "",
+    "password": "$2a$10$8keTexZ/a6oU5ehfMx8xH.GxIOjGsIo3cGn47RAkZTOifnmZVIVTG",
+    "companyName": "Null",
+    "accreditedInvestor": true,
+    "countryOfCitizenship": "Null",
+    "countryOfResidence": "Null",
+    "accountTypeChoosen": "entity",
+    "certificateOfFormation": "Null",
+    "operatingAgreement": "Null",
+    "individualAccountInfo": {
+      "dateOfBirth": "01-01-1990",
+      "ssn": "123-45-6789",
+      "address": "123 Sample St, Sample City, SC 12345"
+    },
+    "entityAccountInfo": {
+      "type": "Limited Partnership",
+      "entityCertificateOfFormation": "Null",
+      "entityOperatingAgreement": "Null",
+      "documentsProvided": true
+    },
+    "jointAccountInfo": {
+      "primaryHolder": "Null",
+      "secondaryHolder": "Null"
+    },
+    "investmentInfo": {
+      "initialContribution": 5000,
+      "autoInvest": true,
+      "autoInvestInfo": {
+        "autoInvestmentAmount": 100,
+        "frequency": "Monthly",
+        "paymentDay": "15"
+      }
+    },
+    "trustAccountInfo": {
+      "trustName": "Null",
+      "trustType": "Null",
+      "dateOfTrust": "Null"
+    },
+    "bankAccount": {
+      "accountType": "Null",
+      "bankName": "Null",
+      "accountNumber": "123456789",
+      "routingNumber": "987654321"
+    },
+    "privacyAndNewsletter": {
+      "shareInformation": true,
+      "promotionalOffers": true
+    },
+    "roleTypes": 3,
+    "persona": {
+      "strategy": "sample Null",
+      "investment_objectives": {
+        "expected_in_12_months": 10000,
+        "expected_per_project": 5000,
+        "risk_tolerance": "moderate"
+      },
+      "investment_vehicles": "stocks",
+      "location": {
+        "region": "Null Null",
+        "state": "Null",
+        "submarket": "Null"
+      },
+      "market_size": "Null",
+      "property_details": {
+        "property_type": "Null",
+        "focus_on_green": true,
+        "property_class": "A",
+        "tenancy": "multi-tenant",
+        "investment_objectives": {
+          "price": {
+            "from": 20000,
+            "to": 100000
+          },
+          "size": {
+            "from": 1500,
+            "to": 50000
+          },
+          "units": {
+            "from": 10,
+            "to": 20
+          }
+        }
+      },
+      "hold_period": "long-term",
+      "loan_parameters": {
+        "annual_income": 0,
+        "investment_horizon": "5 years",
+        "liquidity_severity": "low",
+        "net_worth": 0,
+        "investing_experience": "experienced",
+        "additional_parameters": {
+          "broker_or_dealer_connection": false,
+          "shareholder_or_director": false,
+          "public_official_connection": false
+        }
+      },
+      "prospects": {
+        "investment_frequency": "monthly",
+        "lps": "yes",
+        "strategy_description": {
+          "buying": "sample buying strategy",
+          "managing": "sample managing strategy",
+          "projected": "sample projected returns"
+        }
+      },
+      "preferred_properties": {
+        "Resort": 0,
+        "Hotel": 0,
+        "Villa": 0,
+        "Condo": 0,
+        "Lodge": 0,
+        "Apartment": 0,
+        "Chalet": 0
+      }
+    },
+    "loan_setups_list": [],
+    "date": "2025-02-21T09:43:03.140Z",
+    "Location": [],
+    "createdAt": "2025-02-21T09:43:03.142Z",
+    "updatedAt": "2025-02-21T09:43:03.142Z",
+    "__v": 0
+  },
+  {
+    "_id": "67b87802f310d42b1f4475ea",
+    "accountType": "Employee",
+    "name": "dvs",
+    "surname": "sdvsvs",
+    "email": "amarkumarprajapati@gmail.com",
+    "role": "",
+    "department": "",
+    "phone_number": "",
+    "street_address": "",
+    "city": "",
+    "secondary_address": "",
+    "state": "",
+    "time_zone": "",
+    "about_me": "",
+    "password": "$2a$10$5YYc.7uJAy.CyEVMY/yvDOqwvg4vHELkDwZpRNkIkwIQ9ZYNe6/D2",
+    "companyName": "Null",
+    "accreditedInvestor": true,
+    "countryOfCitizenship": "Null",
+    "countryOfResidence": "Null",
+    "accountTypeChoosen": "entity",
+    "certificateOfFormation": "Null",
+    "operatingAgreement": "Null",
+    "individualAccountInfo": {
+      "dateOfBirth": "01-01-1990",
+      "ssn": "123-45-6789",
+      "address": "123 Sample St, Sample City, SC 12345"
+    },
+    "entityAccountInfo": {
+      "type": "Limited Partnership",
+      "entityCertificateOfFormation": "Null",
+      "entityOperatingAgreement": "Null",
+      "documentsProvided": true
+    },
+    "jointAccountInfo": {
+      "primaryHolder": "Null",
+      "secondaryHolder": "Null"
+    },
+    "investmentInfo": {
+      "initialContribution": 5000,
+      "autoInvest": true,
+      "autoInvestInfo": {
+        "autoInvestmentAmount": 100,
+        "frequency": "Monthly",
+        "paymentDay": "15"
+      }
+    },
+    "trustAccountInfo": {
+      "trustName": "Null",
+      "trustType": "Null",
+      "dateOfTrust": "Null"
+    },
+    "bankAccount": {
+      "accountType": "Null",
+      "bankName": "Null",
+      "accountNumber": "123456789",
+      "routingNumber": "987654321"
+    },
+    "privacyAndNewsletter": {
+      "shareInformation": true,
+      "promotionalOffers": true
+    },
+    "roleTypes": 3,
+    "persona": {
+      "strategy": "sample Null",
+      "investment_objectives": {
+        "expected_in_12_months": 10000,
+        "expected_per_project": 5000,
+        "risk_tolerance": "moderate"
+      },
+      "investment_vehicles": "stocks",
+      "location": {
+        "region": "Null Null",
+        "state": "Null",
+        "submarket": "Null"
+      },
+      "market_size": "Null",
+      "property_details": {
+        "property_type": "Null",
+        "focus_on_green": true,
+        "property_class": "A",
+        "tenancy": "multi-tenant",
+        "investment_objectives": {
+          "price": {
+            "from": 20000,
+            "to": 100000
+          },
+          "size": {
+            "from": 1500,
+            "to": 50000
+          },
+          "units": {
+            "from": 10,
+            "to": 20
+          }
+        }
+      },
+      "hold_period": "long-term",
+      "loan_parameters": {
+        "annual_income": 0,
+        "investment_horizon": "5 years",
+        "liquidity_severity": "low",
+        "net_worth": 0,
+        "investing_experience": "experienced",
+        "additional_parameters": {
+          "broker_or_dealer_connection": false,
+          "shareholder_or_director": false,
+          "public_official_connection": false
+        }
+      },
+      "prospects": {
+        "investment_frequency": "monthly",
+        "lps": "yes",
+        "strategy_description": {
+          "buying": "sample buying strategy",
+          "managing": "sample managing strategy",
+          "projected": "sample projected returns"
+        }
+      },
+      "preferred_properties": {
+        "Resort": 0,
+        "Hotel": 0,
+        "Villa": 0,
+        "Condo": 0,
+        "Lodge": 0,
+        "Apartment": 0,
+        "Chalet": 0
+      }
+    },
+    "loan_setups_list": [],
+    "date": "2025-02-21T12:56:34.683Z",
+    "Location": [],
+    "createdAt": "2025-02-21T12:56:34.687Z",
+    "updatedAt": "2025-02-21T12:56:34.687Z",
+    "__v": 0
+  },
+  {
+    "_id": "67b94406f310d42b1f448040",
+    "accountType": "Employee",
+    "name": "Rachel",
+    "surname": "Townsend",
+    "email": "xorep44288@jarars.com",
+    "role": "",
+    "department": "",
+    "phone_number": "",
+    "street_address": "",
+    "city": "",
+    "secondary_address": "",
+    "state": "",
+    "time_zone": "",
+    "about_me": "",
+    "password": "$2a$10$EelY8Z74CRO7lKVwUuVb1u5oxOkyGIhgf/R/2lar9HuKldb3YjyoS",
+    "companyName": "Null",
+    "accreditedInvestor": true,
+    "countryOfCitizenship": "Null",
+    "countryOfResidence": "Null",
+    "accountTypeChoosen": "entity",
+    "certificateOfFormation": "Null",
+    "operatingAgreement": "Null",
+    "individualAccountInfo": {
+      "dateOfBirth": "01-01-1990",
+      "ssn": "123-45-6789",
+      "address": "123 Sample St, Sample City, SC 12345"
+    },
+    "entityAccountInfo": {
+      "type": "Limited Partnership",
+      "entityCertificateOfFormation": "Null",
+      "entityOperatingAgreement": "Null",
+      "documentsProvided": true
+    },
+    "jointAccountInfo": {
+      "primaryHolder": "Null",
+      "secondaryHolder": "Null"
+    },
+    "investmentInfo": {
+      "initialContribution": 5000,
+      "autoInvest": true,
+      "autoInvestInfo": {
+        "autoInvestmentAmount": 100,
+        "frequency": "Monthly",
+        "paymentDay": "15"
+      }
+    },
+    "trustAccountInfo": {
+      "trustName": "Null",
+      "trustType": "Null",
+      "dateOfTrust": "Null"
+    },
+    "bankAccount": {
+      "accountType": "Null",
+      "bankName": "Null",
+      "accountNumber": "123456789",
+      "routingNumber": "987654321"
+    },
+    "privacyAndNewsletter": {
+      "shareInformation": true,
+      "promotionalOffers": true
+    },
+    "roleTypes": 3,
+    "persona": {
+      "strategy": "sample Null",
+      "investment_objectives": {
+        "expected_in_12_months": 10000,
+        "expected_per_project": 5000,
+        "risk_tolerance": "moderate"
+      },
+      "investment_vehicles": "stocks",
+      "location": {
+        "region": "Null Null",
+        "state": "Null",
+        "submarket": "Null"
+      },
+      "market_size": "Null",
+      "property_details": {
+        "property_type": "Null",
+        "focus_on_green": true,
+        "property_class": "A",
+        "tenancy": "multi-tenant",
+        "investment_objectives": {
+          "price": {
+            "from": 20000,
+            "to": 100000
+          },
+          "size": {
+            "from": 1500,
+            "to": 50000
+          },
+          "units": {
+            "from": 10,
+            "to": 20
+          }
+        }
+      },
+      "hold_period": "long-term",
+      "loan_parameters": {
+        "annual_income": 0,
+        "investment_horizon": "5 years",
+        "liquidity_severity": "low",
+        "net_worth": 0,
+        "investing_experience": "experienced",
+        "additional_parameters": {
+          "broker_or_dealer_connection": false,
+          "shareholder_or_director": false,
+          "public_official_connection": false
+        }
+      },
+      "prospects": {
+        "investment_frequency": "monthly",
+        "lps": "yes",
+        "strategy_description": {
+          "buying": "sample buying strategy",
+          "managing": "sample managing strategy",
+          "projected": "sample projected returns"
+        }
+      },
+      "preferred_properties": {
+        "Resort": 0,
+        "Hotel": 0,
+        "Villa": 0,
+        "Condo": 0,
+        "Lodge": 0,
+        "Apartment": 0,
+        "Chalet": 0
+      }
+    },
+    "loan_setups_list": [],
+    "date": "2025-02-22T03:27:02.723Z",
+    "Location": [],
+    "createdAt": "2025-02-22T03:27:02.725Z",
+    "updatedAt": "2025-02-22T03:27:02.725Z",
+    "__v": 0
+  }
+]

@@ -1,0 +1,134 @@
+Basic OOP Concepts in JS
+
+JavaScript supports all major OOP principles:
+Encapsulation – bundling data and methods together.
+Abstraction – hiding implementation details.
+Inheritance – one class/object can inherit from another.
+Polymorphism – same method name behaves differently in different contexts.
+
+
+
+------Ways to Create Objects-------
+
+--(a) Using Object Literal --
+
+const user = {
+  name: "Amar",
+  age: 28,
+  greet() {
+    console.log(`Hello, I'm ${this.name}`);
+  }
+};
+
+user.greet(); // Hello, I'm Amar
+
+
+--(b) Using Constructor Function --
+
+
+function User(name, age) {
+  this.name = name;
+  this.age = age;
+}
+
+User.prototype.greet = function() {
+  console.log(`Hi, I'm ${this.name}`);
+};
+
+const user1 = new User("Amar", 28);
+user1.greet(); // Hi, I'm Amar
+
+(6) Using ES6 Classes (Modern & Recommended)--
+
+class User {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+
+  greet() {
+    console.log(`Hi, I'm ${this.name}`);
+  }
+}
+
+const user1 = new User("Amar", 28);
+user1.greet(); // Hi, I'm Amar
+
+
+🧬 3. Inheritance Example ---
+
+
+class Person {
+  constructor(name) {
+    this.name = name;
+  }
+
+  greet() {
+    console.log(`Hello, I'm ${this.name}`);
+  }
+}
+
+class Developer extends Person {
+  constructor(name, stack) {
+    super(name); // calls parent constructor
+    this.stack = stack;
+  }
+
+  code() {
+    console.log(`${this.name} is coding in ${this.stack}`);
+  }
+}
+
+const dev = new Developer("Amar", "MERN");
+dev.greet(); // Hello, I'm Amar
+dev.code();  // Amar is coding in MERN
+
+
+🧰 4. Encapsulation (Private Fields) --
+
+class Account {
+  #balance = 0; // private field
+
+  deposit(amount) {
+    this.#balance += amount;
+    console.log(`Deposited: ${amount}`);
+  }
+
+  getBalance() {
+    return this.#balance;
+  }
+}
+
+const acc = new Account();
+acc.deposit(500);
+console.log(acc.getBalance()); // 500
+// acc.#balance -> ❌ Error (private)
+
+
+5. Polymorphism Example --
+
+class Animal {
+  speak() {
+    console.log("Some sound...");
+  }
+}
+
+class Dog extends Animal {
+  speak() {
+    console.log("Woof!");
+  }
+}
+
+class Cat extends Animal {
+  speak() {
+    console.log("Meow!");
+  }
+}
+
+const animals = [new Dog(), new Cat()];
+animals.forEach(a => a.speak()); 
+// Woof!
+// Meow!
+
+
+

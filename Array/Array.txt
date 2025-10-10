@@ -1,0 +1,55 @@
+1. Mutator Methods - (Modify the original array)
+   These methods change the array they are called on.
+
+pop():             - Done
+push():            - Done
+reverse():         - Done
+shift():           - Done
+splice():          - Done
+unshift():         - Done
+copyWithin():      - Done
+
+
+
+2. Accessor Methods - (Return a new value without modifying the original array)
+   These methods return a new array or value based on the original array without altering it.
+
+at():              - Done
+concat():          - Done
+includes():        - Done
+indexOf():         - Done
+join():            - Done
+slice():           - Done
+toLocaleString():  - Done
+toReversed():      - Done
+toSorted():        - Done
+toString():        - Done
+
+
+3. Iteration Methods (Loop through or process array elements)
+   These methods iterate over the array or perform operations on its elements, often returning a new value or array.
+
+entries():          - Done
+filter():           - Done
+find():             - Done
+flat():             - Done
+flatMap():          - Done
+forEach():          - Done
+map():              - Done
+reduce():           - Done
+some():             - Done
+values():           - Done
+every():            - Done
+findIndex:()        - Done
+keys():             - Done
+
+
+
+4. Other Methods (Specialized functionality)
+   These methods don't fit neatly into the above categories but provide specific functionality.
+
+sort():             - Done
+with():             - Done
+Array.from()        - Done
+Array.of()          - Done
+Array.isArray()     - Done

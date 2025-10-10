@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "676173f4325dcb1ac79362a7",
+    "assetIds": "67602a51946b5fb50e8e5903",
+    "__v": 0,
+    "created_at": "2024-12-17T12:52:04.799Z",
+    "documents": [
+      {
+        "name": "annex-beechwoodmsbkyssamplecontract.pdf",
+        "original": {
+          "url": "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Deals-Contract/67602a51946b5fb50e8e5903/3b98d902-d15f-4f1e-a807-16261a6bdca9-annex-beechwoodmsbkyssamplecontract.pdf"
+        },
+        "_id": "676173f460600c298051ddd5"
+      },
+      {
+        "name": "annex-beechwoodmsbkyssamplecontract.pdf",
+        "original": {
+          "url": "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Deals-Contract/67602a51946b5fb50e8e5903/cd58155c-e399-41bc-b94f-feb0bb35c858-annex-beechwoodmsbkyssamplecontract.pdf"
+        },
+        "_id": "6761743f60600c298051ddd8"
+      },
+      {
+        "name": "annex-beechwoodmsbkyssamplecontract.pdf",
+        "original": {
+          "url": "https://lilypads.s3.us-east-2.amazonaws.com/Tech_Demo/Deals-Contract/67602a51946b5fb50e8e5903/e21a1ed5-0d85-49d7-8f5d-dda3b74f3d95-annex-beechwoodmsbkyssamplecontract.pdf"
+        },
+        "_id": "6761747e60600c298051dddc"
+      }
+    ],
+    "updated_at": "2024-12-17T12:54:22.698Z"
+  }
+]
