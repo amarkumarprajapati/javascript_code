@@ -9,7 +9,7 @@ async function exportCollection() {
   const outputFile = 'mycollection.json'; // Output file name
 
   // Create a new MongoClient
-  const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+  const client = new MongoClient(uri);
 
   try {
     // Connect to MongoDB
