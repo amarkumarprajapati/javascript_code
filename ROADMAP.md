@@ -21,8 +21,7 @@ You said you can't study daily — so this plan is **topic-based, not date-based
 
 | Folder | What it covers | Priority |
 | --- | --- | --- |
-| `Javascript/` | Core + advanced JS, machine coding | CRITICAL |
-| `Theory/` | JS theory (OOP, event loop, DOM, async) | CRITICAL |
+| `Javascript/` | Core + advanced JS, machine coding, theory (OOP, DOM, async) | CRITICAL |
 | `Frontend/react/` | React hooks, perf, patterns, Q&A | CRITICAL |
 | `Backend/Node.js/` | Node internals, streams, cluster | HIGH |
 | `Backend/Express/` | REST, middleware, auth, errors | HIGH |
