@@ -40,4 +40,4 @@
 
 ---
 
-> Extra question bank: `www-interviewbit-com-react-interview-questions-.pdf` in this folder.
+> Extra question bank: `React_Interview_Questions_Converted.md` in this folder.

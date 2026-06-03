@@ -1,6 +1,6 @@
 # React — Interview Prep Index
 
-> CRITICAL for MERN. Study in order. (You also have an InterviewBit PDF here for extra Q&A.)
+> CRITICAL for MERN. Study in order. (You also have an InterviewBit question bank here for extra Q&A.)
 
 ## Study order
 | # | File | Topic |
@@ -13,7 +13,7 @@
 
 ## Existing related files
 - `usememo.js` — hand-written useMemo implementation (in this folder)
-- `www-interviewbit-com-react-interview-questions-.pdf` — extra question bank
+- `React_Interview_Questions_Converted.md` — extra question bank (from InterviewBit PDF)
 
 ## How to revise
 Read note → build a tiny component for the concept → answer Q&A out loud.

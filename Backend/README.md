@@ -1,22 +1,19 @@
-# Backend — Interview Prep Index
+# Backend — Interview Prep
 
-> Node.js, Express, MongoDB, NestJS for backend interviews.
+## Study notes
+| Folder | Files |
+| --- | --- |
+| `Express/` | `01-express-core.md`, `02-auth-security.md`, `expressjs_interview_questions.md` |
+| `Node/` | `01-node-fundamentals.md` |
+| `Nest/` | `nest.js.md` |
 
-## Study order
-| # | Folder/File | Topic |
+## PDFs converted to markdown
+| Topic | PDF | Markdown |
 | --- | --- | --- |
-| 1 | `Node.js/01-node-fundamentals.md` | Node internals, event loop, streams, scaling |
-| 2 | `Express/01-express-core.md` | Express middleware, routing, REST, error handling |
-| 3 | `Express/02-auth-security.md` | Authentication, JWT, security best practices |
-| 4 | `MongoDB/01-mongodb-core.md` | MongoDB CRUD, aggregation, indexing, transactions |
-| 5 | `Nest.js/nest.js.md` | NestJS interview Q&A (comprehensive) |
-| 6 | `Jquery/` | jQuery (legacy, only if JD requires) |
+| Express | `Express/34 Express.js interview questions - TestGorilla.pdf` | `34_Express_js_Interview_Questions_Converted.md` |
+| Node.js | `Node/Top 50 Node.js Interview Questions & Answers (2023) _ Intellipaat.pdf` | `Top_50_Node_js_Interview_Questions_Converted.md` |
+| MongoDB | `MongoDB/20 MongoDB Interview Questions and Answers (2023).pdf` | `20_MongoDB_Interview_Questions_Converted.md` |
+| NestJS | `Nest.js/nest.js.pdf` | `NestJS_Interview_Questions_Converted.md` |
+| jQuery | `Jquery/Top 20 jQuery Interview Questions and Answers _ Dot Net Tricks.pdf` | `Top_20_jQuery_Interview_Questions_Converted.md` |
 
-## Key topics
-- **Node.js**: event loop phases, libuv, streams, buffers, EventEmitter, cluster/worker_threads, CommonJS vs ESM
-- **Express**: middleware pipeline, routing, error handling, auth (JWT, bcrypt), rate limiting, CORS, helmet
-- **MongoDB**: CRUD, aggregation pipeline, indexing, embedding vs referencing, transactions
-- **NestJS**: modules, controllers, services, decorators, dependency injection, guards, pipes, interceptors
-
-## How to revise
-Read notes → build a small Express server → practice MongoDB queries → answer Q&A out loud.
+> Original PDFs are kept. Re-convert: `python scripts/pdf_to_md.py Backend`
