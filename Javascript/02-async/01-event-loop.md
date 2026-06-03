@@ -4,6 +4,33 @@
 
 JS is **single-threaded** but non-blocking thanks to the event loop.
 
+## Definition
+
+The **Event Loop** is a mechanism that enables JavaScript to perform non-blocking asynchronous operations despite being single-threaded. It continuously monitors the call stack and callback queues, pushing queued callbacks to the call stack when it becomes empty. This allows JavaScript to handle time-consuming operations (like network requests, file I/O, timers) without blocking the main thread, ensuring the UI remains responsive and the application can handle multiple operations concurrently.
+
+## Flow
+
+The event loop follows a continuous cycle of execution:
+
+1. **Execute Synchronous Code** — All synchronous code runs on the call stack from top to bottom (LIFO order).
+
+2. **Check Call Stack** — The event loop continuously checks if the call stack is empty.
+
+3. **Process Microtasks** — When the call stack is empty, the event loop drains the **entire** microtask queue before any macrotask:
+   - Promise `.then()`, `.catch()`, `.finally()`
+   - `queueMicrotask()`
+   - `MutationObserver`
+
+4. **Process One Macrotask** — After all microtasks are complete, the event loop picks **one** task from the macrotask queue:
+   - `setTimeout` / `setInterval`
+   - I/O callbacks
+   - DOM events
+   - `setImmediate` (Node.js)
+
+5. **Repeat** — After executing one macrotask, the event loop returns to step 3 (drain all microtasks again) before picking the next macrotask.
+
+**Key Flow Rule:** After each macrotask completes, the entire microtask queue is emptied before the next macrotask runs. This ensures high-priority tasks (Promises) are handled as soon as possible.
+
 ## Architecture — Components at a Glance
 
 ```
