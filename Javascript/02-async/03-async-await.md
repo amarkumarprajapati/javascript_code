@@ -1,6 +1,33 @@
 # async / await
 
+> 📅 **Day 8** · ~10 min read · the modern way (built on Day 7's Promises)
+
 Syntactic sugar over promises → write async code that reads like sync.
+
+## How `await` actually works
+
+```
+  async function load() {
+    console.log('A');
+    const x = await fetch('/api');   ◀── PAUSE: function suspends here
+    console.log('B');                     stack is free → event loop runs
+    return x;                             other stuff
+  }                                       ▼
+                                          when fetch settles, microtask
+                                          resumes load() and continues with 'B'
+```
+
+```
+   Call stack ─▶ async fn runs sync code (A)
+                 hits `await` ─▶ returns a pending promise
+                                  the rest of the fn is scheduled as a microtask
+   Call stack ─▶ EMPTY ─▶ other code runs
+                                  ▼
+                  network done ─▶ microtask queue: resume(load, value)
+   Call stack ─▶ runs B + return
+```
+
+**Key point:** `await` doesn't block the thread — it suspends just the async function and lets the event loop continue.
 
 ## Basics
 - `async` function **always returns a promise**.

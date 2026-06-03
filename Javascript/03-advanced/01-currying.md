@@ -1,5 +1,30 @@
 # Currying & Partial Application
 
+> 📅 **Day 9** · ~10 min read · functional programming foundation
+
+## Mental model
+
+```
+   Normal:                      Curried:
+   ────────                     ────────
+   add(1, 2, 3)                 add(1)(2)(3)
+        │                            │
+        ▼                            ▼
+   ┌──────────┐                 ┌──────────┐
+   │ add fn   │                 │ add(1)   │ ──▶ returns fn waiting for b
+   │ a b c    │                 └────┬─────┘
+   └──────────┘                      │ call with 2
+                                     ▼
+                                ┌──────────┐
+                                │ add(2)   │ ──▶ returns fn waiting for c
+                                └────┬─────┘
+                                     │ call with 3
+                                     ▼
+                                    6
+```
+
+**Why?** Reuse partially-applied versions: `const addFive = add(5);` then `addFive(2)(3)` later.
+
 ## Currying
 Transform a function with multiple args into a sequence of functions each taking **one** arg.
 

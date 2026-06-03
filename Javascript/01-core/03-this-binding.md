@@ -1,5 +1,35 @@
 # The `this` Keyword
 
+> 📅 **Day 3** · ~10 min read · key for OOP, React class components, callbacks
+
+## Decision tree — "what is `this`?"
+
+```
+                       Was the function called with `new`?
+                                    │
+                       ┌────────────┴────────────┐
+                      YES                        NO
+                       │                          │
+              `this` = new instance        Arrow function?
+                                                  │
+                                     ┌────────────┴────────────┐
+                                    YES                        NO
+                                     │                          │
+                       `this` = lexical (outer) `this`   Called with .call/.apply/.bind?
+                                                                │
+                                                  ┌─────────────┴─────────────┐
+                                                 YES                          NO
+                                                  │                            │
+                                          `this` = ctx arg         Called as obj.method()?
+                                                                              │
+                                                              ┌───────────────┴───────────────┐
+                                                             YES                              NO
+                                                              │                                │
+                                                       `this` = obj           strict → undefined / sloppy → globalThis
+```
+
+**Rule of thumb:** look at the **call site** (left of the dot, or `new`, or `.call`). Arrow functions ignore all this — they inherit.
+
 `this` refers to the object that is **executing the current function**. Its value is decided at **call time**, not definition time (except arrow functions).
 
 ## The 4 binding rules (in priority order)
@@ -67,6 +97,33 @@ sum.call(null, 1, 2);  // 3
 sum.apply(null, [1, 2]); // 3
 const add = sum.bind(null, 1);
 add(2); // 3 (partial application)
+```
+
+## Polyfills — build call/apply/bind from scratch
+
+```js
+// myCall — invoke with given `this` and args
+Function.prototype.myCall = function (ctx, ...args) {
+  ctx = ctx ?? globalThis;
+  const key = Symbol();          // unique to avoid collision
+  ctx[key] = this;               // attach fn temporarily
+  const result = ctx[key](...args);
+  delete ctx[key];
+  return result;
+};
+
+// myApply — same but array of args
+Function.prototype.myApply = function (ctx, args = []) {
+  return this.myCall(ctx, ...args);
+};
+
+// myBind — returns a NEW function, doesn't invoke
+Function.prototype.myBind = function (ctx, ...preset) {
+  const fn = this;
+  return function (...rest) {
+    return fn.myCall(ctx, ...preset, ...rest);
+  };
+};
 ```
 
 ---

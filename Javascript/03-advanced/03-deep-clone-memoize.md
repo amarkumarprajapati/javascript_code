@@ -1,5 +1,41 @@
 # Deep Clone, Shallow Clone & Memoization
 
+> 📅 **Day 11** · ~12 min read · combines references + recursion + caching
+
+## Mental model — shallow vs deep
+
+```
+   ORIGINAL                       SHALLOW COPY                  DEEP COPY
+   ──────────                     ──────────────                ──────────
+   obj ──▶ { a: 1, nested ─┐     copy ─▶ { a: 1, nested ─┐    copy ─▶ { a: 1, nested ─┐
+                            │                              │                            │
+                            ▼                              ▼                            ▼
+                       { b: 2 } ◀────── SAME ref ──── { (same as ◀)              { b: 2 }  ◀ NEW
+                                                                                  (independent)
+
+   Mutate copy.nested.b = 99:
+   shallow:  obj.nested.b == 99  ❌ (leaked!)
+   deep:     obj.nested.b == 2   ✅
+```
+
+## Memoization mental model
+
+```
+   call fastFn(4)
+         │
+         ▼
+   key = JSON.stringify([4]) = "[4]"
+         │
+         ▼
+   cache.has("[4]") ?
+      │           │
+     YES         NO
+      │           │
+      ▼           ▼
+   return     compute  ──▶  cache.set("[4]", result)  ──▶  return
+   cached
+```
+
 ## Shallow vs Deep clone
 - **Shallow** → top level copied, nested objects still **shared** by reference.
 - **Deep** → fully independent copy at every level.

@@ -1,5 +1,37 @@
 # Prototypes & Inheritance
 
+> 📅 **Day 4** · ~10 min read · foundation for classes & inheritance
+
+## Mental model — the chain
+
+```
+   const d = new Dog("Rex")
+        │
+        │ [[Prototype]]
+        ▼
+   ┌─────────────────────┐
+   │  Dog.prototype      │   ◀── shared methods (bark, sit...)
+   │  { bark, ... }      │
+   └──────────┬──────────┘
+              │ [[Prototype]]
+              ▼
+   ┌─────────────────────┐
+   │ Animal.prototype    │   ◀── inherited methods (eat, sleep)
+   │  { eat, sleep }     │
+   └──────────┬──────────┘
+              │ [[Prototype]]
+              ▼
+   ┌─────────────────────┐
+   │ Object.prototype    │   ◀── toString, hasOwnProperty...
+   └──────────┬──────────┘
+              │ [[Prototype]]
+              ▼
+            null      ◀── end of chain
+```
+
+**Lookup rule:** `d.bark()` → not on `d` → walk up the chain → found on `Dog.prototype` → call.
+If never found → `undefined` (or `TypeError` if you try to invoke).
+
 ## Prototype chain
 Every JS object has an internal link `[[Prototype]]` (accessible via `__proto__`) to another object. When you access a property, JS looks:
 1. on the object itself,
@@ -57,6 +89,29 @@ Object.create(proto)          // create object with given prototype
 Object.getPrototypeOf(obj)    // read prototype (preferred over __proto__)
 obj.hasOwnProperty("x")       // own property check (ignores prototype)
 ```
+
+## Without `class` — inheritance the old way
+
+```js
+// Parent
+function Person(name) { this.name = name; }
+Person.prototype.greet = function () { return `Hi ${this.name}`; };
+
+// Child
+function Developer(name, stack) {
+  Person.call(this, name);                // 1️⃣ "super(name)"
+  this.stack = stack;
+}
+Developer.prototype = Object.create(Person.prototype);  // 2️⃣ link chain
+Developer.prototype.constructor = Developer;            // 3️⃣ fix constructor
+Developer.prototype.code = function () { return `${this.name} writes ${this.stack}`; };
+
+const d = new Developer("Amar", "MERN");
+d.greet();  // inherited from Person
+d.code();   // own
+```
+
+> The `class` keyword does **exactly** these 3 steps under the hood.
 
 ---
 

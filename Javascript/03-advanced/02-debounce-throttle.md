@@ -1,6 +1,31 @@
 # Debounce & Throttle
 
+> 📅 **Day 10** · ~12 min read · top-3 frontend interview question
+
 Both limit how often a function runs — common in search inputs, scroll, resize.
+
+## Visual timeline (calls vs actual execution)
+
+```
+  Events (user input)   :   X X X X X     X X X     X         X X
+                            │ │ │ │ │     │ │ │     │         │ │
+                            │ │ │ │ │     │ │ │     │         │ │
+  ────────────────────────────────────────────────────────────────▶ time
+                                              ↑              ↑
+  DEBOUNCE (wait 500ms):                      X              X
+                            (only fires after a 500ms pause; resets on new event)
+
+
+  Events                :   X X X X X     X X X     X         X X
+                            │ │ │ │ │     │ │ │     │         │ │
+  ────────────────────────────────────────────────────────────────▶
+  THROTTLE (every 500ms):   X─────X───────X─────X───X─────────X───
+                            (fires at most once per 500ms window)
+```
+
+**One-line memory aid:**
+- **Debounce** = "wait until they're done" (search box → fire when user stops typing)
+- **Throttle** = "limit rate" (scroll → fire every 200ms while scrolling)
 
 ## Debounce
 Run the function **only after** the user stops triggering it for `delay` ms. Resets the timer on every call.

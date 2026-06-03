@@ -1,6 +1,37 @@
 # Types of Functions in JavaScript
 
+> 📅 **Day 12** · ~10 min read · pick the right tool for each job
+
 *A concise reference for JS developers*
+
+## At a glance
+
+```
+                       ┌──────────────────────────────────────┐
+                       │   ALL FUNCTIONS IN JAVASCRIPT        │
+                       └──────────────────────────────────────┘
+                                       │
+        ┌──────────────────────────────┼──────────────────────────────┐
+        ▼                              ▼                              ▼
+   BY SYNTAX                     BY BEHAVIOUR                  BY ROLE
+   ─────────                     ───────────                   ───────
+   Declaration   fn(){}           Sync         normal           Method (in obj/class)
+   Expression    const f=fn(){}   Async        async fn(){}     Callback (passed to fn)
+   Arrow         () => {}         Generator    function*(){}    Higher-order (returns/takes fn)
+   Method        { fn(){} }       IIFE         (function(){})() Constructor (new Fn())
+```
+
+## Decision flow — "which kind do I use?"
+
+```
+   Need to call before declaration?       ──▶ Function Declaration
+   Need own `this` / `arguments`?         ──▶ Regular function
+   Short callback inside another fn?      ──▶ Arrow function
+   Need to await something inside?        ──▶ async function
+   Want a lazy/pausable sequence?         ──▶ Generator (function*)
+   Run once, create isolated scope?       ──▶ IIFE
+   Returns a fn, or takes one as arg?     ──▶ Higher-order
+```
 
 ## 1. Function Declaration
 Hoisted to the top of its scope — can be called before it's defined.

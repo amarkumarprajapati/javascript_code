@@ -1,6 +1,105 @@
 # Event Loop
 
+> 📅 **Day 6** · ~15 min read · the single most-asked async question
+
 JS is **single-threaded** but non-blocking thanks to the event loop.
+
+## Architecture — Components at a Glance
+
+```
+┌──────────────────────────────────────────────────────────────────────┐
+│                        BROWSER / NODE.js RUNTIME                     │
+│                                                                      │
+│  ┌─────────────────┐        ┌──────────────────────────────────────┐ │
+│  │   Call Stack    │        │        Web APIs / Node APIs          │ │
+│  │  (single thread)│        │                                      │ │
+│  │                 │──────▶ │  setTimeout │ fetch │ fs │ DOM Events│ │
+│  │  fn3()  ← top   │ async  │                                      │ │
+│  │  fn2()          │  ops   └────────────────────┬─────────────────┘ │
+│  │  fn1()          │                             │ done? push cb     │
+│  │  global()← base │                             │                   │
+│  └────────┬────────┘                             │                   │
+│           │                          ┌───────────▼──────────────┐    │
+│    empty? │                          │  ⚡ Microtask Queue       │    │
+│           │                          │  Promise.then/catch       │    │
+│           ▼                          │  queueMicrotask           │    │
+│  ┌────────────────┐                  │  MutationObserver         │    │
+│  │  Event Loop    │◀── drain ALL ────┤──────────────────────────┤    │
+│  │                │                  │  📤 Macrotask Queue       │    │
+│  │  (tick cycle)  │◀── pick ONE  ────│  setTimeout / setInterval │    │
+│  └────────┬───────┘                  │  I/O callbacks / Events   │    │
+│           │                          └──────────────────────────┘    │
+│           │ push callback onto stack                                  │
+│           └──────────────────────────────────────────────────────▶   │
+└──────────────────────────────────────────────────────────────────────┘
+```
+
+## How the Event Loop Works
+
+```mermaid
+graph TB
+    A["📝 Synchronous Code<br/>(Script)"] -->|Executes| B["📚 Call Stack<br/>(LIFO)"]
+    
+    C["⏱️ Async Operations<br/>(setTimeout, fetch, fs, etc)"] -->|Handled by| D["🔧 Web APIs<br/>(Node APIs)"]
+    
+    D -->|Completes| E["📤 Callback Queue<br/>(Macrotasks)<br/>setTimeout, I/O, Events"]
+    D -->|Completes| F["⚡ Microtask Queue<br/>(Higher Priority)<br/>Promises, queueMicrotask"]
+    
+    B -->|Empty?| G{"Call Stack<br/>Empty?"}
+    
+    G -->|No| H["Keep executing<br/>code in stack"]
+    H --> G
+    
+    G -->|Yes| I{"Microtask<br/>Queue<br/>has tasks?"}
+    
+    I -->|Yes| J["🔄 Run ALL<br/>Microtasks"]
+    J --> F
+    F -->|All done| I
+    
+    I -->|No| K{"Callback<br/>Queue<br/>has tasks?"}
+    
+    K -->|Yes| L["🔄 Run ONE<br/>Macrotask"]
+    L --> E
+    E --> I
+    
+    K -->|No| M["⏸️ Wait for<br/>more tasks"]
+    M --> G
+    
+    style B fill:#ff9999
+    style E fill:#99ccff
+    style F fill:#99ff99
+    style G fill:#ffff99
+    style I fill:#ffff99
+    style K fill:#ffff99
+```
+
+## Priority Flow Diagram
+
+```
+Single Thread Execution Order:
+═══════════════════════════════════════════════════════
+
+1️⃣  SYNCHRONOUS CODE (top of call stack)
+    ↓
+2️⃣  ALL MICROTASKS (after sync code, before any macrotask)
+    └─ Promises (.then/.catch/.finally)
+    └─ queueMicrotask()
+    └─ MutationObserver
+    ↓
+3️⃣  ONE MACROTASK (from callback queue)
+    └─ setTimeout
+    └─ setInterval
+    └─ I/O operations
+    └─ DOM events
+    ↓
+4️⃣  Back to Step 2️⃣ (ALL MICROTASKS again)
+    ↓
+5️⃣  Next MACROTASK...
+    
+⚠️  KEY RULE: 
+After EACH macrotask, the ENTIRE microtask queue is drained
+BEFORE the next macrotask runs!
+```
 
 ## Pieces
 - **Call Stack** — runs synchronous code (LIFO).
@@ -44,6 +143,33 @@ console.log("F");
 // sync: A, F
 // microtasks: C, E   (C schedules timeout D)
 // macrotasks: B, then D
+```
+
+## Why JS is Non-Blocking
+
+JS has **one call stack** — it can only do one thing at a time. Without async, every slow operation (network, disk, timer) would **freeze** the entire thread. The event loop solves this:
+
+```
+  Blocking world (no event loop)         Non-Blocking JS (event loop)
+  ─────────────────────────────          ──────────────────────────────
+  read file  ──▶ 😴 wait 200ms           read file ──▶ Web API handles it
+  fetch data ──▶ 😴 wait 300ms           fetch     ──▶ Web API handles it
+  render UI  ──▶ 😰 still frozen         render UI ──▶ runs NOW ✅
+  ...UI is unresponsive...               ...callbacks arrive when ready...
+```
+
+**Key insight:** async tasks are **offloaded** to the browser/Node environment (Web APIs). The call stack stays free, so JS keeps executing. When the async work finishes, the callback is queued and the event loop picks it up **between tasks**.
+
+```
+Step-by-step tick:
+──────────────────
+① Execute all sync code on the call stack
+② Call stack empty → event loop kicks in
+③ Drain ENTIRE microtask queue (all Promises)
+④ Pick ONE macrotask (e.g. setTimeout callback)
+   └─ push it onto the call stack & run it
+⑤ After that macrotask → drain microtasks again
+⑥ Repeat ④ until all queues are empty → idle wait
 ```
 
 ## Node.js specifics

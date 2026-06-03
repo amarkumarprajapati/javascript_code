@@ -1,8 +1,43 @@
 # Promises
 
+> 📅 **Day 7** · ~12 min read · prerequisite for async/await (Day 8)
+
 A **Promise** is an object representing the eventual result of an async operation.
 
-## States
+## State diagram
+
+```
+                ┌─────────────┐
+                │   PENDING   │   ◀── initial state
+                └──────┬──────┘
+            resolve()  │  reject()
+              ┌────────┴────────┐
+              ▼                 ▼
+       ┌─────────────┐   ┌─────────────┐
+       │  FULFILLED  │   │  REJECTED   │
+       │ (has value) │   │  (has err)  │
+       └──────┬──────┘   └──────┬──────┘
+              │                 │
+            .then()           .catch()
+              │                 │
+              └────────┬────────┘
+                       ▼
+                    .finally()
+```
+
+**Key rule:** once settled (fulfilled OR rejected) → **immutable**. Cannot transition again.
+
+## Chaining flow
+
+```
+  fetch(url)  ──▶ Promise<Response>
+       .then(r => r.json())     ──▶ Promise<JSON>
+       .then(data => render(data))   ──▶ Promise<void>
+       .catch(err => log(err))   ◀── catches ANY error in the chain above
+       .finally(() => spinner.hide())   ◀── always runs
+```
+
+## States (recap)
 - **pending** → initial.
 - **fulfilled** → resolved with a value.
 - **rejected** → failed with a reason.
@@ -59,6 +94,41 @@ await Promise.any([b, c]);        // 3 (first fulfilled)
 ## Error handling
 ```js
 Promise.reject(new Error("boom")).catch((e) => console.log(e.message)); // "boom"
+```
+
+## Build it yourself — `Promise.all` polyfill
+
+```js
+function promiseAll(promises) {
+  return new Promise((resolve, reject) => {
+    if (!Array.isArray(promises)) return reject(new TypeError('array required'));
+    const results = []; let done = 0;
+    if (promises.length === 0) return resolve(results);
+    promises.forEach((p, i) => {
+      Promise.resolve(p).then(
+        val => {
+          results[i] = val;                  // preserve order
+          if (++done === promises.length) resolve(results);
+        },
+        reject                                // fail fast on any reject
+      );
+    });
+  });
+}
+```
+
+### `Promise.allSettled` polyfill
+```js
+function allSettled(promises) {
+  return Promise.all(
+    promises.map(p =>
+      Promise.resolve(p).then(
+        value  => ({ status: 'fulfilled', value }),
+        reason => ({ status: 'rejected',  reason })
+      )
+    )
+  );
+}
 ```
 
 ---

@@ -1,5 +1,36 @@
 # Scope & Hoisting
 
+> 📅 **Day 1** · ~10 min read · prerequisite for closures, `this`, async
+
+## Mental model — what happens before your code runs
+
+```
+  YOUR CODE                    PHASE 1: Creation (memory)         PHASE 2: Execution
+  ─────────                    ──────────────────────────         ───────────────────
+  var a = 10;          ───▶    a       = undefined        ───▶   a = 10
+  let b = 20;                  b       = <uninitialized>          b = 20
+  const c = 30;                c       = <uninitialized>          c = 30
+  function f(){}               f       = ƒ (full body)            (already set)
+
+                               ▲ var → undefined (safe to read, weird)
+                               ▲ let/const → TDZ (ReferenceError if read)
+                               ▲ function decl → fully hoisted (callable above)
+```
+
+## Scope chain (lookup direction)
+
+```
+   ┌──────────────────────────────────────┐
+   │  Global Scope    { console, window } │
+   │   ┌────────────────────────────────┐ │
+   │   │ Function f()                   │ │
+   │   │   ┌──────────────────────────┐ │ │
+   │   │   │  Block {  let x; ... }   │ │ │   ◀── lookup walks UP
+   │   │   └──────────────────────────┘ │ │       (never down/sideways)
+   │   └────────────────────────────────┘ │
+   └──────────────────────────────────────┘
+```
+
 ## 1. Execution Context
 Every time JS runs code, it creates an **execution context** (EC):
 - **Global EC** — created once, `this` = `window`/`globalThis`.

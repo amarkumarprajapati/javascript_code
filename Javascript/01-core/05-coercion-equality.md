@@ -1,5 +1,43 @@
 # Type Coercion & Equality
 
+> 📅 **Day 5** · ~10 min read · prevents 90% of "WTF" bugs
+
+## Mental model — coercion table
+
+```
+                    →  string         →  number        →  boolean
+  ────────────────────────────────────────────────────────────────
+  ""               │  ""              │  0             │  false   ◀ falsy
+  "0"              │  "0"             │  0             │  true    ⚠
+  "abc"            │  "abc"           │  NaN           │  true
+  0                │  "0"             │  0             │  false   ◀ falsy
+  1                │  "1"             │  1             │  true
+  NaN              │  "NaN"           │  NaN           │  false   ◀ falsy
+  null             │  "null"          │  0             │  false   ◀ falsy
+  undefined        │  "undefined"     │  NaN           │  false   ◀ falsy
+  []               │  ""              │  0             │  true    ⚠ truthy!
+  [1]              │  "1"             │  1             │  true
+  [1,2]            │  "1,2"           │  NaN           │  true
+  {}               │  "[object …]"    │  NaN           │  true    ⚠ truthy!
+```
+
+## == vs === flow
+
+```
+  a == b ?
+     │
+     ├─ same type? ──── yes ──▶ same as ===
+     │
+     └─ different type:
+            number ↔ string  → string → number
+            boolean involved → boolean → number
+            object ↔ primitive → object → primitive (valueOf / toString)
+            null == undefined → true (special case)
+            NaN == anything → false (even NaN)
+```
+
+**Rule:** always use `===` (no surprises). The only acceptable `==` is `x == null` (catches both `null` and `undefined`).
+
 ## Primitive types (7)
 `string`, `number`, `boolean`, `null`, `undefined`, `symbol`, `bigint`.
 Everything else is an `object` (incl. arrays, functions).

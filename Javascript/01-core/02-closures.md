@@ -1,5 +1,25 @@
 # Closures
 
+> 📅 **Day 2** · ~10 min read · builds on Day 1 (scope chain)
+
+## Mental model — "function with a backpack"
+
+```
+   outer()              ┌────────────────────────┐
+   ┌──────────────┐     │  outer's variable env  │
+   │ let count=0  │ ───▶│   { count: 0 }         │ ◀──┐
+   │ return inner │     └────────────────────────┘    │
+   └──────────────┘                ▲                  │
+                                   │ closure          │ even after outer() returns,
+                                   │ reference        │ the env stays alive because
+   inner()  ─────────────────────┘                    │ `inner` still holds a ref
+   ┌──────────────┐                                   │
+   │ count++      │   ◀───── reads/writes ────────────┘
+   └──────────────┘
+```
+
+**One-liner:** a closure is a function bundled together with the variable environment in which it was created.
+
 ## Definition
 A **closure** is a function that remembers and accesses variables from its **lexical scope** even after the outer function has returned.
 
