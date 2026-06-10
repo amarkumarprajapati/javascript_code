@@ -1,6 +1,6 @@
 # Prototypes & Inheritance
 
-> 📅 **Day 4** · ~10 min read · foundation for classes & inheritance
+
 
 ## Mental model — the chain
 

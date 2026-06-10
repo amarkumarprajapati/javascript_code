@@ -1,7 +1,5 @@
 # Scope & Hoisting
 
-> 📅 **Day 1** · ~10 min read · prerequisite for closures, `this`, async
-
 ## Mental model — what happens before your code runs
 
 ```

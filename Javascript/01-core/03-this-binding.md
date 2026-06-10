@@ -1,7 +1,5 @@
 # The `this` Keyword
 
-> 📅 **Day 3** · ~10 min read · key for OOP, React class components, callbacks
-
 ## Decision tree — "what is `this`?"
 
 ```

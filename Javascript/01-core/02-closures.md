@@ -1,7 +1,5 @@
 # Closures
 
-> 📅 **Day 2** · ~10 min read · builds on Day 1 (scope chain)
-
 ## Mental model — "function with a backpack"
 
 ```

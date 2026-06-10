@@ -1,7 +1,5 @@
 # Type Coercion & Equality
 
-> 📅 **Day 5** · ~10 min read · prevents 90% of "WTF" bugs
-
 ## Mental model — coercion table
 
 ```
