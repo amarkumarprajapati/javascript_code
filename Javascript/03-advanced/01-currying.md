@@ -1,6 +1,6 @@
 # Currying & Partial Application
 
-> 📅 **Day 9** · ~10 min read · functional programming foundation
+
 
 ## Mental model
 

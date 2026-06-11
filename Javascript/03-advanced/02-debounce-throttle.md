@@ -1,6 +1,6 @@
 # Debounce & Throttle
 
-> 📅 **Day 10** · ~12 min read · top-3 frontend interview question
+
 
 Both limit how often a function runs — common in search inputs, scroll, resize.
 

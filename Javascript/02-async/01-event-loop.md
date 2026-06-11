@@ -1,6 +1,5 @@
 # Event Loop
 
-> 📅 **Day 6** · ~15 min read · the single most-asked async question
 
 JS is **single-threaded** but non-blocking thanks to the event loop.
 

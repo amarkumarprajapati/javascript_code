@@ -1,6 +1,5 @@
 # async / await
 
-> 📅 **Day 8** · ~10 min read · the modern way (built on Day 7's Promises)
 
 Syntactic sugar over promises → write async code that reads like sync.
 

@@ -1,7 +1,5 @@
 # Promises
 
-> 📅 **Day 7** · ~12 min read · prerequisite for async/await (Day 8)
-
 A **Promise** is an object representing the eventual result of an async operation.
 
 ## State diagram
