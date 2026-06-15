@@ -54,8 +54,7 @@
 - Explain memoization. How does it relate to `useMemo` and `useCallback` in React?
 - What are generators and iterators? When would you use them?
 - How does `WeakMap` differ from `Map`? When is it useful?
-- What causes memory leaks in a React app? How do you detect and fix them?
-
+- What causes memory leaks in a React app? How do you detect and fix them?r
 ---
 
 ## 3. TypeScript
