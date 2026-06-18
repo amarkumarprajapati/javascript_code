@@ -1,6 +1,6 @@
 # Types of Functions in JavaScript
 
-> 📅 **Day 12** · ~10 min read · pick the right tool for each job
+
 
 *A concise reference for JS developers*
 

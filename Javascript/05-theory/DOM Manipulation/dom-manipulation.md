@@ -1,6 +1,6 @@
 # DOM Manipulation
 
-> 📅 **Day 15** · ~15 min read · browser-only · the bridge between JS and HTML
+
 
 ## Mental model — the DOM tree
 

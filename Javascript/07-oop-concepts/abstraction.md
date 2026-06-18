@@ -1,6 +1,6 @@
 # Abstraction in JavaScript
 
-> 📅 **Concept** · ~5 min read · hiding complexity, exposing essential features
+
 
 ## Definition
 

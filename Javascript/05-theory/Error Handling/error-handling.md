@@ -1,6 +1,5 @@
 # Error Handling
 
-> 📅 **Day 14** · ~10 min read · robust code lives or dies here
 
 ## Mental model — try/catch/finally flow
 

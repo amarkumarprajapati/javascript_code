@@ -1,6 +1,5 @@
 # String Methods — Complete Reference
 
-> 📅 **Day 18** · ~15 min read · grouped by purpose
 
 > Note: this file replaces the misnamed `Object-notes.txt` (which was actually about strings).
 

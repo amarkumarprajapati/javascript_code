@@ -1,6 +1,6 @@
 # Control Flow & Loops
 
-> 📅 **Day 13** · ~12 min read · the bread-and-butter of every program
+
 
 ## Mental model — pick the right tool
 

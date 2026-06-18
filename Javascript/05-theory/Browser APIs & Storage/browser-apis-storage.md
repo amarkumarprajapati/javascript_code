@@ -1,6 +1,5 @@
 # Browser APIs & Storage
 
-> 📅 **Day 16** · ~12 min read · browser-only · what JS gets for free from the browser
 
 ## Mental model — storage options at a glance
 
