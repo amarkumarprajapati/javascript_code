@@ -7,7 +7,7 @@ Minimal, unopinionated web framework for Node — routing + middleware.
 const express = require("express");
 const app = express();
 
-app.use(express.json()); // parse JSON body
+app.use(express.json());
 
 app.get("/users/:id", (req, res) => {
   res.json({ id: req.params.id, q: req.query, body: req.body });
@@ -19,10 +19,10 @@ app.listen(3000, () => console.log("on 3000"));
 ## Middleware (the heart of Express)
 A function `(req, res, next)` that runs in order during the request lifecycle.
 ```js
-// custom logger middleware
+
 app.use((req, res, next) => {
   console.log(`${req.method} ${req.url}`);
-  next(); // pass control to the next middleware (or end response)
+  next(); 
 });
 ```
 Types:
@@ -48,7 +48,7 @@ app.use("/users", router);
 
 ## Error handling
 ```js
-// async wrapper to avoid try/catch everywhere
+
 const asyncH = (fn) => (req, res, next) => Promise.resolve(fn(req, res, next)).catch(next);
 
 app.get("/x", asyncH(async (req, res) => {
@@ -56,7 +56,7 @@ app.get("/x", asyncH(async (req, res) => {
   res.json(data);
 }));
 
-// centralized error middleware (LAST)
+
 app.use((err, req, res, next) => {
   console.error(err);
   res.status(err.status || 500).json({ message: err.message || "Server error" });
@@ -69,9 +69,9 @@ const cors = require("cors");
 const helmet = require("helmet");
 const rateLimit = require("express-rate-limit");
 
-app.use(helmet());                 // security headers
+app.use(helmet());                
 app.use(cors({ origin: "https://app.com" }));
-app.use(rateLimit({ windowMs: 60_000, max: 100 })); // throttle
+app.use(rateLimit({ windowMs: 60_000, max: 100 }));
 ```
 
 ## REST best practices
