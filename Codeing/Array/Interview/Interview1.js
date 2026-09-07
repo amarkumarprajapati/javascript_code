@@ -1,5 +1,0 @@
-let data = [a,a,a,b,b,b,b,b,c,c,c,c,d,d,d,d]
-
-// output = [a,b,c,d]
-
-let arr = data.splice('')

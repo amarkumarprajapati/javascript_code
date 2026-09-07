@@ -5,7 +5,6 @@ function bubblesort(newarray) {
     for (let a = 0; a < n - 1; a++) {
         for (let b = 0; b < n - a - 1; b++) {
             if (newarray[b] > newarray[b + 1]) {
-                // swap
                 [newarray[b], newarray[b + 1]] = [newarray[b + 1], newarray[b]];
             }
         }
