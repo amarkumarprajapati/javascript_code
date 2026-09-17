@@ -8,13 +8,13 @@ console.log(res)
 // using for loop - 
 
 
-function withoutmethod(){
-    let output = []
-    for(let a = 0; a < data.length; a++){
-        output.push(data[a] * 5)
-    }
-    return output
-}
+// function withoutmethod(){
+//     let output = []
+//     for(let a = 0; a < data.length; a++){
+//         output.push(data[a] * 5)
+//     }
+//     return output
+// }
 
-let check = withoutmethod(data)
-console.log(check)
+// let check = withoutmethod(data)
+// console.log(check)
