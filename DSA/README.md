@@ -28,3 +28,5 @@
 - `15-interview-practice/` — Curated problems by difficulty
 
 > All code examples are in JavaScript. Start with `01-basics/01-introduction-to-dsa.md`.
+> 
+> **Interactive Practice**: Open [`playground.html`](./playground.html) in your browser to run and test JavaScript code with an editor and live console!
