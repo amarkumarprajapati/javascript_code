@@ -1,68 +1,142 @@
-# Arrays
+# Array Basics
 
-Contiguous block of memory. Fast access by index, slower insert/delete in middle.
+## What is an array?
 
-## Basics
+An array is a **contiguous block of memory** that stores elements of the same type. In JavaScript, arrays can hold mixed types, but conceptually we think of them as homogeneous.
+
+```
+Index:    0   1   2   3   4
+Array:  [10, 20, 30, 40, 50]
+```
+
+## Memory model
+
+Arrays in most languages are stored **contiguously** in memory. This means:
+- Index calculation is instant: `address = base_address + index * element_size`
+- Random access is **O(1)**
+- Inserting or deleting in the middle requires shifting elements — **O(n)**
+
+## JavaScript arrays
+
+JavaScript arrays are **dynamic arrays** backed by objects. They auto-resize, but the performance characteristics remain similar to fixed-size arrays for most operations.
 
 ```javascript
-// declaration
 const arr = [1, 2, 3];
-const arr2 = new Array(5); // [empty × 5]
-
-// common operations
-arr.push(4);      // add to end — O(1)
-arr.pop();        // remove from end — O(1)
-arr.unshift(0);   // add to front — O(n)
-arr.shift();      // remove from front — O(n)
-arr.splice(1, 0, 99); // insert at index — O(n)
-arr.includes(2);  // search — O(n)
 ```
 
-## Common Patterns
+## Common operations and complexity
 
-### Two pointers (sorted array)
+| Operation | Complexity | Description |
+|-----------|-----------|-------------|
+| `arr[i]` | O(1) | Access by index |
+| `arr.push(x)` | O(1) amortized | Add to end |
+| `arr.pop()` | O(1) | Remove from end |
+| `arr.shift()` | O(n) | Remove from front (shifts all) |
+| `arr.unshift(x)` | O(n) | Add to front (shifts all) |
+| `arr.splice(i, 0, x)` | O(n) | Insert at index i |
+| `arr.indexOf(x)` | O(n) | Linear search |
+| `arr.includes(x)` | O(n) | Linear search |
+| `arr.length` | O(1) | Size property |
+
+## Iteration methods
+
+### Classic for loop
 ```javascript
-function twoSumSorted(arr, target) {
-  let left = 0, right = arr.length - 1;
-  while (left < right) {
-    const sum = arr[left] + arr[right];
-    if (sum === target) return [left, right];
-    if (sum < target) left++;
-    else right--;
+for (let i = 0; i < arr.length; i++) {
+  console.log(arr[i]);
+}
+```
+
+### for...of loop
+```javascript
+for (const item of arr) {
+  console.log(item);
+}
+```
+
+### forEach
+```javascript
+arr.forEach((item, index) => {
+  console.log(item, index);
+});
+```
+
+### for...in (avoid for arrays)
+```javascript
+// Works, but gives indices as strings and iterates inherited properties
+for (const index in arr) {
+  console.log(index, arr[index]);
+}
+```
+
+## Multi-dimensional arrays
+
+### 2D array (matrix)
+```javascript
+const matrix = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+];
+console.log(matrix[1][2]); // 6
+```
+
+### Iterate 2D array
+```javascript
+for (let i = 0; i < matrix.length; i++) {
+  for (let j = 0; j < matrix[i].length; j++) {
+    console.log(matrix[i][j]);
   }
-  return [];
 }
 ```
 
-### Sliding window
-```javascript
-function maxSumSubArray(arr, k) {
-  let maxSum = 0, windowSum = 0;
-  for (let i = 0; i < k; i++) windowSum += arr[i];
-  maxSum = windowSum;
+## Array methods cheat sheet
 
-  for (let i = k; i < arr.length; i++) {
-    windowSum += arr[i] - arr[i - k];
-    maxSum = Math.max(maxSum, windowSum);
-  }
-  return maxSum;
-}
+```javascript
+const arr = [3, 1, 4, 1, 5];
+
+// Create/modify
+arr.push(9);        // [3, 1, 4, 1, 5, 9]
+arr.pop();          // [3, 1, 4, 1, 5]
+arr.shift();        // [1, 4, 1, 5]
+arr.unshift(0);     // [0, 3, 1, 4, 1, 5]
+arr.splice(2, 0, 7); // [0, 3, 7, 1, 4, 1, 5]
+
+// Search
+arr.indexOf(4);     // 3
+arr.lastIndexOf(1); // 5
+arr.includes(7);    // true
+
+// Transform
+arr.slice(1, 4);    // [3, 7, 1] — does not modify original
+arr.splice(1, 3);   // [3, 7, 1] — modifies original
+
+// Combine
+arr.concat([9, 9]); // [0, 3, 7, 1, 4, 1, 5, 9, 9]
+arr.join('-');      // "0-3-7-1-4-1-5"
+
+// Order
+arr.sort((a, b) => a - b); // [0, 1, 1, 3, 4, 5, 7]
+arr.reverse();      // [7, 5, 4, 3, 1, 1, 0]
 ```
 
-### Prefix sum
-```javascript
-function buildPrefix(arr) {
-  const prefix = [0];
-  for (const num of arr) prefix.push(prefix[prefix.length - 1] + num);
-  return prefix;
-}
+## Edge cases to watch
 
-function rangeSum(prefix, left, right) {
-  return prefix[right + 1] - prefix[left];
-}
+```javascript
+// Empty array
+const empty = [];
+empty.length; // 0
+
+// Sparse array (holes)
+const sparse = [1, , 3]; // index 1 is empty
+sparse.length; // 3
+
+// Array with undefined
+const arr = [1, undefined, 3]; // index 1 has value undefined
 ```
 
 ## Practice
+
 - LeetCode: 1. Two Sum
 - LeetCode: 26. Remove Duplicates from Sorted Array
 - LeetCode: 121. Best Time to Buy and Sell Stock

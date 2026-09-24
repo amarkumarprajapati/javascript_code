@@ -1,34 +1,69 @@
 # Sorting Algorithms
 
-## Bubble Sort — O(n²)
+Sorting arranges elements in a specific order (usually ascending). It is a fundamental operation used in search, merge, and data processing.
+
+## Complexity comparison
+
+| Algorithm | Best | Average | Worst | Space | Stable |
+|-----------|------|---------|-------|-------|--------|
+| Bubble Sort | O(n) | O(n²) | O(n²) | O(1) | Yes |
+| Selection Sort | O(n²) | O(n²) | O(n²) | O(1) | No |
+| Insertion Sort | O(n) | O(n²) | O(n²) | O(1) | Yes |
+| Merge Sort | O(n log n) | O(n log n) | O(n log n) | O(n) | Yes |
+| Quick Sort | O(n log n) | O(n log n) | O(n²) | O(log n) | No |
+| Built-in sort | O(n log n) | O(n log n) | O(n log n) | O(n) | Depends |
+
+**Stable sort**: Equal elements maintain their relative order after sorting.
+
+## Bubble Sort
+
+Repeatedly swap adjacent elements if they are in the wrong order.
+
 ```javascript
 function bubbleSort(arr) {
   const a = [...arr];
-  for (let i = 0; i < a.length; i++) {
-    for (let j = 0; j < a.length - i - 1; j++) {
-      if (a[j] > a[j + 1]) [a[j], a[j + 1]] = [a[j + 1], a[j]];
+  const n = a.length;
+  for (let i = 0; i < n - 1; i++) {
+    let swapped = false;
+    for (let j = 0; j < n - i - 1; j++) {
+      if (a[j] > a[j + 1]) {
+        [a[j], a[j + 1]] = [a[j + 1], a[j]];
+        swapped = true;
+      }
     }
+    if (!swapped) break; // optimization: already sorted
   }
   return a;
 }
 ```
 
-## Selection Sort — O(n²)
+**When to use:** Educational purposes only. Rarely used in practice.
+
+## Selection Sort
+
+Find the minimum element and swap it to the front. Repeat.
+
 ```javascript
 function selectionSort(arr) {
   const a = [...arr];
-  for (let i = 0; i < a.length; i++) {
-    let min = i;
-    for (let j = i + 1; j < a.length; j++) {
-      if (a[j] < a[min]) min = j;
+  const n = a.length;
+  for (let i = 0; i < n - 1; i++) {
+    let minIdx = i;
+    for (let j = i + 1; j < n; j++) {
+      if (a[j] < a[minIdx]) minIdx = j;
     }
-    [a[i], a[min]] = [a[min], a[i]];
+    [a[i], a[minIdx]] = [a[minIdx], a[i]];
   }
   return a;
 }
 ```
 
-## Insertion Sort — O(n²)
+**When to use:** Educational. Minimizes writes (useful in embedded systems).
+
+## Insertion Sort
+
+Build the sorted array one element at a time by inserting each element into its correct position.
+
 ```javascript
 function insertionSort(arr) {
   const a = [...arr];
@@ -43,7 +78,12 @@ function insertionSort(arr) {
 }
 ```
 
-## Merge Sort — O(n log n)
+**When to use:** Small arrays or nearly sorted data. O(n) best case.
+
+## Merge Sort
+
+Divide the array in half, recursively sort each half, then merge.
+
 ```javascript
 function mergeSort(arr) {
   if (arr.length <= 1) return arr;
@@ -64,7 +104,12 @@ function merge(left, right) {
 }
 ```
 
-## Quick Sort — O(n log n) average
+**When to use:** General purpose, stable sort needed, external sorting (data too big for memory).
+
+## Quick Sort
+
+Pick a pivot, partition elements into smaller/larger, recursively sort partitions.
+
 ```javascript
 function quickSort(arr) {
   if (arr.length <= 1) return arr;
@@ -75,13 +120,36 @@ function quickSort(arr) {
 }
 ```
 
-## When to use what
-- Small / nearly sorted: Insertion Sort
-- General purpose: Quick Sort / Merge Sort
-- Need stable sort: Merge Sort
-- In-place: Quick Sort / Heap Sort
+**When to use:** General purpose, in-place sort needed, average O(n log n).
+
+## JavaScript built-in sort
+
+```javascript
+const arr = [3, 1, 4, 1, 5];
+arr.sort((a, b) => a - b); // [1, 1, 3, 4, 5]
+```
+
+In JavaScript, `Array.prototype.sort()` uses an optimized quicksort/mergesort hybrid (implementation dependent).
+
+## Counting sort (bonus)
+
+For integers in a small range, counting sort runs in O(n + k).
+
+```javascript
+function countingSort(arr, max) {
+  const count = new Array(max + 1).fill(0);
+  for (const num of arr) count[num]++;
+  const result = [];
+  for (let i = 0; i < count.length; i++) {
+    while (count[i]--) result.push(i);
+  }
+  return result;
+}
+```
 
 ## Practice
+
 - LeetCode: 912. Sort an Array
 - LeetCode: 75. Sort Colors
 - LeetCode: 56. Merge Intervals
+- LeetCode: 215. Kth Largest Element in an Array
