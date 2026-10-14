@@ -1,347 +1,182 @@
-# MongoDB — Performance Improvement
+# 04 - Performance
+
+Learn how to write efficient queries and diagnose slow ones.
 
 ---
 
-## Performance Checklist
+## 4.1 Use explain()
 
-| Priority | Action |
-| --- | --- |
-| 1 | Add indexes on queried/sorted fields |
-| 2 | Use `.explain()` to find COLLSCAN queries |
-| 3 | Project only needed fields |
-| 4 | Paginate — never return all documents |
-| 5 | Use aggregation `$match` early |
-| 6 | Embed vs reference based on access pattern |
-| 7 | Connection pooling |
-| 8 | Read from secondary replicas |
-| 9 | Proper schema design |
-| 10 | Monitor slow queries |
+```js
+// Always start with explain
+db.orders.find({ status: "delivered" }).explain("executionStats")
+
+// Important fields to look at:
+// - executionStats.nReturned
+// - executionStats.totalDocsExamined
+// - executionStats.totalKeysExamined
+// - executionStats.executionTimeMillis
+// - stage: COLLSCAN vs IXSCAN
+```
 
 ---
 
-## 1. Indexing (Biggest Impact)
+## 4.2 Covering Queries (Best Performance)
+
+A covering query is served entirely from the index (no document fetch).
 
 ```js
-// ❌ COLLSCAN — 1M docs examined
-db.users.find({ email: "john@mail.com" });
+// 1. Create a compound index that covers the query
+db.products.createIndex({ categoryId: 1, price: 1, name: 1 })
 
-// ✅ IXSCAN — 1 doc examined
-db.users.createIndex({ email: 1 }, { unique: true });
-db.users.find({ email: "john@mail.com" });
+// 2. This query can be covered
+db.products.find(
+  { categoryId: 1 },
+  { price: 1, name: 1, _id: 0 }
+).explain("executionStats")
 
-// Always explain slow queries
-db.users.find({ city: "NYC", age: { $gte: 18 } })
-  .sort({ name: 1 })
-  .explain("executionStats");
+// Look for "totalDocsExamined": 0  → perfect covering query
 ```
-
-See `03-indexing.md` for full index guide.
 
 ---
 
-## 2. Query Optimization
+## 4.3 Avoid COLLSCAN on Large Collections
 
-### Project only needed fields
 ```js
-// ❌ Returns all fields
-db.users.find({ city: "NYC" });
+// Bad (collection scan)
+db.orders.find({ "shipping.method": "express" })
 
-// ✅ Only needed fields — less data transfer
-db.users.find({ city: "NYC" }, { name: 1, email: 1, _id: 0 });
+// Better: create index first
+db.orders.createIndex({ "shipping.method": 1 })
 ```
 
-### Pagination — never skip large offsets
+---
+
+## 4.4 Projection – Fetch only what you need
+
 ```js
-// ❌ Slow for large skip — scans and discards 10000 docs
-db.users.find().skip(10000).limit(10);
+// Bad
+db.users.find({ "address.city": "Mumbai" })
 
-// ✅ Cursor-based pagination (fast at any page)
-db.users.find({ _id: { $gt: lastSeenId } }).sort({ _id: 1 }).limit(10);
-
-// ✅ Range-based pagination
-db.users.find({ createdAt: { $lt: lastDate } }).sort({ createdAt: -1 }).limit(10);
-```
-
-### Use covered queries
-```js
-db.users.createIndex({ email: 1, name: 1, status: 1 });
+// Good
 db.users.find(
-  { email: "john@mail.com" },
-  { email: 1, name: 1, status: 1, _id: 0 }  // all from index
-);
+  { "address.city": "Mumbai" },
+  { firstName: 1, lastName: 1, email: 1, _id: 0 }
+)
 ```
 
-### Avoid $where and $regex without anchor
+---
+
+## 4.5 Use $elemMatch properly
+
 ```js
-// ❌ Full scan — regex not anchored
-db.users.find({ name: { $regex: "john" } });
-
-// ✅ Anchored regex can use index
-db.users.find({ name: { $regex: "^john" } });
-
-// ❌ $where runs JS on every doc
-db.users.find({ $where: "this.age > 25" });
-
-// ✅ Use operators instead
-db.users.find({ age: { $gt: 25 } });
+// When querying array of objects, prefer $elemMatch for multiple conditions
+db.users.find({
+  paymentMethods: {
+    $elemMatch: { type: "card", isDefault: true }
+  }
+})
 ```
 
-### Limit aggregation pipeline early
+---
+
+## 4.6 Limit Early in Aggregation
+
 ```js
-// ✅ Filter first
+// Bad order
 db.orders.aggregate([
-  { $match: { status: "paid", date: { $gte: startDate } } },  // index here
-  { $group: { _id: "$customerId", total: { $sum: "$amount" } } },
-  { $sort: { total: -1 } },
+  { $lookup: { ... } },
+  { $match: { status: "delivered" } },
+  { $limit: 10 }
+])
+
+// Good order – filter as early as possible
+db.orders.aggregate([
+  { $match: { status: "delivered" } },
   { $limit: 10 },
-]);
+  { $lookup: { ... } }
+])
 ```
 
 ---
 
-## 3. Schema Design for Performance
-
-### Embed when data is read together
-```js
-// ✅ One query gets user + address
-{ name: "John", address: { city: "NYC", zip: "10001" } }
-```
-
-### Reference when data is large or shared
-```js
-// ✅ Avoid duplicating large product data in every order
-{ orderId: "ORD-1", items: [{ productId: ObjectId("..."), qty: 2 }] }
-```
-
-### Avoid unbounded arrays
-```js
-// ❌ Array grows forever — doc exceeds 16MB limit, slow updates
-{ userId: "...", comments: [/* millions of comments */] }
-
-// ✅ Separate collection with userId reference
-db.comments.find({ userId: ObjectId("...") }).limit(20);
-```
-
-### Document size limit
-- Max document size: **16 MB**
-- Keep documents small — large docs slow reads/writes
-- Use GridFS for files > 16MB
-
----
-
-## 4. Write Performance
+## 4.7 Avoid $where and JavaScript
 
 ```js
-// Bulk insert — much faster than many insertOne
-db.users.insertMany(largeArray, { ordered: false });
+// Never do this in production
+db.products.find({ $where: "this.price > 10000" })
 
-// Bulk write for mixed operations
-db.users.bulkWrite(operations, { ordered: false });
-
-// Disable index build during mass import
-db.users.dropIndexes();
-// ... bulk insert ...
-db.users.createIndex({ email: 1 });
-
-// Write concern — balance speed vs durability
-db.users.insertOne(doc, { writeConcern: { w: 1 } });        // fast
-db.users.insertOne(doc, { writeConcern: { w: "majority" } }); // safe
+// Always use normal query operators
+db.products.find({ price: { $gt: 10000 } })
 ```
 
 ---
 
-## 5. Connection Pooling
+## 4.8 Working Set & Indexes in RAM
 
 ```js
-// ❌ New connection per request
-async function getUser(id) {
-  const client = new MongoClient(uri);
-  await client.connect();
-  const user = await client.db("app").collection("users").findOne({ _id: id });
-  await client.close();
-  return user;
-}
+// Check index size
+db.products.stats()
+db.products.totalIndexSize()
 
-// ✅ Connection pool — reuse connections
-const client = new MongoClient(uri, {
-  maxPoolSize: 50,       // max connections
-  minPoolSize: 5,        // keep warm connections
-  maxIdleTimeMS: 30000,  // close idle after 30s
-});
-await client.connect(); // once at startup
-
-// Mongoose — pool by default
-await mongoose.connect(uri, { maxPoolSize: 50 });
+// Check collection size
+db.products.dataSize()
 ```
 
 ---
 
-## 6. Read Preference — Scale Reads
+## 4.9 Common Performance Patterns
 
+### Pattern 1: Range + Equality
 ```js
-// Read from secondary replicas — offload primary
-const client = new MongoClient(uri, {
-  readPreference: "secondaryPreferred", // secondary if available, else primary
-});
-
-// Read concern levels
-// "local" — fastest, may read uncommitted
-// "majority" — read data confirmed by majority (consistent)
-// "linearizable" — strongest, slowest
+// Index should have equality fields first, then range
+// Good index: { status: 1, orderDate: -1 }
+db.orders.find({ status: "delivered", orderDate: { $gte: ISODate("2025-01-01") } })
 ```
 
-| Read Preference | Use |
-| --- | --- |
-| `primary` | Default — all reads from primary |
-| `primaryPreferred` | Primary preferred, secondary fallback |
-| `secondary` | Analytics, reports — offload primary |
-| `secondaryPreferred` | Scale reads, tolerate stale data |
-| `nearest` | Lowest latency node |
-
----
-
-## 7. Caching
-
+### Pattern 2: Sort + Filter
 ```js
-// Application-level cache (Redis)
-async function getProduct(id) {
-  const cached = await redis.get(`product:${id}`);
-  if (cached) return JSON.parse(cached);
-
-  const product = await db.products.findOne({ _id: ObjectId(id) });
-  await redis.set(`product:${id}`, JSON.stringify(product), "EX", 300);
-  return product;
-}
-
-// Invalidate on update
-await db.products.updateOne({ _id: id }, { $set: data });
-await redis.del(`product:${id}`);
+// Create index that supports both filter and sort
+db.products.createIndex({ categoryId: 1, rating: -1 })
+db.products.find({ categoryId: 1 }).sort({ rating: -1 })
 ```
 
----
-
-## 8. Mongoose Performance Tips
-
+### Pattern 3: Array Queries
 ```js
-// lean() — return plain JS objects, skip Mongoose hydration
-const users = await User.find({ active: true }).lean();
-
-// select only needed fields
-const users = await User.find().select("name email");
-
-// Use indexes defined in schema
-userSchema.index({ email: 1 });
-
-// Avoid populate when not needed
-// ❌
-const orders = await Order.find().populate("userId").populate("products");
-// ✅ if you only need user name
-const orders = await Order.find().populate("userId", "name");
-
-// Batch operations
-await User.insertMany(users);
-await User.bulkWrite(operations);
-
-// Cursor for large result sets
-const cursor = User.find({ active: true }).cursor();
-for await (const user of cursor) {
-  processUser(user);
-}
+// Multikey index works well
+db.products.createIndex({ tags: 1 })
+db.products.find({ tags: "bestseller" })
 ```
 
 ---
 
-## 9. Monitoring Slow Queries
+## 4.10 Practice Performance Checklist
 
-```js
-// Enable profiling — log slow queries
-db.setProfilingLevel(1, { slowms: 100 }); // log queries > 100ms
+For every important query ask:
 
-// View slow queries
-db.system.profile.find().sort({ ts: -1 }).limit(10);
-
-// Current operations
-db.currentOp({ "secs_running": { $gte: 3 } });
-
-// Server status
-db.serverStatus().opcounters;
-db.serverStatus().wiredTiger.cache; // cache usage
-```
-
-**MongoDB Atlas:** Performance Advisor suggests indexes automatically.
+1. Does it use an index? (check with explain)
+2. Are we fetching only needed fields? (projection)
+3. Can we filter earlier in aggregation?
+4. Is the index order correct for compound queries?
+5. Are we avoiding large `$in` arrays or regex without anchors?
 
 ---
 
-## 10. Hardware & Deployment
+## Practice Challenges
 
-| Factor | Recommendation |
-| --- | --- |
-| **RAM** | Working set (indexes + hot data) should fit in RAM |
-| **SSD** | Use SSD storage — dramatically faster I/O |
-| **CPU** | More cores help with concurrent connections |
-| **Network** | App server close to MongoDB (same region/AZ) |
-| **Replica set** | 3 nodes minimum for production (HA + read scaling) |
-| **Sharding** | When single replica set exceeds capacity |
+1. Take this query and make it use an index:  
+   `db.reviews.find({ productId: 1, rating: { $gte: 4 } })`
 
-### Working set
-```
-Working Set = frequently accessed data + indexes
-Goal: Working set fits in RAM (WiredTiger cache)
-If not → page faults → disk reads → slow queries
-```
+2. Create a covering index for:  
+   `db.users.find({ "address.city": "Mumbai" }, { firstName: 1, email: 1, _id: 0 })`
 
-Check cache:
-```js
-db.serverStatus().wiredTiger.cache["bytes currently in the cache"];
-db.serverStatus().wiredTiger.cache["maximum bytes configured"];
-```
+3. Compare `totalDocsExamined` before and after adding an index on `orders.status`.
 
----
+4. Rewrite this aggregation so `$match` comes before `$lookup`:  
+   ```js
+   db.orders.aggregate([
+     { $lookup: { from: "users", localField: "userId", foreignField: "_id", as: "user" } },
+     { $match: { status: "delivered" } }
+   ])
+   ```
 
-## 11. WiredTiger Storage Engine (Default)
-
-- Document-level locking (not collection-level)
-- Compression: snappy (default), zlib, zstd
-- Cache: 50% of RAM minus 1GB (default)
-
-```js
-// Check compression
-db.serverStatus().wiredTiger.compression;
-
-// Collection stats
-db.users.stats();
-// avgObjSize, count, size, storageSize, totalIndexSize
-```
-
----
-
-## Common Slow Query Fixes
-
-| Problem | Fix |
-| --- | --- |
-| COLLSCAN in explain | Add index on query fields |
-| Large skip pagination | Cursor-based pagination |
-| Returning all fields | Projection — select needed fields |
-| N+1 populate calls | `$lookup` in aggregation or embed data |
-| Unbounded array growth | Separate collection |
-| No connection pool | Configure maxPoolSize |
-| Reading from primary only | secondaryPreferred for analytics |
-| Large documents | Split or reference |
-| Missing compound index | ESR rule compound index |
-| $lookup without index | Index foreignField |
-
----
-
-## Interview Q&A
-
-| Question | Answer |
-| --- | --- |
-| How improve MongoDB performance? | Indexes, projection, pagination, schema design, pooling |
-| What is working set? | Hot data + indexes that should fit in RAM |
-| Why lean() in Mongoose? | Skip document hydration — faster reads |
-| Cursor vs skip pagination? | Cursor uses index; skip scans and discards |
-| Read preference secondary? | Offload reads to replica — eventual consistency |
-| How find slow queries? | Profiler, explain(), Atlas Performance Advisor |
-| Index vs no index write speed? | Indexes slow writes — only index what you query |
-| 16MB document limit? | Split large data into separate collection or GridFS |
-| Connection pooling why? | Reuse connections — avoid connect overhead per request |
+5. Find any query in your previous practice that still does COLLSCAN and fix it.

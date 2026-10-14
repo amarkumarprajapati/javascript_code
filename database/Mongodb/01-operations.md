@@ -1,359 +1,263 @@
-# MongoDB — Operations (CRUD & Queries)
+# 01 - Basic Operations (CRUD)
 
-NoSQL **document** database. Stores BSON (binary JSON) documents in **collections**.
-
-## Terminology vs SQL
-
-| SQL | MongoDB |
-| --- | --- |
-| database | database |
-| table | collection |
-| row | document |
-| column | field |
-| JOIN | `$lookup` / embedding |
-| primary key | `_id` (auto ObjectId) |
+**Database:** `practice_db`  
+**Collections:** `users`, `products`, `orders`, `reviews`, `categories`
 
 ---
 
-## Setup & Connection
+## 1.1 Read Operations (Find)
 
-```bash
-mongosh                          # open shell
-show dbs                         # list databases
-use myapp                        # switch/create database
-show collections                 # list collections
-```
-
+### Easy
 ```js
-// Node.js driver
-const { MongoClient } = require("mongodb");
-const client = new MongoClient("mongodb://localhost:27017");
-await client.connect();
-const db = client.db("myapp");
-const users = db.collection("users");
-
-// Mongoose
-await mongoose.connect("mongodb://localhost:27017/myapp");
-const User = mongoose.model("User", userSchema);
-```
-
-Connection string: `mongodb://user:pass@host:27017/dbname?options`
-
----
-
-## CREATE — Insert
-
-```js
-// Insert one
-db.users.insertOne({
-  name: "John",
-  age: 30,
-  email: "john@mail.com",
-  tags: ["dev", "nodejs"],
-  address: { city: "NYC", zip: "10001" },
-  createdAt: new Date(),
-});
-
-// Insert many
-db.users.insertMany([
-  { name: "Alice", age: 25 },
-  { name: "Bob", age: 35 },
-], { ordered: false }); // continue on duplicate error
-
-// Upsert — insert if not exists
-db.users.updateOne(
-  { email: "john@mail.com" },
-  { $set: { name: "John", age: 30 } },
-  { upsert: true }
-);
-
-// Bulk write
-db.users.bulkWrite([
-  { insertOne: { document: { name: "Sam" } } },
-  { updateOne: { filter: { name: "Alice" }, update: { $set: { age: 26 } } } },
-  { deleteOne: { filter: { name: "Bob" } } },
-]);
-```
-
-**Mongoose:**
-```js
-await User.create({ name: "John", age: 30 });
-await User.insertMany([{ name: "Alice" }, { name: "Bob" }]);
-```
-
----
-
-## READ — Find & Query
-
-```js
-// Find all
-db.users.find();
-
-// Find one
-db.users.findOne({ email: "john@mail.com" });
-
-// Find by _id
-db.users.findOne({ _id: ObjectId("507f1f77bcf86cd799439011") });
-
-// Projection — select fields
-db.users.find({}, { name: 1, email: 1, _id: 0 });
-
-// Sort, skip, limit (pagination)
+// 1. Find all users
 db.users.find()
-  .sort({ age: -1 })
-  .skip((page - 1) * 10)
-  .limit(10);
 
-// Count
-db.users.countDocuments({ age: { $gt: 25 } });
+// 2. Find one user by _id
+db.users.findOne({ _id: 1 })
+
+// 3. Find all products with rating greater than 4.5
+db.products.find({ rating: { $gt: 4.5 } })
+
+// 4. Find users who live in Mumbai
+db.users.find({ "address.city": "Mumbai" })
+
+// 5. Find products that have the tag "bestseller"
+db.products.find({ tags: "bestseller" })
 ```
 
-### Comparison operators
-
-| Operator | Meaning | Example |
-| --- | --- | --- |
-| `$eq` | equal | `{ age: { $eq: 30 } }` |
-| `$ne` | not equal | `{ age: { $ne: 30 } }` |
-| `$gt` / `$gte` | greater (than/equal) | `{ age: { $gte: 18 } }` |
-| `$lt` / `$lte` | less (than/equal) | `{ price: { $lte: 100 } }` |
-| `$in` | in array | `{ status: { $in: ["active", "pending"] } }` |
-| `$nin` | not in array | `{ role: { $nin: ["banned"] } }` |
-
-### Logical operators
-
+### Medium
 ```js
-// AND (implicit)
-db.users.find({ age: { $gte: 18 }, city: "NYC" });
+// 6. Find users who have at least one payment method of type "upi"
+db.users.find({ "paymentMethods.type": "upi" })
 
-// OR
-db.users.find({ $or: [{ age: { $lt: 18 } }, { city: "LA" }] });
+// 7. Find products that have variants (variants array is not empty)
+db.products.find({ variants: { $ne: [] } })
+// or
+db.products.find({ "variants.0": { $exists: true } })
 
-// NOT
-db.users.find({ age: { $not: { $gt: 65 } } });
+// 8. Find orders with status "delivered" and totalAmount > 10000
+db.orders.find({
+  status: "delivered",
+  totalAmount: { $gt: 10000 }
+})
 
-// NOR
-db.users.find({ $nor: [{ status: "banned" }, { active: false }] });
+// 9. Find users whose favoriteCategories includes category 1
+db.users.find({ "preferences.favoriteCategories": 1 })
+
+// 10. Find products where stock is less than 50
+db.products.find({ stock: { $lt: 50 } })
 ```
 
-### Element operators
-
+### Hard
 ```js
-db.users.find({ email: { $exists: true } });
-db.users.find({ phone: { $exists: false } });
-db.users.find({ age: { $type: "number" } });
-```
-
-### Array operators
-
-```js
-db.users.find({ tags: "nodejs" });                          // contains value
-db.users.find({ tags: { $all: ["js", "mongo"] } });         // contains all
-db.users.find({ tags: { $size: 3 } });                      // exact size
-db.users.find({ scores: { $elemMatch: { $gte: 80, $lt: 90 } } }); // match element
-```
-
-### Nested & dot notation
-
-```js
-db.users.find({ "address.city": "NYC" });
-db.users.find({ "orders.items.product": "Laptop" });
-db.users.find({ "scores.0": 85 }); // first array element
-```
-
-### Regex & text search
-
-```js
-db.users.find({ name: { $regex: "^John", $options: "i" } }); // case-insensitive
-db.users.find({ $text: { $search: "nodejs mongodb" } });     // requires text index
-```
-
-### Date queries
-
-```js
+// 11. Find users who have a default payment method of type "card"
 db.users.find({
-  createdAt: {
-    $gte: new Date("2024-01-01"),
-    $lte: new Date("2024-12-31"),
-  },
-});
+  paymentMethods: {
+    $elemMatch: { type: "card", isDefault: true }
+  }
+})
 
-// Last 30 days
+// 12. Find products that have a variant with storage "512GB"
+db.products.find({ "variants.storage": "512GB" })
+
+// 13. Find orders that contain productId 1 inside items array
+db.orders.find({ "items.productId": 1 })
+
+// 14. Find reviews that have at least one reply
+db.reviews.find({ "replies.0": { $exists: true } })
+
+// 15. Find users who have notifications.email = true AND notifications.push = true
 db.users.find({
-  createdAt: { $gte: new Date(Date.now() - 30 * 86400000) },
-});
-```
-
-### Null & missing fields
-
-```js
-db.users.find({ email: null });                              // null or missing
-db.users.find({ email: { $exists: true, $ne: null } });      // exists and not null
-db.users.find({ email: { $exists: false } });                // field missing
+  "preferences.notifications.email": true,
+  "preferences.notifications.push": true
+})
 ```
 
 ---
 
-## UPDATE
+## 1.2 Projection (Select only needed fields)
 
 ```js
-// Update one
-db.users.updateOne(
-  { email: "john@mail.com" },
-  { $set: { age: 31, city: "LA" } }
-);
+// 16. Show only firstName, lastName and email of all users
+db.users.find({}, { firstName: 1, lastName: 1, email: 1 })
 
-// Update many
-db.users.updateMany(
-  { status: "inactive" },
-  { $set: { status: "active" } }
-);
+// 17. Show product name, price and rating (exclude _id)
+db.products.find({}, { name: 1, price: 1, rating: 1, _id: 0 })
 
-// Replace entire document
-db.users.replaceOne({ _id: ObjectId("...") }, { name: "John", age: 31 });
-
-// Find and return updated doc
-db.users.findOneAndUpdate(
-  { email: "john@mail.com" },
-  { $inc: { loginCount: 1 } },
-  { returnDocument: "after" }
-);
-```
-
-### Update operators
-
-| Operator | Purpose | Example |
-| --- | --- | --- |
-| `$set` | Set field value | `{ $set: { age: 31 } }` |
-| `$unset` | Remove field | `{ $unset: { tempField: "" } }` |
-| `$inc` | Increment number | `{ $inc: { loginCount: 1 } }` |
-| `$mul` | Multiply number | `{ $mul: { price: 0.9 } }` |
-| `$rename` | Rename field | `{ $rename: { "old": "new" } }` |
-| `$min` / `$max` | Set if less/greater | `{ $max: { score: 100 } }` |
-| `$push` | Add to array | `{ $push: { tags: "new" } }` |
-| `$push` + `$each` | Add multiple | `{ $push: { tags: { $each: ["a","b"] } } }` |
-| `$pull` | Remove from array | `{ $pull: { tags: "old" } }` |
-| `$addToSet` | Add if not exists | `{ $addToSet: { tags: "unique" } }` |
-| `$pop` | Remove first/last | `{ $pop: { tags: 1 } }` |
-| `$pullAll` | Remove all matches | `{ $pullAll: { tags: ["a","b"] } }` |
-
-```js
-// Array positional update
-db.users.updateOne(
-  { _id: ObjectId("..."), "scores.subject": "math" },
-  { $set: { "scores.$.grade": "A" } }
-);
-
-// Update all array elements
-db.users.updateMany(
-  { _id: ObjectId("...") },
-  { $inc: { "scores.$[].points": 10 } }
-);
-```
-
-**Mongoose:**
-```js
-await User.findByIdAndUpdate(id, { age: 31 }, { new: true, runValidators: true });
-await User.updateMany({ status: "inactive" }, { $set: { status: "active" } });
+// 18. Show only the city from address of users
+db.users.find({}, { "address.city": 1, firstName: 1 })
 ```
 
 ---
 
-## DELETE
+## 1.3 Sorting, Limit, Skip
 
 ```js
-// Delete one
-db.users.deleteOne({ email: "john@mail.com" });
+// 19. Top 5 highest rated products
+db.products.find().sort({ rating: -1 }).limit(5)
 
-// Delete many
-db.users.deleteMany({ status: "banned" });
+// 20. Cheapest 3 products
+db.products.find().sort({ price: 1 }).limit(3)
 
-// Delete all in collection
-db.users.deleteMany({});
+// 21. Latest 5 orders
+db.orders.find().sort({ orderDate: -1 }).limit(5)
 
-// Find and delete
-db.users.findOneAndDelete({ email: "john@mail.com" });
-```
-
-**Mongoose:**
-```js
-await User.findByIdAndDelete(id);
-await User.deleteMany({ status: "banned" });
+// 22. Skip first 5 users and show next 5
+db.users.find().skip(5).limit(5)
 ```
 
 ---
 
-## Collections & Database Admin
+## 1.4 Counting & Distinct
 
 ```js
-// Create collection explicitly
-db.createCollection("products", {
-  validator: {
-    $jsonSchema: {
-      bsonType: "object",
-      required: ["name", "price"],
-      properties: {
-        name: { bsonType: "string" },
-        price: { bsonType: "number", minimum: 0 },
-      },
-    },
+// 23. How many users are active?
+db.users.countDocuments({ isActive: true })
+
+// 24. How many products belong to category 1?
+db.products.countDocuments({ categoryId: 1 })
+
+// 25. Distinct cities of users
+db.users.distinct("address.city")
+
+// 26. Distinct brands of products
+db.products.distinct("brand")
+
+// 27. Distinct status values in orders
+db.orders.distinct("status")
+```
+
+---
+
+## 1.5 Create (Insert)
+
+```js
+// 28. Insert one new user
+db.users.insertOne({
+  _id: 13,
+  firstName: "Test",
+  lastName: "User",
+  email: "test@email.com",
+  isActive: true,
+  address: {
+    city: "Noida",
+    state: "Uttar Pradesh",
+    pincode: "201301",
+    coordinates: { lat: 28.5355, lng: 77.3910 }
   },
-});
+  preferences: {
+    language: "en",
+    notifications: { email: true, sms: false, push: true },
+    favoriteCategories: [1]
+  },
+  paymentMethods: [
+    { type: "upi", last4: null, provider: "GPay", isDefault: true }
+  ]
+})
 
-// Capped collection (fixed size, FIFO)
-db.createCollection("logs", { capped: true, size: 100000, max: 1000 });
-
-show collections
-db.users.stats()
-db.dropDatabase()
-db.users.drop()
+// 29. Insert multiple products
+db.products.insertMany([
+  {
+    _id: 13,
+    name: "Test Product 1",
+    categoryId: 1,
+    brand: "TestBrand",
+    price: 1999,
+    stock: 100,
+    rating: 4.0,
+    tags: ["new"],
+    specs: { weight: "100g", color: "Black" },
+    variants: []
+  },
+  {
+    _id: 14,
+    name: "Test Product 2",
+    categoryId: 2,
+    brand: "TestBrand",
+    price: 999,
+    stock: 50,
+    rating: 3.8,
+    tags: ["budget"],
+    specs: { weight: "200g", color: "Blue" },
+    variants: []
+  }
+])
 ```
 
 ---
 
-## Transactions (Multi-Document ACID)
-
-Requires **replica set**. All operations succeed or all roll back.
+## 1.6 Update
 
 ```js
-const session = client.startSession();
-try {
-  await session.withTransaction(async () => {
-    await accounts.updateOne({ _id: fromId }, { $inc: { balance: -100 } }, { session });
-    await accounts.updateOne({ _id: toId }, { $inc: { balance: 100 } }, { session });
-  });
-} finally {
-  await session.endSession();
-}
+// 30. Update one field
+db.users.updateOne(
+  { _id: 1 },
+  { $set: { "address.city": "Thane" } }
+)
+
+// 31. Increase stock of a product by 10
+db.products.updateOne(
+  { _id: 1 },
+  { $inc: { stock: 10 } }
+)
+
+// 32. Add a new tag to a product
+db.products.updateOne(
+  { _id: 3 },
+  { $addToSet: { tags: "comfortable" } }
+)
+
+// 33. Update nested field inside array (change default payment)
+db.users.updateOne(
+  { _id: 1, "paymentMethods.isDefault": true },
+  { $set: { "paymentMethods.$.isDefault": false } }
+)
+
+// 34. Add a new payment method to a user
+db.users.updateOne(
+  { _id: 4 },
+  {
+    $push: {
+      paymentMethods: {
+        type: "card",
+        last4: "8888",
+        provider: "Visa",
+        isDefault: true
+      }
+    }
+  }
+)
+
+// 35. Update many documents
+db.products.updateMany(
+  { stock: { $lt: 50 } },
+  { $set: { lowStock: true } }
+)
 ```
 
 ---
 
-## Mongoose Quick Reference
+## 1.7 Delete
 
 ```js
-const userSchema = new mongoose.Schema({
-  email: { type: String, required: true, unique: true },
-  age: { type: Number, min: 0 },
-  role: { type: String, enum: ["user", "admin"], default: "user" },
-}, { timestamps: true });
+// 36. Delete one document
+db.users.deleteOne({ _id: 13 })
 
-const User = mongoose.model("User", userSchema);
+// 37. Delete many documents
+db.products.deleteMany({ brand: "TestBrand" })
 
-await User.find({ age: { $gte: 18 } }).select("email").limit(10).lean();
-await User.findById(id).populate("orders");
+// 38. Delete all reviews with rating 1 (be careful!)
+// db.reviews.deleteMany({ rating: 1 })
 ```
 
 ---
 
-## Interview Q&A
+## Practice Challenges
 
-| Question | Answer |
-| --- | --- |
-| SQL vs MongoDB terms? | table→collection, row→document, column→field |
-| insertOne vs insertMany? | one doc vs array; use insertMany for bulk |
-| find vs findOne? | cursor (all matches) vs single document |
-| $set vs replaceOne? | partial update vs replace entire doc |
-| What is upsert? | update if exists, insert if not |
-| What is _id? | unique primary key; auto ObjectId if omitted |
-| Transactions in Mongo? | Yes — multi-doc ACID on replica set |
-| How paginate? | `.skip((page-1)*limit).limit(limit).sort()` |
+1. Find all users who live in Maharashtra and are active.
+2. Find products that have both tags `"bestseller"` and `"premium"`.
+3. Find orders that have more than 1 item.
+4. Add a new reply to review `_id: 2`.
+5. Decrease the stock of product `_id: 11` by 5.
+6. Find users who have no payment methods.
+7. Change the status of order 1015 to `"processing"`.
