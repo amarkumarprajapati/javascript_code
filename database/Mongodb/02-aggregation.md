@@ -390,6 +390,130 @@ db.products.aggregate([
 
 ---
 
+## 2.9 $bucket & $bucketAuto
+
+`$bucket` groups documents into ranges you define yourself. `$bucketAuto` lets MongoDB
+split the data into an equal number of buckets automatically.
+
+```js
+// 24. Products grouped into price ranges (boundaries are [lower, upper))
+db.products.aggregate([
+  {
+    $bucket: {
+      groupBy: "$price",
+      boundaries: [0, 1000, 10000, 50000, 100000],
+      default: "Above 100000", // catch-all for values outside boundaries
+      output: {
+        count: { $sum: 1 },
+        avgRating: { $avg: "$rating" },
+        products: { $push: "$name" }
+      }
+    }
+  },
+  { $sort: { _id: 1 } }
+])
+
+// 25. Orders grouped by order value with revenue per bucket
+db.orders.aggregate([
+  {
+    $bucket: {
+      groupBy: "$totalAmount",
+      boundaries: [0, 1000, 10000, 50000, 100000],
+      default: "Big orders",
+      output: {
+        orderCount: { $sum: 1 },
+        totalRevenue: { $sum: "$totalAmount" }
+      }
+    }
+  }
+])
+
+// 26. Reviews grouped by rating buckets
+db.reviews.aggregate([
+  {
+    $bucket: {
+      groupBy: "$rating",
+      boundaries: [1, 2, 3, 4, 5],
+      default: "No rating",
+      output: { reviewCount: { $sum: 1 } }
+    }
+  }
+])
+
+// 27. Bucket by date (all boundaries must be the same type)
+db.orders.aggregate([
+  {
+    $bucket: {
+      groupBy: "$orderDate",
+      boundaries: [
+        new Date("2025-01-01"),
+        new Date("2025-02-01"),
+        new Date("2025-03-01"),
+        new Date("2025-04-01"),
+        new Date("2025-05-01"),
+        new Date("2025-06-01")
+      ],
+      default: "Out of range",
+      output: {
+        orderCount: { $sum: 1 },
+        revenue: { $sum: "$totalAmount" }
+      }
+    }
+  },
+  { $sort: { _id: 1 } }
+])
+
+// 28. $bucketAuto - split products into 5 price buckets automatically
+//     (output of a bucket shows its _id, count, min and max of the groupBy field)
+db.products.aggregate([
+  {
+    $bucketAuto: {
+      groupBy: "$price",
+      buckets: 5
+    }
+  }
+])
+
+// 29. $bucketAuto with extra accumulators
+db.orders.aggregate([
+  {
+    $bucketAuto: {
+      groupBy: "$totalAmount",
+      buckets: 4,
+      output: {
+        orderCount: { $sum: 1 },
+        avgAmount: { $avg: "$totalAmount" }
+      }
+    }
+  }
+])
+
+// 30. $bucketAuto with granularity (nice round boundaries)
+//     granularity options: R5, R10, R20, R40, E6, E12, E24, E48, E96, E192, POWERSOF2
+db.products.aggregate([
+  {
+    $bucketAuto: {
+      groupBy: "$stock",
+      buckets: 4,
+      granularity: "R10"
+    }
+  }
+])
+```
+
+**$bucket vs $bucketAuto**
+
+| | `$bucket` | `$bucketAuto` |
+|---|---|---|
+| Boundaries | You set them (`boundaries`) | MongoDB sets them (`buckets` count) |
+| `_id` of output | Lower bound of your bucket (or `default`) | Lower bound of the auto bucket |
+| Empty buckets | Not returned | Not returned |
+| Needs `default` | Only if values can fall outside boundaries | Not allowed |
+| `groupBy` | Numbers, dates, strings | Numbers and dates only |
+| `granularity` | Not supported | Optional (default `R5`-like rounding) |
+
+---
+
 ## Practice Challenges
 
 1. Find the total revenue generated from all **delivered** orders.
