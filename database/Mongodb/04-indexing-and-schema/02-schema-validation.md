@@ -1,4 +1,4 @@
-# 09 - Schema Validation (Optional but Important)
+# 16 - Schema Validation (Optional but Important)
 
 Even though MongoDB is flexible, you can enforce rules.
 

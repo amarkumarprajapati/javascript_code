@@ -1,4 +1,4 @@
-# 16 - Array Operators
+# 12 - Array Operators
 
 ### $arrayElemAt
 

@@ -1,4 +1,4 @@
-# 03 - Indexing
+# 15 - Indexing
 
 Indexes make queries fast. Without indexes MongoDB does collection scans.
 

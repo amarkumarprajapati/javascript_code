@@ -1,4 +1,4 @@
-# 08 - Update Operators Deep Dive
+# 02 - Update Operators Deep Dive
 
 ---
 

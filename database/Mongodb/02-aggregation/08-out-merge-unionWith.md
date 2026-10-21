@@ -1,4 +1,4 @@
-# 11 - Aggregation Pipeline Output & Set Operators
+# 07 - Aggregation Pipeline Output & Set Operators
 
 ## $out, $merge, $unionWith
 

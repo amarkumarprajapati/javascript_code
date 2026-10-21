@@ -1,4 +1,4 @@
-# 13 - Arithmetic Operators
+# 09 - Arithmetic Operators
 
 These operators perform mathematical operations in aggregation expressions.
 

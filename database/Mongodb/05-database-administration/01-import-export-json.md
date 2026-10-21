@@ -1,4 +1,4 @@
-# 21 - JSON Import / Export
+# 17 - JSON Import / Export
 
 ## Import JSON: `mongoimport`
 

@@ -1,4 +1,4 @@
-# 22 - DB Backup and Restore
+# 18 - DB Backup and Restore
 
 ## `mongodump` / `mongorestore`
 

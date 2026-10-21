@@ -1,4 +1,4 @@
-# 14 - String Operators
+# 10 - String Operators
 
 ## Case Conversion
 

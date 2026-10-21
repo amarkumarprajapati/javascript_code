@@ -1,4 +1,4 @@
-# 06 - Working with Nested Arrays & Objects
+# 03 - Working with Nested Arrays & Objects
 
 This file focuses only on deep nested data.
 

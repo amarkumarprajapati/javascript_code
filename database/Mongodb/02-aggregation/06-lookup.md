@@ -1,4 +1,95 @@
-# 07 - $lookup (Joins) & Related Data
+# $lookup (Joins) & Related Data
+
+**Database:** `practice_db`  
+**Collections:** `users`, `products`, `orders`, `reviews`, `categories`
+
+---
+
+### Basic Lookup Stage Examples
+
+
+```js
+// 17. Join products with their category name
+db.products.aggregate([
+  {
+    $lookup: {
+      from: "categories",
+      localField: "categoryId",
+      foreignField: "_id",
+      as: "category"
+    }
+  },
+  { $unwind: "$category" },
+  {
+    $project: {
+      name: 1,
+      price: 1,
+      categoryName: "$category.name"
+    }
+  }
+])
+
+// 18. Orders with user details
+db.orders.aggregate([
+  {
+    $lookup: {
+      from: "users",
+      localField: "userId",
+      foreignField: "_id",
+      as: "user"
+    }
+  },
+  { $unwind: "$user" },
+  {
+    $project: {
+      orderId: "$_id",
+      status: 1,
+      totalAmount: 1,
+      customerName: { $concat: ["$user.firstName", " ", "$user.lastName"] },
+      city: "$user.address.city"
+    }
+  }
+])
+
+// 19. Reviews with product name and user name
+db.reviews.aggregate([
+  {
+    $lookup: {
+      from: "products",
+      localField: "productId",
+      foreignField: "_id",
+      as: "product"
+    }
+  },
+  {
+    $lookup: {
+      from: "users",
+      localField: "userId",
+      foreignField: "_id",
+      as: "user"
+    }
+  },
+  { $unwind: "$product" },
+  { $unwind: "$user" },
+  {
+    $project: {
+      rating: 1,
+      title: 1,
+      productName: "$product.name",
+      reviewer: { $concat: ["$user.firstName", " ", "$user.lastName"] }
+    }
+  }
+])
+```
+
+---
+
+
+---
+
+### Advanced Lookup Pipelines
+
+# 06 - $lookup (Joins) & Related Data
 
 MongoDB is not relational, but `$lookup` lets us join collections.
 
