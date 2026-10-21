@@ -56,6 +56,33 @@ function selectionSort(arr) {
   }
   return a;
 }
+
+
+let data = [15,6,3,6,5,1,2,4,5,8,956,1,2]
+
+
+function selection(){
+
+  for(let i = 0; i < data.length; i++){
+     let smallnum = i
+
+    for(let j = i + 1; j < data.length; j++ ){
+      if(data[j] > data[smallnum]){
+        smallnum = j
+      }
+    }
+
+   let temp = data[i]
+   data[i] = data[smallnum]
+   data[smallnum] = temp
+  
+    
+  }
+
+  return data
+}
+
+console.log(selection())
 ```
 
 **When to use:** Educational. Minimizes writes (useful in embedded systems).
@@ -76,6 +103,28 @@ function insertionSort(arr) {
   }
   return a;
 }
+
+let data = [15,6,3,6,5,1,2,4,5,8,956,1,2]
+
+
+function incursion(arr){
+
+  for(let i = 1; i < arr.length; i++){
+     let key = arr[i]
+     let j  = i - 1
+
+    while(j >= 0 && arr[j] > key){
+      arr[j + 1] = arr[j]
+      j--
+    }
+    arr[j + 1] = key
+  }
+
+  return arr
+
+}
+
+console.log(incursion(data))
 ```
 
 **When to use:** Small arrays or nearly sorted data. O(n) best case.
